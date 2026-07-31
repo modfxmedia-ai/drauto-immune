@@ -1,0 +1,37 @@
+{
+  "key": "patient-portal",
+  "path": "/patient-portal/",
+  "liveUrl": "https://drautoimmune.com/patient-portal/",
+  "isPost": false,
+  "title": "Patient Portal | Boulder Autoimmune Specialist",
+  "metaDescription": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Patient Portal page to learn about our wellness services.",
+  "canonical": "https://drautoimmune.com/patient-portal/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "Patient Portal | Boulder Autoimmune Specialist",
+    "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Patient Portal page to learn about our wellness services.",
+    "url": "https://drautoimmune.com/patient-portal/",
+    "site_name": "Dr. Autoimmune",
+    "updated_time": "2025-11-14T12:51:03+00:00"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Patient Portal | Boulder Autoimmune Specialist",
+    "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Patient Portal page to learn about our wellness services.",
+    "label1": "Time to read",
+    "data1": "Less than a minute"
+  },
+  "jsonLd": [],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/patient-portal/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "[![original-1](/images/migrated/patient-portal/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

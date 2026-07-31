@@ -1,0 +1,142 @@
+{
+  "key": "how-functional-medicine-can-heal-your-eczema",
+  "path": "/how-functional-medicine-can-heal-your-eczema/",
+  "liveUrl": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/",
+  "isPost": true,
+  "title": "How Functional Medicine Can Heal Your Eczema",
+  "metaDescription": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"How Functional Medicine Can Heal Your Eczema\".",
+  "canonical": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "How Functional Medicine Can Heal Your Eczema",
+    "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"How Functional Medicine Can Heal Your Eczema\".",
+    "url": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/",
+    "site_name": "Dr. Autoimmune",
+    "updated_time": "2026-02-12T14:57:25+00:00",
+    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "A woman with curly hair is sitting on a couch, grimacing in pain as she rubs her neck and shoulder area.",
+    "image:type": "image/jpeg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "How Functional Medicine Can Heal Your Eczema",
+    "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"How Functional Medicine Can Heal Your Eczema\".",
+    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+    "label1": "Written by",
+    "data1": "developer",
+    "label2": "Time to read",
+    "data2": "5 minutes"
+  },
+  "jsonLd": [
+    {
+      "source": "rank-math-schema",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "Person",
+              "Organization"
+            ],
+            "@id": "https://drautoimmune.com/#person",
+            "name": "Dr. Autoimmune"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com",
+            "name": "Dr. Autoimmune",
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+            "width": "1200",
+            "height": "630",
+            "caption": "A woman with curly hair is sitting on a couch, grimacing in pain as she rubs her neck and shoulder area.",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/#webpage",
+            "url": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/",
+            "name": "How Functional Medicine Can Heal Your Eczema",
+            "datePublished": "2026-02-12T14:57:23+00:00",
+            "dateModified": "2026-02-12T14:57:25+00:00",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drautoimmune.com/author/developer/",
+            "name": "developer",
+            "url": "https://drautoimmune.com/author/developer/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "caption": "developer",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "http://drautoimmune.com"
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "How Functional Medicine Can Heal Your Eczema",
+            "datePublished": "2026-02-12T14:57:23+00:00",
+            "dateModified": "2026-02-12T14:57:25+00:00",
+            "articleSection": "Functional Medicine",
+            "author": {
+              "@id": "https://drautoimmune.com/author/developer/",
+              "name": "developer"
+            },
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "description": "Discover expert advice from Boulder&#039;s most trusted gut health specialist. Read our latest post titled &quot;How Functional Medicine Can Heal Your Eczema&quot;.",
+            "name": "How Functional Medicine Can Heal Your Eczema",
+            "@id": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/#richSnippet",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/#webpage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://drautoimmune.com/how-functional-medicine-can-heal-your-eczema/#webpage"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "videos": [],
+  "images": [],
+  "bodyMarkdown": "[Eczema](https://nationaleczema.org/eczema/) care from a functional medicine perspective is all about finding the cause. At [Dr. Autoimmune, Dr. Ian Hollaman](/) he doesn’t only address his patients’ eczema symptoms; he looks for the root cause of the eczema and fixes it!\n\nIn this article we will go over the common problems [Dr. Autoimmune](/) finds that cause eczema.\n\n## Eczema And Intestinal Problems\n\nThe first place we look for the cause of eczema is the intestinal tract. Whenever there is a skin problem (acne, psoriasis, rashes, boils, etc) the most common cause is something wrong with the gut.\n\nIt’s rare to find someone with unhealthy intestines but healthy skin. That’s because the skin and the gut have some things in common. They both get rid of toxins. When the gut is damaged and not able to eliminate toxins effectively, or worse is ADDING toxins to the body, the skin becomes the place these toxins end up, resulting in a “skin illness” like eczema.\n\nBoth the skin and the intestines are affected by bacteria. They each can be made sick by a lack of healthy bacteria or the presence of [pathogens](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-017-0433-z). So eczema care here would be to fix what may be wrong in the gut. Some of the common intestinal conditions that are found to result in eczema are:\n\n#### [Dysbiosis](https://www.webmd.com/digestive-disorders/what-is-dysbiosis)–\n\nThis is a fancy word for the bacteria in the intestines being messed up. Our bodies need lots of healthy bacteria, probiotics, in the right proportions. If the probiotics are lacking or imbalanced, the result will be problems in the gut.\n\n#### [Intestinal pathogens](https://royalsocietypublishing.org/doi/10.1098/rstb.2015.0504)–\n\nIntestinal pathogens are harmful bacteria, parasites or fungi (yeast or mold). These bad guys damage the intestines and can cause a condition called leaky gut syndrome.\n\n#### [Hypochloridia](https://my.clevelandclinic.org/health/diseases/23392-hypochlorhydria#:~:text=Hypochlorhydria%20is%20a%20deficiency%20of,simple%20to%20test%20and%20treat.)–\n\nA variety of digestive problems can hurt the gut. Hypochloridia is a condition where the stomach doesn’t make enough acid. When the digestion in the stomach is weak, food is not broken down.\n\nAlong the same lines, if either the pancreas or gallbladder under-perform, there will be undigested fat, protein and carbohydrates. Poorly digested food irritates the gut and can result in skin problems.\n\nWith proper testing, all of these issues are easily diagnosed. Eczema care from a [functional medicine approach](/) will always address any problems in the intestinal tract.\n\n## Eczema And Food Sensitivities\n\nFood sensitivities can cause many skin conditions, including eczema. Sensitivities can be developed to any kind of food or food ingredient including chemicals like food coloring and artificial sweeteners, seasonings, and even things like baker’s yeast.\n\nSensitivities are different from food allergies, which cause an immediate reaction. Instead, a delayed onset reaction occurs and can last for up to three weeks once triggered. Because of this delay and long duration it can be very frustrating to figure it out by trial and error.\n\nThankfully there is excellent testing that can uncover what these sensitivities are. At [Dr. Autoimmune](/), we’ve seen many health issues resolved in patients, even some unexpected ones, once their food sensitivities were discovered and their diets adjusted.\n\n## Eczema And Imbalanced Fatty Acids\n\nLow or imbalanced fatty acids or high levels of pro-inflammatory fatty acids can lead to eczema.\n\nFatty acids are very important in regulating inflammation in the body, and in eczema the skin is very inflamed. Fatty acid levels are affected by diet and absorption.\n\nIf a person is eating foods high in pro-inflammatory fatty acids (soy, sunflower, corn, cottonseed, safflower, and mixed vegetable oils, or fatty meats like burgers, hot dogs, bacon, bologna, ribs, etc) or not eating enough foods high in anti-inflammatory fats (olive oil, nuts like almonds and walnuts, fatty fish like salmon) their biochemistry will become pro-inflammatory. That’s why testing fatty acid levels is an important part of healing eczema.\n\n## Eczema And Histamine Intolerance\n\nMost people are familiar with antihistamine drugs. Histamine is released in response to allergies and causes the runny nose and sneezing associated with allergies.\n\nThe allergy component is just one of the jobs histamine is involved in. Histamine is also released in response to injury, inflammation and infection.\n\nIn fact, histamine has 23 different functions in the body. When a person’s body can’t eliminate histamine and has elevated levels all the time, they develop an intolerance to histamine. Eczema is one of the possible problems histamine intolerance can cause.\n\nHistamine intolerance can also cause leaky gut, which again can lead to eczema. This is a good example of how a problem like eczema can be complicated and multi-layered.\n\n[A functional medicine approach](/) looks for these various factors to uncover the root cause(s) of eczema.\n\n## Eczema And Toxins\n\nAir pollutants from cigarette smoke, automobiles, industrial factories, and heating systems in buildings can all cause eczema.\n\nAlso, heavy metals like mercury, lead and cadmium can cause eczema. And people with poor detoxification ability are at greater risk.\n\nTesting not only for the presence of these toxins in the body, but for how well a person is able to get rid of toxins, is very important.\n\n## Eczema And Mold\n\nMold can cause eczema. Testing here is critical because mold can cause so many other health problems.\n\nIt’s very common that patients who have eczema that was caused by mold, had no idea that their home had mold.\n\n## Eczema And Allergies\n\nThere are many allergens that can cause eczema like:\n\n*   certain foods\n*   food additives\n*   ingredients in cosmetics and personal care products\n*   environmental chemicals and pollutants\n*   seasonal pollen\n*   dust mites\n*   pet dander\n\n## A Functional Medicine Approach To Eczema\n\nHealing eczema from a functional medicine approach is all about finding the cause and fixing it.\n\nGenerally patients with eczema have more going on than just their eczema. Often these patients have one or more of these conditions as well:\n\n*   an autoimmune disorder\n*   chronic fatigue\n*   weakness\n*   body pain\n*   joint pain\n*   headaches\n*   sinus problems\n*   brain fog\n*   IBS &\n*   depression and anxiety.\n\nThe components of the human body are so interwoven that when something is not working right a whole host of problems can occur.\n\nFunctional medicine is all about recognizing this.\n\nOnce the root causes are resolved, people get healthy and their symptoms go away.\n\n## Dr. Ian Hollaman aka Dr. Autoimmune\n\nFunctional medicine is one promising aspect of America’s healthcare future, in that it resolves medical issues at their source, before they become chronic challenges in your future.\n\nIf you or a loved one has eczema, [Dr. Autoimmune](/) and his team can help! Just [click here](/375-new-patient-special/#maincontent-alt) or just click the Start Your Journey button below.\n\nWe’re the autoimmune wellness specialists that Boulder, CO. residents trust!\n\nDon’t forget to F[ollow Us On Facebook,](https://m.facebook.com/100063829039050/)Instagram, and TikTok for daily natural health tips.",
+  "featuredImage": {
+    "src": "/images/migrated/how-functional-medicine-can-heal-your-eczema/image-6.jpeg",
+    "alt": "A woman with curly hair is sitting on a couch, grimacing in pain as she rubs her neck and shoulder area.",
+    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image-6.jpeg",
+    "originalFilename": "image-6.jpeg"
+  },
+  "datePublished": "2026-02-12T14:57:23+00:00",
+  "dateModified": "2026-02-12T14:57:25+00:00",
+  "readingTime": "5 minutes"
+}

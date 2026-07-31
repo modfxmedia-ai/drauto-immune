@@ -1,0 +1,118 @@
+{
+  "key": "blog",
+  "path": "/blog/",
+  "liveUrl": "https://drautoimmune.com/blog/",
+  "isPost": false,
+  "title": "Blog | Autoimmune Disease and Functional Health Insights",
+  "metaDescription": "Read our latest insights on immune and gut health. We share simple ways to help you feel better every day. Check out our blog for helpful health advice.",
+  "canonical": "https://drautoimmune.com/blog/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "Blog | Autoimmune Disease and Functional Health Insights",
+    "description": "Read our latest insights on immune and gut health. We share simple ways to help you feel better every day. Check out our blog for helpful health advice.",
+    "url": "https://drautoimmune.com/blog/",
+    "site_name": "Dr. Autoimmune",
+    "updated_time": "2026-03-28T00:00:01+00:00",
+    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+    "image:width": "1024",
+    "image:height": "618",
+    "image:alt": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right",
+    "image:type": "image/jpeg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Blog | Autoimmune Disease and Functional Health Insights",
+    "description": "Read our latest insights on immune and gut health. We share simple ways to help you feel better every day. Check out our blog for helpful health advice.",
+    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+    "label1": "Time to read",
+    "data1": "1 minute"
+  },
+  "jsonLd": [
+    {
+      "source": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Functional Medicine Blog - Dr. Autoimmune",
+        "url": "https://drautoimmune.com/blog/",
+        "description": "Explore the latest insights, health tips, and functional medicine research from the experts at Dr. Autoimmune.",
+        "publisher": {
+          "@type": "MedicalClinic",
+          "name": "Dr. Autoimmune",
+          "url": "https://drautoimmune.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1-1.webp"
+          }
+        }
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/blog/Screenshot-2026-07-28-at-2.16.11-AM.png",
+      "alt": "The Hidden Link Between Gut Health and Autoimmune Disease",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-2.16.11-AM.png",
+      "originalFilename": "Screenshot-2026-07-28-at-2.16.11-AM.png"
+    },
+    {
+      "src": "/images/migrated/blog/Screenshot-2026-07-20-at-6.48.44-PM.png",
+      "alt": "If My ANA Is Positive Do I Have an Autoimmune Disease?",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-6.48.44-PM.png",
+      "originalFilename": "Screenshot-2026-07-20-at-6.48.44-PM.png"
+    },
+    {
+      "src": "/images/migrated/blog/Screenshot-2026-07-13-at-8.30.50-PM.png",
+      "alt": "I Eat Clean Why Do I Still Feel Sick?",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-13-at-8.30.50-PM.png",
+      "originalFilename": "Screenshot-2026-07-13-at-8.30.50-PM.png"
+    },
+    {
+      "src": "/images/migrated/blog/Screenshot-2026-07-06-at-7.20.19-PM.png",
+      "alt": "Why Do I Still Have Symptoms When My TSH Is Normal?",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-7.20.19-PM.png",
+      "originalFilename": "Screenshot-2026-07-06-at-7.20.19-PM.png"
+    },
+    {
+      "src": "/images/migrated/blog/Screenshot-2026-06-29-at-6.25.12-PM.png",
+      "alt": "Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-6.25.12-PM.png",
+      "originalFilename": "Screenshot-2026-06-29-at-6.25.12-PM.png"
+    },
+    {
+      "src": "/images/migrated/blog/rashes-2149561610.jpg",
+      "alt": "skin rashes",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/06/rashes-2149561610.jpg",
+      "originalFilename": "rashes-2149561610.jpg"
+    },
+    {
+      "src": "/images/migrated/blog/getty-images-fnSI86py558-unsplash.jpg",
+      "alt": "chronic fatigue",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-fnSI86py558-unsplash.jpg",
+      "originalFilename": "getty-images-fnSI86py558-unsplash.jpg"
+    },
+    {
+      "src": "/images/migrated/blog/getty-images-PpzCwuFEfu4-unsplash.jpg",
+      "alt": "functional medicine doctor",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/05/getty-images-PpzCwuFEfu4-unsplash.jpg",
+      "originalFilename": "getty-images-PpzCwuFEfu4-unsplash.jpg"
+    },
+    {
+      "src": "/images/migrated/blog/getty-images-aeVclBoyScE-unsplash.jpg",
+      "alt": "Functional Medicine",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+      "originalFilename": "getty-images-aeVclBoyScE-unsplash.jpg"
+    },
+    {
+      "src": "/images/migrated/blog/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "## Blogs\n\n## Better Answers Begin with Better Understanding\n\nStay informed with expert articles, tips, and research updates from Dr. Autoimmune. Explore how lifestyle, nutrition, and functional medicine can help you uncover the root causes of chronic conditions and take control of your health naturally.\n\n*   All Posts\n*   Autoimmune Diseases\n*   Autoimmune Skin Diseases\n*   Chronic Inflammation\n*   Functional Medicine\n*   Gut Health\n*   Hormonal Health\n*   POTS\n\n![The Hidden Link Between Gut Health and Autoimmune Disease](/images/migrated/blog/Screenshot-2026-07-28-at-2.16.11-AM.png)\n\n## [The Hidden Link Between Gut Health and Autoimmune Disease](/the-hidden-link-between-gut-health-and-autoimmune-disease/)\n\nJuly 27, 2026/\n\nIf you have been living with autoimmune symptoms or unexplained...\n\n[Read More](/the-hidden-link-between-gut-health-and-autoimmune-disease/)\n\n![If My ANA Is Positive Do I Have an Autoimmune Disease?](/images/migrated/blog/Screenshot-2026-07-20-at-6.48.44-PM.png)\n\n## [If My ANA Is Positive Do I Have an Autoimmune Disease?](/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/)\n\nJuly 20, 2026/\n\nIf you have ever opened your lab results and seen...\n\n[Read More](/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/)\n\n![I Eat Clean Why Do I Still Feel Sick?](/images/migrated/blog/Screenshot-2026-07-13-at-8.30.50-PM.png)\n\n## [I Eat Clean Why Do I Still Feel Sick?](/i-eat-clean-why-do-i-still-feel-sick/)\n\nJuly 13, 2026/\n\nIf you are here, there is a very good chance...\n\n[Read More](/i-eat-clean-why-do-i-still-feel-sick/)\n\n![Why Do I Still Have Symptoms When My TSH Is Normal?](/images/migrated/blog/Screenshot-2026-07-06-at-7.20.19-PM.png)\n\n## [Why Do I Still Have Symptoms When My TSH Is Normal?](/why-do-i-still-have-symptoms-when-my-tsh-is-normal/)\n\nJuly 6, 2026/\n\nIf you are reading this, chances are you have already...\n\n[Read More](/why-do-i-still-have-symptoms-when-my-tsh-is-normal/)\n\n![Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You](/images/migrated/blog/Screenshot-2026-06-29-at-6.25.12-PM.png)\n\n## [Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You](/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/)\n\nJune 29, 2026/\n\nLearn why POTS symptoms may persist and how root cause...\n\n[Read More](/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/)\n\n![skin rashes](/images/migrated/blog/rashes-2149561610.jpg)\n\n## [Autoimmune Skin Clues That Point to Gut Health Trouble](/autoimmune-skin-clues-gut-health-trouble/)\n\nJune 28, 2026/\n\nYour Skin May Be Warning You About Your Gut Chronic...\n\n[Read More](/autoimmune-skin-clues-gut-health-trouble/)\n\n![chronic fatigue](/images/migrated/blog/getty-images-fnSI86py558-unsplash.jpg)\n\n## [What Chronic Fatigue in Autoimmune Disease Reveals About Thyroid Health](/what-chronic-fatigue-reveals-about-thyroid-health/)\n\nJune 7, 2026/\n\nFeeling exhausted all the time with autoimmune disease, yet being...\n\n[Read More](/what-chronic-fatigue-reveals-about-thyroid-health/)\n\n![functional medicine doctor](/images/migrated/blog/getty-images-PpzCwuFEfu4-unsplash.jpg)\n\n## [Understanding Leaky Gut with a Functional Medicine Doctor](/understanding-leaky-gut-with-a-functional-medicine-doctor/)\n\nMay 10, 2026/\n\nHow Healing Your Gut Can Transform Autoimmune Health Leaky gut...\n\n[Read More](/understanding-leaky-gut-with-a-functional-medicine-doctor/)\n\n![Functional Medicine](/images/migrated/blog/getty-images-aeVclBoyScE-unsplash.jpg)\n\n## [First Functional Medicine Visit for Autoimmune Disease: Tests, Costs, Prep](/first-autoimmune-functional-medicine-visit-guide/)\n\nMay 3, 2026/\n\nYour first functional medicine visit for autoimmune disease can feel...\n\n[Read More](/first-autoimmune-functional-medicine-visit-guide/)\n\n[Load More](/blog/page/2/)\nEnd of Content.\n\n[![original-1](/images/migrated/blog/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

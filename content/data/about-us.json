@@ -1,0 +1,188 @@
+{
+  "key": "about-us",
+  "path": "/about-us/",
+  "liveUrl": "https://drautoimmune.com/about-us/",
+  "isPost": false,
+  "title": "About Us - Dr. Autoimmune",
+  "metaDescription": "Meet our holistic doctors in Boulder, CO. We're here to support your health journey, focusing on the whole person and not just symptoms. Learn more about us!",
+  "canonical": "https://drautoimmune.com/about-us/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": [
+      "en_US",
+      "en_US"
+    ],
+    "type": [
+      "article",
+      "article"
+    ],
+    "title": [
+      "About Us - Dr. Autoimmune",
+      "Meet Your Functional Medicine Doctors in Boulder, CO"
+    ],
+    "description": [
+      "About Us A Different Kind of Functional Medicine Born from lived experience. Built for people searching for answers. Most of the people who find their way to Dr. Autoimmune have already been through a long and difficult journey. They have seen multiple providers, received conflicting information, and still do not feel well. Our practice was created for them — for the people who know something deeper is going on and want a team who will finally take the time to understand it. We believe that every patient deserves clarity, connection, and care that looks beyond symptoms. That belief shapes everything we do. Our care is delivered entirely through telehealth, making it possible for patients across the United States to receive thoughtful, comprehensive support from wherever they live. Meet Dr. Ian Hollaman DC, MSc, FMCP Dr. Ian Hollaman became passionate about functional medicine after facing his own health challenges during graduate school. After months of worsening symptoms and little clarity from multiple providers, he finally found a functional medicine doctor who looked deeper, connected the dots, and helped him understand what was truly going on. That experience reshaped both his health and his career path. For more than 16 years, Dr. Ian has helped patients with autoimmune, gastrointestinal, thyroid, and chronic conditions that have not improved with standard care. His approach combines advanced functional medicine, nutrition, supplementation, and lifestyle strategies to create personalized plans that match each patient’s unique needs. Dr. Ian provides all care through virtual visits, allowing patients nationwide to access thorough, personalized support without leaving home. Dr. Ian is a chiropractic physician, holds a Master of Science in Human Nutrition and Functional Medicine, and earned his functional medicine certification through the Institute for Functional Medicine. He has lectured nationally and contributed to supplement product formulation, but patients most appreciate his ability to listen, explain clearly, and uncover what others have overlooked. Outside of practice, Dr. Ian enjoys life with his wife and four children west of Boulder, Colorado, and spends his free time in falconry, hunting, gardening, and soccer. MEET STEVIE CHADDOCK, Metabolic Coordinator Functional Nutritionist Stevie Chaddock is a Functional Nutritional Therapy Practitioner and Clinical Nutritionist with a master’s degree in Nutrition Science. She specializes in gut microbiome dysfunction and autoimmune conditions, bringing both clinical insight and genuine warmth to every patient interaction. Stevie believes that food is information — a reflection of physiology, habits, emotions, and lived experiences.With this perspective, she takes the time to understand not just what patients eat, but how and why they eat. Stevie uses this insight to create personalized nutrition strategies that feel supportive and realistic. Her approach is encouraging, practical, and compassionate, helping patients make steady progress with confidence. All of Stevie’s nutrition visits are conducted remotely, giving patients flexible, convenient support throughout their care plan. Originally from the Midwest, Stevie now lives in Oregon with her husband and two children. Our Mission Our mission is to elevate how autoimmune, thyroid, and chronic conditions are understood and cared for. We believe patients deserve more time, deeper investigation, and personalized plans that reflect their unique physiology. Our focus is on providing clarity, connection, and long-term support — so you can finally understand what is driving your symptoms and what meaningful progress looks like for you. Through our fully remote model, we make this level of support accessible to patients across the country. OUR APPROACH TO FUNCTIONAL MEDICINE While our mission explains why we do this work, functional medicine is how we do it. Our approach is straightforward: we look at how your body is functioning as a whole system. This helps us understand why symptoms are appearing and what may be influencing them beneath the surface. We take into account your history, your lab findings, your daily habits, and the way your systems interact with one another. This gives us a clearer picture of what your body needs and helps us create a plan that is targeted, practical, and built specifically for you. Because our care is fully virtual, we are able to evaluate complex cases and support patients consistently no matter where they are located. WHAT MAKES OUR APPROACH EFFECTIVE PERSONALIZED CARE Your plan is designed around your specific physiology, not a standard protocol. ROOT CAUSE INSIGHT We work to understand what is driving imbalance instead of focusing only on symptom relief. THOUGHTFUL, EVIDENCE-INFORMED STRATEGY Every recommendation is guided by both research and clinical experience. LIFESTYLE INTEGRATION Nutrition, stress, sleep, and movement are incorporated in a way so improvement is actually sustainable. PATIENT UNDERSTANDING We explain your findings clearly so you know what is happening in your body and why the plan makes sense. Meaningful change begins with a conversation grounded in understanding If you’re ready to explore a path that looks at your health in a clearer, more comprehensive way, our team is here to listen, answer your questions, and help you understand what moving forward could look like. You do not have to navigate this alone — and this call is the easiest way to see whether our approach is the right fit for your needs and goals. Every step of this process takes place through secure telehealth visits, giving you access to a comprehensive team from the comfort of home. Book Your Free Discovery Call ",
+      "Meet our holistic doctors in Boulder, CO. We're here to support your health journey, focusing on the whole person and not just symptoms. Learn more about us!"
+    ],
+    "url": [
+      "https://drautoimmune.com/about-us/",
+      "https://drautoimmune.com/about-us/"
+    ],
+    "site_name": [
+      "Dr. Autoimmune",
+      "Dr. Autoimmune"
+    ],
+    "image": [
+      "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+      "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png"
+    ],
+    "updated_time": "2026-05-20T22:17:17+00:00",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+    "image:width": "500",
+    "image:height": "500",
+    "image:alt": "About Us",
+    "image:type": "image/png"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "label1": "Time to read",
+    "data1": "4 minutes",
+    "title": "Meet Your Functional Medicine Doctors in Boulder, CO",
+    "description": "Meet our holistic doctors in Boulder, CO. We're here to support your health journey, focusing on the whole person and not just symptoms. Learn more about us!",
+    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png"
+  },
+  "jsonLd": [
+    {
+      "source": "yoast-schema-graph",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/about-us/",
+            "url": "https://drautoimmune.com/about-us/",
+            "name": "About Us - Dr. Autoimmune",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/about-us/#primaryimage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/about-us/#primaryimage"
+            },
+            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+            "datePublished": "2025-11-11T21:26:19+00:00",
+            "dateModified": "2026-05-20T22:17:17+00:00",
+            "breadcrumb": {
+              "@id": "https://drautoimmune.com/about-us/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://drautoimmune.com/about-us/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://drautoimmune.com/about-us/#primaryimage",
+            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+            "width": 500,
+            "height": 500
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://drautoimmune.com/about-us/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://drautoimmune.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About Us"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com/",
+            "name": "Dr. Autoimmune",
+            "description": "Dr. Autoimmune",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://drautoimmune.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    {
+      "source": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Us - Dr. Autoimmune",
+        "url": "https://drautoimmune.com/about-us/",
+        "description": "Learn about Dr. Autoimmune's functional medicine approach, our mission, and our dedicated team in Boulder, CO.",
+        "mainEntity": {
+          "@type": "MedicalClinic",
+          "name": "Dr. Autoimmune",
+          "url": "https://drautoimmune.com/",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/about-us/Untitled-design-29.png",
+      "alt": "Untitled-design-29",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-29.png",
+      "originalFilename": "Untitled-design-29.png"
+    },
+    {
+      "src": "/images/migrated/about-us/Untitled-design-28.png",
+      "alt": "Untitled-design-28",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-28.png",
+      "originalFilename": "Untitled-design-28.png"
+    },
+    {
+      "src": "/images/migrated/about-us/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "# About Us\n\n## A Different Kind of Functional Medicine\n\n_**Born from lived experience. Built for people searching for answers.**_\n\nMost of the people who find their way to Dr. Autoimmune have already been through a long and difficult journey. They have seen multiple providers, received conflicting information, and still do not feel well. Our practice was created for them — for the people who know something deeper is going on and want a team who will finally take the time to understand it.\n\nWe believe that every patient deserves clarity, connection, and care that looks beyond symptoms. That belief shapes everything we do.\n\nOur care is delivered entirely through telehealth, making it possible for patients across the United States to receive thoughtful, comprehensive support from wherever they live.\n\n![Untitled-design-29](/images/migrated/about-us/Untitled-design-29.png)\n\n## Meet Dr. Ian Hollaman\n\n### DC, MSc, FMCP\n\nDr. Ian Hollaman became passionate about functional medicine after facing his own health challenges during graduate school. After months of worsening symptoms and little clarity from multiple providers, he finally found a functional medicine doctor who looked deeper, connected the dots, and helped him understand what was truly going on. That experience reshaped both his health and his career path. \n\nFor more than 16 years, Dr. Ian has helped patients with autoimmune, gastrointestinal, thyroid, and chronic conditions that have not improved with standard care. His approach combines advanced functional medicine, nutrition, supplementation, and lifestyle strategies to create personalized plans that match each patient’s unique needs. \n\nDr. Ian provides all care through virtual visits, allowing patients nationwide to access thorough, personalized support without leaving home. \n\nDr. Ian is a chiropractic physician, holds a Master of Science in Human Nutrition and Functional Medicine, and earned his functional medicine certification through the Institute for Functional Medicine. He has lectured nationally and contributed to supplement product formulation, but patients most appreciate his ability to listen, explain clearly, and uncover what others have overlooked. \n\nOutside of practice, Dr. Ian enjoys life with his wife and four children west of Boulder, Colorado, and spends his free time in falconry, hunting, gardening, and soccer.\n\n![Untitled-design-28](/images/migrated/about-us/Untitled-design-28.png)\n\n## MEET STEVIE CHADDOCK,\n\n### Metabolic Coordinator \n\nFunctional Nutritionist\n\nStevie Chaddock is a Functional Nutritional Therapy Practitioner and Clinical Nutritionist with a master’s degree in Nutrition Science. She specializes in gut microbiome dysfunction and autoimmune conditions, bringing both clinical insight and genuine warmth to every patient interaction. \n\nStevie believes that food is information — a reflection of physiology, habits, emotions, and lived experiences.With this perspective, she takes the time to understand not just what patients eat, but how and why they eat. Stevie uses this insight to create personalized nutrition strategies that feel supportive and realistic. Her approach is encouraging, practical, and compassionate, helping patients make steady progress with confidence. All of Stevie’s nutrition visits are conducted remotely, giving patients flexible, convenient support throughout their care plan. \n\nOriginally from the Midwest, Stevie now lives in Oregon with her husband and two children.\n\n## Our Mission\n\nOur mission is to elevate how autoimmune, thyroid, and chronic conditions are understood and cared for. We believe patients deserve more time, deeper investigation, and personalized plans that reflect their unique physiology. Our focus is on providing clarity, connection, and long-term support — so you can finally understand what is driving your symptoms and what meaningful progress looks like for you.\n\nThrough our fully remote model, we make this level of support accessible to patients across the country.\n\n## OUR APPROACH TO FUNCTIONAL MEDICINE\n\nWhile our mission explains why we do this work, functional medicine is how we do it. Our approach is straightforward: we look at how your body is functioning as a whole system. This helps us understand why symptoms are appearing and what may be influencing them beneath the surface.\n\nWe take into account your history, your lab findings, your daily habits, and the way your systems interact with one another. This gives us a clearer picture of what your body needs and helps us create a plan that is targeted, practical, and built specifically for you.\n\nBecause our care is fully virtual, we are able to evaluate complex cases and support patients consistently no matter where they are located.\n\n## WHAT MAKES OUR APPROACH EFFECTIVE\n\n### PERSONALIZED CARE\n\nYour plan is designed around your specific physiology, not a standard protocol.\n\n### ROOT CAUSE INSIGHT\n\nWe work to understand what is driving imbalance instead of focusing only on symptom relief.\n\n### THOUGHTFUL, EVIDENCE-INFORMED STRATEGY\n\nEvery recommendation is guided by both research and clinical experience.\n\n### LIFESTYLE INTEGRATION\n\nNutrition, stress, sleep, and movement are incorporated in a way so improvement is actually sustainable.\n\n### PATIENT UNDERSTANDING\n\nWe explain your findings clearly so you know what is happening in your body and why the plan makes sense.\n\n## Meaningful change begins with a conversation grounded in understanding\n\nIf you’re ready to explore a path that looks at your health in a clearer, more comprehensive way, our team is here to listen, answer your questions, and help you understand what moving forward could look like. You do not have to navigate this alone — and this call is the easiest way to see whether our approach is the right fit for your needs and goals.\n\nEvery step of this process takes place through secure telehealth visits, giving you access to a comprehensive team from the comfort of home.\n\n[Book Your Free Discovery Call](/free-discovery-call/)\n\n[![original-1](/images/migrated/about-us/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

@@ -1,0 +1,141 @@
+{
+  "key": "first-autoimmune-functional-medicine-visit-guide",
+  "path": "/first-autoimmune-functional-medicine-visit-guide/",
+  "liveUrl": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/",
+  "isPost": true,
+  "title": "First Autoimmune Functional Medicine Visit Guide",
+  "metaDescription": "Learn what happens in a first visit, including labs, costs, and prep tips for a functional medicine consultation in Boulder, all from home with remote care",
+  "canonical": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "First Autoimmune Functional Medicine Visit Guide",
+    "description": "Learn what happens in a first visit, including labs, costs, and prep tips for a functional medicine consultation in Boulder, all from home with remote care",
+    "url": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/",
+    "site_name": "Dr. Autoimmune",
+    "image": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+    "image:width": "1920",
+    "image:height": "1280",
+    "image:alt": "Functional Medicine",
+    "image:type": "image/jpeg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "First Autoimmune Functional Medicine Visit Guide",
+    "description": "Learn what happens in a first visit, including labs, costs, and prep tips for a functional medicine consultation in Boulder, all from home with remote care",
+    "image": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+    "label1": "Written by",
+    "data1": "developer",
+    "label2": "Time to read",
+    "data2": "7 minutes"
+  },
+  "jsonLd": [
+    {
+      "source": "rank-math-schema",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "Person",
+              "Organization"
+            ],
+            "@id": "https://drautoimmune.com/#person",
+            "name": "Dr. Autoimmune"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com",
+            "name": "Dr. Autoimmune",
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+            "url": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+            "width": "1920",
+            "height": "1280",
+            "caption": "Functional Medicine",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/#webpage",
+            "url": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/",
+            "name": "First Autoimmune Functional Medicine Visit Guide",
+            "datePublished": "2026-05-03T17:00:00+00:00",
+            "dateModified": "2026-05-03T17:00:00+00:00",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drautoimmune.com/author/developer/",
+            "name": "developer",
+            "url": "https://drautoimmune.com/author/developer/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "caption": "developer",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "http://drautoimmune.com"
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "First Autoimmune Functional Medicine Visit Guide",
+            "datePublished": "2026-05-03T17:00:00+00:00",
+            "dateModified": "2026-05-03T17:00:00+00:00",
+            "articleSection": "Autoimmune Diseases, Functional Medicine",
+            "author": {
+              "@id": "https://drautoimmune.com/author/developer/",
+              "name": "developer"
+            },
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "description": "Learn what happens in a first visit, including labs, costs, and prep tips for a functional medicine consultation in Boulder, all from home with remote care",
+            "name": "First Autoimmune Functional Medicine Visit Guide",
+            "@id": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/#richSnippet",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/#webpage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://drautoimmune.com/first-autoimmune-functional-medicine-visit-guide/#webpage"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "videos": [],
+  "images": [],
+  "bodyMarkdown": "Your first functional medicine visit for autoimmune disease can feel like a big step. You may wonder what will happen, which tests will be ordered, how long it will all take, and what it might cost over time. When you know what to expect, it is easier to feel calm, ask clear questions, and make steady progress.\n\nIn this article, we will walk through how functional medicine looks at autoimmunity, what happens during a first remote visit, common testing, timelines, general cost categories, and how to prepare. Our team at Dr. Autoimmune offers 100 percent remote care, so whether you are seeking a functional medicine consultation in Boulder or live many states away, you can get started from home. Spring can be a natural time to reset, and early May is often when people feel ready for a fresh start.\n\n## How Functional Medicine Approaches Autoimmune Disease\n\nFunctional medicine looks at autoimmune disease in a different way than many conventional models. Instead of focusing only on symptom control, we look for what may be driving the immune system out of balance. We look at your whole story and how different parts of your body affect each other.\n\nIn practice, that means we often evaluate multiple “root-cause” areas at once, because they can interact and contribute to immune dysfunction. Areas we often think about include:\n\n*   Gut health and digestion\n*   Hormone balance and thyroid function\n*   Environmental toxins and infections\n*   Stress load, mood, and sleep quality\n*   Nutrition, blood sugar, and movement\n\nPersonalized care is more than changing a few foods or adding a standard supplement list. We aim to build care around your symptoms, history, priorities, and capacity, which often includes a careful history, targeted testing, and a plan that is realistic for your day-to-day life. Personalized care can include:\n\n*   A detailed health and symptom history\n*   Labs that match your specific condition and goals\n*   A plan that fits your life, not a one-size-fits-all plan\n\nWith autoimmune disease, the long-term goal is usually to calm or slow the process, reduce the frequency and intensity of flares, and support a better quality of life. It is not realistic to expect an overnight cure, but many people can work toward fewer bad days and more stable days over time.\n\n## What to Expect at Your First Virtual Visit\n\nAt Dr. Autoimmune, the first visit happens fully online through a secure video call. Before we meet, you complete intake forms so we can start to see patterns in your health story.\n\nDuring the first visit, we use your intake as a starting point and then build a fuller picture together through questions and discussion. A typical first visit often includes:\n\n*   Review of your intake forms and main concerns\n*   In-depth conversation about symptoms and history\n*   Discussion of possible root causes to explore\n*   An initial, simple plan to start right away\n\nTo understand your autoimmune pattern and what might be contributing to it, we may ask detailed questions across several systems and life phases. We may ask about:\n\n*   When your symptoms started and how they have changed\n*   Digestion, bowel habits, bloating, and heartburn\n*   Energy, brain fog, and sleep patterns\n*   Menstrual history, pregnancy history, and thyroid history when relevant\n*   Family history of autoimmunity or other chronic illness\n*   Past infections, travel, mold exposure, or toxin exposure\n*   Prior lab work, imaging, and diagnoses\n\nBecause there is a lot to cover, we help you focus on clear, short-term goals for the next 60 to 90 days. For example, we might aim for steadier energy, fewer flares, or better sleep as we work through spring and into summer. Bigger goals, like deeper immune balance, often take more time and extra visits.\n\n## Common Tests Ordered and How the Process Works\n\nTesting choices are based on your symptoms, history, goals, and budget. Many people start with foundational blood work that helps us see the bigger picture of your health and identify patterns that can guide next steps.\n\nCommon starting labs can include:\n\n*   Complete blood count and comprehensive metabolic panel\n*   Thyroid panel, often including thyroid antibodies\n*   Inflammatory markers\n*   Nutrient status, such as iron markers, vitamin D, B12, folate, and magnesium\n*   Blood sugar and insulin markers\n*   Cholesterol and other lipid markers\n\nDepending on your case, we may also discuss specialty or functional tests. These are typically chosen when they match the clinical picture or when foundational labs and history suggest we need a deeper look at digestion, immune triggers, hormones, or exposures. Options may include:\n\n*   Comprehensive stool testing for gut health, infections, and digestion\n*   Food sensitivity or food reaction testing\n*   SIBO breath testing when small intestine issues are suspected\n*   Hormone and adrenal pattern testing\n*   Toxin or heavy metal testing\n*   Expanded autoantibody panels when needed\n\nFrom there, the process usually follows a predictable rhythm, even though exact timing varies by lab and test type. Here is how the timeline often looks:\n\n*   After the visit, blood work is usually drawn locally, and home test kits are shipped to you when needed.\n*   Many test results return within about 2 to 4 weeks, though some can take longer.\n*   We then review results with you during a follow-up visit, fold them into your plan, and decide on next steps.\n\nThis is part of a multi-visit care plan. The first visit sets the direction, lab results add more detail, and follow-ups help shape and adjust your plan over time.\n\n## Timelines, Investment, and Insurance Basics\n\nHealing with autoimmune disease usually happens over months and seasons, not days. Many people move through phases, and it can help to know that improvement often comes in layers rather than all at once. Many people move through phases like:\n\n*   Early symptom relief and better daily rhythms\n*   Stabilization with fewer big ups and downs\n*   Deeper repair work and long-term maintenance\n\nIt is common to need several visits, testing, and ongoing plan updates. Progress is not always a straight line. Some people feel changes early, while others see slow but steady shifts.\n\nFrom a cost point of view, there are a few main buckets to think about. These categories can help you plan ahead and decide how to pace your care based on priorities and budget.\n\n*   Initial visit fee and follow-up visits over time\n*   Lab testing, from basic blood work to any specialty tests you choose\n*   Supplements or targeted nutrients suggested for your case\n*   Nutrition or health coaching support when this is part of your plan\n\nInsurance coverage for functional medicine can vary. Some lab tests may be partly covered, while others may not be. Many people use HSA or FSA funds for parts of their care. We encourage you to think of this work as an investment in root-cause care that may help reduce future crises, time away from work, and long stretches of feeling unwell.\n\n## How to Prepare so You Get the Most From Your Visit\n\nGood preparation can make your first visit smoother and more helpful. A little organization ahead of time can help us spend more of your appointment connecting the dots instead of tracking down details.\n\nIn the weeks before your appointment, it can help to:\n\n*   Complete intake forms with as much detail as you can\n*   Keep a 3- to 7-day log of food, symptoms, bowel habits, and energy\n*   Collect past lab results and medical records that relate to your condition\n\nIt is also useful to spend some time in quiet reflection so you can communicate what matters most to you and what constraints we need to respect. You might write down:\n\n*   Your top 3 health goals for the next 3, 6, and 12 months\n*   The main stressors in your life right now\n*   Non-negotiables, such as work hours or family duties that may shape your plan\n\nOn the day of your virtual visit, a few practical steps can reduce stress and help the visit run smoothly. Try to:\n\n*   Choose a quiet, private space with a steady internet connection\n*   Test your video and audio a few minutes ahead of time\n*   Have your logs, records, and a list of questions nearby\n*   Be ready to talk honestly about possible lab orders, timelines, and your budget comfort zone\n\nThis kind of clear, open start helps us create a plan that is medically thoughtful and also realistic for your life.\n\n## Taking Your Next Step Toward Calmer Autoimmunity\n\nYou do not have to wait for your next major flare to seek support. Starting a functional medicine plan in the spring can be a helpful time to focus on routines, build resilience, and prepare your body and mind for the seasons ahead.\n\nWhen you come to Dr. Autoimmune for a remote functional medicine consultation in Boulder or from another location, you can expect a thorough first conversation, thoughtful testing options, a step-by-step timeline, clear explanations about general cost categories, and a collaborative plan tailored to your autoimmune picture. Our goal is to help you feel informed, involved, and ready to play an active role in your own care.\n\n## Reclaim Your Health With Personalized Functional Care\n\nIf you are ready to address the root causes of your symptoms instead of just managing them, we invite you to schedule a [functional medicine consultation in Boulder](/book-new-patient-evaluation/). At Dr. Autoimmune, we take the time to understand your history, your lifestyle, and your goals so we can create a tailored plan that supports lasting change. Book your evaluation online today, or [contact us](/contact-us/) with any questions before getting started.",
+  "featuredImage": {
+    "src": "/images/migrated/first-autoimmune-functional-medicine-visit-guide/getty-images-aeVclBoyScE-unsplash.jpg",
+    "alt": "Functional Medicine",
+    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/getty-images-aeVclBoyScE-unsplash.jpg",
+    "originalFilename": "getty-images-aeVclBoyScE-unsplash.jpg"
+  },
+  "datePublished": "2026-05-03T17:00:00+00:00",
+  "dateModified": "2026-05-03T17:00:00+00:00",
+  "readingTime": "7 minutes"
+}

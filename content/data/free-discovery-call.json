@@ -1,0 +1,37 @@
+{
+  "key": "free-discovery-call",
+  "path": "/free-discovery-call/",
+  "liveUrl": "https://drautoimmune.com/free-discovery-call/",
+  "isPost": false,
+  "title": "Book Your Free Discovery Call Today | Dr. Autoimmune",
+  "metaDescription": "Not sure where to start? Sign up for a free discovery call to see how we can help you feel your best. For more information, contact us today!",
+  "canonical": "https://drautoimmune.com/free-discovery-call/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "Book Your Free Discovery Call Today | Dr. Autoimmune",
+    "description": "Not sure where to start? Sign up for a free discovery call to see how we can help you feel your best. For more information, contact us today!",
+    "url": "https://drautoimmune.com/free-discovery-call/",
+    "site_name": "Dr. Autoimmune",
+    "updated_time": "2026-01-04T16:02:03+00:00"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Book Your Free Discovery Call Today | Dr. Autoimmune",
+    "description": "Not sure where to start? Sign up for a free discovery call to see how we can help you feel your best. For more information, contact us today!",
+    "label1": "Time to read",
+    "data1": "Less than a minute"
+  },
+  "jsonLd": [],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/free-discovery-call/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "[![original-1](/images/migrated/free-discovery-call/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

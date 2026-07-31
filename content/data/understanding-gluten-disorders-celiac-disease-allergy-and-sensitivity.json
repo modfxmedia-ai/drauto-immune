@@ -1,0 +1,307 @@
+{
+  "key": "understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity",
+  "path": "/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/",
+  "liveUrl": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/",
+  "isPost": true,
+  "title": "Understanding Gluten Disorders: Celiac Disease, Allergy, and Sensitivity - Dr. Autoimmune",
+  "metaDescription": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Understanding Gluten Disorders: Celiac Disease,",
+  "canonical": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": [
+      "en_US",
+      "en_US"
+    ],
+    "type": [
+      "article",
+      "article"
+    ],
+    "title": [
+      "Understanding Gluten Disorders: Celiac Disease, Allergy, and Sensitivity - Dr. Autoimmune",
+      "Your Guide to Gluten Disorders and Celiac Disease"
+    ],
+    "description": [
+      "Gluten is a protein found in wheat, barley, rye, and related grains. It is a common ingredient in many foods, including bread, pasta, and cereal. While gluten is safe for most people to consume, it can cause health problems for those with gluten-related disorders. In this article, we will explore the differences between celiac disease, gluten allergy, and gluten sensitivity. Celiac Disease Celiac disease is an autoimmune disorder that affects about 1% of the population. It is caused by an immune reaction to gluten, which damages the small intestine. This damage can lead to malabsorption of nutrients and a range of health problems, including anemia, osteoporosis, and neurological disorders. The symptoms of celiac disease can vary widely and may include abdominal pain, bloating, diarrhea, constipation, fatigue, and weight loss. Some people with celiac disease may not have any symptoms at all. The only way to diagnose celiac disease is through a blood test and biopsy of the small intestine. The treatment for celiac disease is a strict gluten-free diet. This means avoiding all foods that contain gluten, including wheat, barley, rye, and related grains. It is important for people with celiac disease to read food labels carefully and avoid cross-contamination with gluten-containing foods. Gluten Allergy A gluten allergy is a type of food allergy that affects a small percentage of the population. Unlike celiac disease, which is an autoimmune disorder, a gluten allergy is an immune system reaction to the proteins in gluten. The symptoms of a gluten allergy can range from mild to severe and may include hives, itching, swelling, nausea, vomiting, and difficulty breathing. In rare cases, a gluten allergy can cause anaphylaxis, which is a life-threatening allergic reaction. The treatment for a gluten allergy is to avoid all foods that contain gluten. People with a gluten allergy should carry an epinephrine auto-injector with them at all times in case of anaphylaxis. Gluten Sensitivity Gluten sensitivity, also known as non-celiac gluten sensitivity, is a condition in which a person experiences symptoms similar to those of celiac disease or a gluten allergy, but does not have an autoimmune or allergic reaction to gluten. The symptoms of gluten sensitivity can include abdominal pain, bloating, diarrhea, constipation, headache, fatigue, and joint pain. The symptoms can be similar to those of celiac disease or a gluten allergy, but they are generally less severe. The diagnosis of gluten sensitivity is based on symptoms and the exclusion of celiac disease and gluten allergy. There is currently no specific test for gluten sensitivity. The treatment for gluten sensitivity is to avoid gluten-containing foods. The Bottom Line Gluten-related disorders can cause a range of health problems, from mild discomfort to life-threatening reactions. Celiac disease is an autoimmune disorder that affects about 1% of the population. It is caused by an immune reaction to gluten, which damages the small intestine. The only treatment for celiac disease is a strict gluten-free diet. A gluten allergy is a type of food allergy that affects a small percentage of the population. The symptoms of a gluten allergy can range from mild to severe and can include hives, itching, swelling, and difficulty breathing. The treatment for a gluten allergy is to avoid all foods that contain gluten. Gluten sensitivity, also known as non-celiac gluten sensitivity, is a condition in which a person experiences symptoms similar to those of celiac disease or a gluten allergy but does not have an autoimmune or allergic reaction to gluten. The diagnosis of gluten sensitivity is based on symptoms, and the treatment is to avoid gluten-containing foods. If you suspect that you have a gluten-related disorder, it is important to speak with your healthcare provider for",
+      "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Understanding Gluten Disorders: Celiac Disease,"
+    ],
+    "url": [
+      "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/",
+      "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/"
+    ],
+    "site_name": [
+      "Dr. Autoimmune",
+      "Dr. Autoimmune"
+    ],
+    "image": [
+      "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+      "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg"
+    ],
+    "image:width": [
+      "1024",
+      "1024"
+    ],
+    "image:height": [
+      "618",
+      "618"
+    ],
+    "image:type": [
+      "image/jpeg",
+      "image/jpeg"
+    ],
+    "updated_time": "2026-05-20T22:08:47+00:00",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+    "image:alt": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "label1": "Written by",
+    "data1": "developer",
+    "label2": "Time to read",
+    "data2": "3 minutes",
+    "title": "Your Guide to Gluten Disorders and Celiac Disease",
+    "description": "Discover expert advice from Boulder's most trusted gut health specialist. Read our latest post titled \"Understanding Gluten Disorders: Celiac Disease,",
+    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg"
+  },
+  "jsonLd": [
+    {
+      "source": "yoast-schema-graph",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#article",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/"
+            },
+            "author": {
+              "name": "developer",
+              "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c"
+            },
+            "headline": "Understanding Gluten Disorders: Celiac Disease, Allergy, and Sensitivity",
+            "datePublished": "2026-02-12T14:59:33+00:00",
+            "dateModified": "2026-05-20T22:08:47+00:00",
+            "mainEntityOfPage": {
+              "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/"
+            },
+            "wordCount": 616,
+            "commentCount": 0,
+            "image": {
+              "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#primaryimage"
+            },
+            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "articleSection": [
+              "Gut Health"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "CommentAction",
+                "name": "Comment",
+                "target": [
+                  "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#respond"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/",
+            "url": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/",
+            "name": "Understanding Gluten Disorders: Celiac Disease, Allergy, and Sensitivity - Dr. Autoimmune",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#primaryimage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#primaryimage"
+            },
+            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "datePublished": "2026-02-12T14:59:33+00:00",
+            "dateModified": "2026-05-20T22:08:47+00:00",
+            "author": {
+              "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c"
+            },
+            "breadcrumb": {
+              "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#primaryimage",
+            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "width": 1024,
+            "height": 618,
+            "caption": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://drautoimmune.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Understanding Gluten Disorders: Celiac Disease, Allergy, and Sensitivity"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com/",
+            "name": "Dr. Autoimmune",
+            "description": "Dr. Autoimmune",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://drautoimmune.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c",
+            "name": "developer",
+            "sameAs": [
+              "http://drautoimmune.com"
+            ],
+            "url": "https://drautoimmune.com/author/developer/"
+          }
+        ]
+      }
+    },
+    {
+      "source": "rank-math-schema",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "Person",
+              "Organization"
+            ],
+            "@id": "https://drautoimmune.com/#person",
+            "name": "Dr. Autoimmune"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com",
+            "name": "Dr. Autoimmune",
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+            "width": "1024",
+            "height": "618",
+            "caption": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#webpage",
+            "url": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/",
+            "name": "Your Guide to Gluten Disorders and Celiac Disease",
+            "datePublished": "2026-02-12T14:59:33+00:00",
+            "dateModified": "2026-05-20T22:08:47+00:00",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drautoimmune.com/author/developer/",
+            "name": "developer",
+            "url": "https://drautoimmune.com/author/developer/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "caption": "developer",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "http://drautoimmune.com"
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Your Guide to Gluten Disorders and Celiac Disease",
+            "datePublished": "2026-02-12T14:59:33+00:00",
+            "dateModified": "2026-05-20T22:08:47+00:00",
+            "articleSection": "Gut Health",
+            "author": {
+              "@id": "https://drautoimmune.com/author/developer/",
+              "name": "developer"
+            },
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "description": "Discover expert advice from Boulder&#039;s most trusted gut health specialist. Read our latest post titled &quot;Understanding Gluten Disorders: Celiac Disease,",
+            "name": "Your Guide to Gluten Disorders and Celiac Disease",
+            "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#richSnippet",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#webpage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://drautoimmune.com/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/#webpage"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "videos": [],
+  "images": [],
+  "bodyMarkdown": "Gluten is a protein found in wheat, barley, rye, and related grains. It is a common ingredient in many foods, including bread, pasta, and cereal. While gluten is safe for most people to consume, it can cause health problems for those with gluten-related disorders. In this article, we will explore the differences between celiac disease, gluten allergy, and gluten sensitivity.\n\nCeliac Disease\n\nCeliac disease is an autoimmune disorder that affects about 1% of the population. It is caused by an immune reaction to gluten, which damages the small intestine. This damage can lead to malabsorption of nutrients and a range of health problems, including anemia, osteoporosis, and neurological disorders.\n\nThe symptoms of celiac disease can vary widely and may include abdominal pain, bloating, diarrhea, constipation, fatigue, and weight loss. Some people with celiac disease may not have any symptoms at all. The only way to diagnose celiac disease is through a blood test and biopsy of the small intestine.\n\nThe treatment for celiac disease is a strict gluten-free diet. This means avoiding all foods that contain gluten, including wheat, barley, rye, and related grains. It is important for people with celiac disease to read food labels carefully and avoid cross-contamination with gluten-containing foods.\n\nGluten Allergy\n\nA gluten allergy is a type of food allergy that affects a small percentage of the population. Unlike celiac disease, which is an autoimmune disorder, a gluten allergy is an immune system reaction to the proteins in gluten.\n\nThe symptoms of a gluten allergy can range from mild to severe and may include hives, itching, swelling, nausea, vomiting, and difficulty breathing. In rare cases, a gluten allergy can cause anaphylaxis, which is a life-threatening allergic reaction.\n\nThe treatment for a gluten allergy is to avoid all foods that contain gluten. People with a gluten allergy should carry an epinephrine auto-injector with them at all times in case of anaphylaxis.\n\nGluten Sensitivity\n\nGluten sensitivity, also known as non-celiac gluten sensitivity, is a condition in which a person experiences symptoms similar to those of celiac disease or a gluten allergy, but does not have an autoimmune or allergic reaction to gluten.\n\nThe symptoms of gluten sensitivity can include abdominal pain, bloating, diarrhea, constipation, headache, fatigue, and joint pain. The symptoms can be similar to those of celiac disease or a gluten allergy, but they are generally less severe.\n\nThe diagnosis of gluten sensitivity is based on symptoms and the exclusion of celiac disease and gluten allergy. There is currently no specific test for gluten sensitivity. The treatment for gluten sensitivity is to avoid gluten-containing foods.\n\nThe Bottom Line\n\nGluten-related disorders can cause a range of health problems, from mild discomfort to life-threatening reactions. Celiac disease is an autoimmune disorder that affects about 1% of the population. It is caused by an immune reaction to gluten, which damages the small intestine. The only treatment for celiac disease is a strict gluten-free diet.\n\nA gluten allergy is a type of food allergy that affects a small percentage of the population. The symptoms of a gluten allergy can range from mild to severe and can include hives, itching, swelling, and difficulty breathing. The treatment for a gluten allergy is to avoid all foods that contain gluten.\n\nGluten sensitivity, also known as non-celiac gluten sensitivity, is a condition in which a person experiences symptoms similar to those of celiac disease or a gluten allergy but does not have an autoimmune or allergic reaction to gluten. The diagnosis of gluten sensitivity is based on symptoms, and the treatment is to avoid gluten-containing foods.\n\nIf you suspect that you have a gluten-related disorder, it is important to speak with your healthcare provider for",
+  "featuredImage": {
+    "src": "/images/migrated/understanding-gluten-disorders-celiac-disease-allergy-and-sensitivity/GettyImages-1094058742-1024x618-1.jpg",
+    "alt": "Illustration comparing healthy intestinal villi on the left with damaged or atrophied villi on the right",
+    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/GettyImages-1094058742-1024x618-1.jpg",
+    "originalFilename": "GettyImages-1094058742-1024x618-1.jpg"
+  },
+  "datePublished": "2026-02-12T14:59:33+00:00",
+  "dateModified": "2026-05-20T22:08:47+00:00",
+  "readingTime": "3 minutes"
+}

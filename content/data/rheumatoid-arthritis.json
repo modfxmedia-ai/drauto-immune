@@ -1,0 +1,201 @@
+{
+  "key": "rheumatoid-arthritis",
+  "path": "/rheumatoid-arthritis/",
+  "liveUrl": "https://drautoimmune.com/rheumatoid-arthritis/",
+  "isPost": false,
+  "title": "Rheumatoid Arthritis - Dr. Autoimmune",
+  "metaDescription": "Stop letting rheumatoid arthritis pain hold you back. We focus on gut health and inflammation to help your joints feel better. Explore your options today!",
+  "canonical": "https://drautoimmune.com/rheumatoid-arthritis/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": [
+      "en_US",
+      "en_US"
+    ],
+    "type": [
+      "article",
+      "article"
+    ],
+    "title": [
+      "Rheumatoid Arthritis - Dr. Autoimmune",
+      "Rheumatoid Arthritis Support and Management | Dr. Autoimmune"
+    ],
+    "description": [
+      "This chronic autoimmune inflammatory disease causes stiffness and pain in the joints. How can Dr. Autoimmune help you manage this ‘incurable’ condition? 303-882-8447 What is Rheumatoid Arthritis? Rheumatoid arthritis is an autoimmune disease, meaning that the immune system attacks its own body (specifically the joints, but can also damage your eyes and other organs). Life with rheumatoid arthritis can be miserable — the aches, the burn, the feeling of stiffness that lasts throughout the day — but there is hope! Rheumatoid Arthritis Symptoms Do you suspect or know that you have rheumatoid arthritis? Symptoms may include: Tender, warm, swollen joints Joint stiffness that is usually worse in the mornings and after inactivity Fatigue Fever Loss of appetite Brain fog or loss of mental clarity Depression Triggers for Rheumatoid Arthritis What can trigger or fuel rheumatoid arthritis? Gluten intolerance or food sensitivities Viral infections like Epstein Barr virus (EBV) Chemical toxins, especially cigarette smoke Stress/cortisol  Small intestinal bacterial overgrowth Poor dental health Hormone fluctuations How Can Dr. Autoimmune Help? Many of our clients have been told they will “have to live with it”, or “to just deal with the side effects” of pharmaceuticals.  But if you are fed up with your current situation and medical management, there is another way! Functional medicine is an approach that looks at the entire body (structural, metabolic and neurologic health).  We can understand a patient’s complete health situation and discover underlying triggers that may be the actual culprit behind your rheumatoid arthritis. All autoimmune diseases start in the gut.  We design custom plans of dietary intervention, supplements and lifestyle recommendations to help heal the gut and support the immune system.  In supporting these fundamental functions of the digestive tract we can reduce inflammation and see dramatic changes in symptoms. Start Your Health Consultation Take the first step toward better health—personalized care, real answers, and lasting wellness start here. Book a Free Discovery Call Finding the Root Cause We know that autoimmunity requires 3 things to develop: Genetic predisposition Leaky gut (a.k.a intestinal permeability) An environmental trigger It All Starts in the Gut! Our small intestine consists of 25 feet of tubing, the inside surface area being equivalent to that of a doubles tennis court!  Proteins called “tight junctions” prevent a flood of material into the gut. Low vitamin D levels coupled with inflammation in the gut starts to widen the space between cells, allowing materials (bacteria and food) to start seeping through.  This triggers inflammation and as antibodies are formed against your own tissue.  ",
+      "Stop letting rheumatoid arthritis pain hold you back. We focus on gut health and inflammation to help your joints feel better. Explore your options today!"
+    ],
+    "url": [
+      "https://drautoimmune.com/rheumatoid-arthritis/",
+      "https://drautoimmune.com/rheumatoid-arthritis/"
+    ],
+    "site_name": [
+      "Dr. Autoimmune",
+      "Dr. Autoimmune"
+    ],
+    "image": [
+      "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
+      "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-1024x768.jpg"
+    ],
+    "updated_time": "2026-04-07T18:13:51+00:00",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-1024x768.jpg",
+    "image:width": "800",
+    "image:height": "600",
+    "image:alt": "Rheumatoid Arthritis",
+    "image:type": "image/jpeg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "label1": "Time to read",
+    "data1": "2 minutes",
+    "title": "Rheumatoid Arthritis Support and Management | Dr. Autoimmune",
+    "description": "Stop letting rheumatoid arthritis pain hold you back. We focus on gut health and inflammation to help your joints feel better. Explore your options today!",
+    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-1024x768.jpg"
+  },
+  "jsonLd": [
+    {
+      "source": "yoast-schema-graph",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/rheumatoid-arthritis/",
+            "url": "https://drautoimmune.com/rheumatoid-arthritis/",
+            "name": "Rheumatoid Arthritis - Dr. Autoimmune",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/rheumatoid-arthritis/#primaryimage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/rheumatoid-arthritis/#primaryimage"
+            },
+            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
+            "datePublished": "2025-11-11T21:40:58+00:00",
+            "dateModified": "2026-04-07T18:13:51+00:00",
+            "breadcrumb": {
+              "@id": "https://drautoimmune.com/rheumatoid-arthritis/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://drautoimmune.com/rheumatoid-arthritis/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://drautoimmune.com/rheumatoid-arthritis/#primaryimage",
+            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
+            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
+            "width": 2560,
+            "height": 1920
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://drautoimmune.com/rheumatoid-arthritis/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://drautoimmune.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Rheumatoid Arthritis"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com/",
+            "name": "Dr. Autoimmune",
+            "description": "Dr. Autoimmune",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://drautoimmune.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    {
+      "source": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebPage",
+        "name": "Rheumatoid Arthritis Support - Dr. Autoimmune",
+        "url": "https://drautoimmune.com/rheumatoid-arthritis/",
+        "about": {
+          "@type": "MedicalCondition",
+          "name": "Rheumatoid Arthritis",
+          "description": "A chronic inflammatory disorder affecting many joints, including those in the hands and feet.",
+          "associatedAnatomy": {
+            "@type": "AnatomicalStructure",
+            "name": "Joints"
+          },
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Rheumatoid Arthritis Holistic Support",
+            "description": "Root-cause focused therapy designed to manage inflammation and support joint health naturally."
+          }
+        },
+        "publisher": {
+          "@type": "MedicalClinic",
+          "name": "Dr. Autoimmune",
+          "url": "https://drautoimmune.com/",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/rheumatoid-arthritis/close-up-old-patient-with-wrist-issues-scaled.jpg",
+      "alt": "close-up-old-patient-with-wrist-issues-scaled",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/close-up-old-patient-with-wrist-issues-scaled.jpg",
+      "originalFilename": "close-up-old-patient-with-wrist-issues-scaled.jpg"
+    },
+    {
+      "src": "/images/migrated/rheumatoid-arthritis/Rheumatoid-Arthritis-1024x683.jpg",
+      "alt": "Rheumatoid-Arthritis-1024x683",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Rheumatoid-Arthritis-1024x683.jpg",
+      "originalFilename": "Rheumatoid-Arthritis-1024x683.jpg"
+    },
+    {
+      "src": "/images/migrated/rheumatoid-arthritis/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "# Rheumatoid Arthritis\n\nThis chronic autoimmune inflammatory disease causes stiffness and pain in the joints. How can Dr. Autoimmune help you manage this ‘incurable’ condition?\n\n*   [Thyroid Conditions](/thyroid-conditions/)\n*   [Hashimoto’s Thyroiditis Graves’](/hashimotos-thyroiditis-graves/)\n*   [Graves Disease](/graves-disease/)\n*   [Rheumatoid Arthritis](/rheumatoid-arthritis/)\n*   [Type 1 Diabetes](/type-1-diabetes/)\n*   [Inflammatory Bowel Disease](/inflammatory-bowel-disease/)\n*   [Celiac Disease and Gluten Intolerance](/celiac-disease-and-gluten-intolerance/)\n*   [Multiple Sclerosis](/multiple-sclerosis/)\n*   [Lupus](/lupus/)\n*   [Sjögren’s Syndrome](/sjogrens-syndrome/)\n*   [Anxiety & Depression](/anxiety-depression/)\n*   [ADHD / ADD](/adhd-add/)\n*   [Other Autoimmune Conditions](/other-autoimmune-conditions/)\n*   [Raynaud’s Phenomenon](/raynauds-phenomenon/)\n\n[303-882-8447](tel:%20303-882-8447)\n\n![close-up-old-patient-with-wrist-issues-scaled](/images/migrated/rheumatoid-arthritis/close-up-old-patient-with-wrist-issues-scaled.jpg)\n\n## What is Rheumatoid Arthritis?\n\n**Rheumatoid arthritis**is an autoimmune disease, meaning that the immune system attacks its own body (specifically the joints, but can also damage your eyes and other organs). Life with rheumatoid arthritis can be miserable — the aches, the burn, the feeling of stiffness that lasts throughout the day — but there is hope!\n\n## Rheumatoid Arthritis Symptoms\n\nDo you suspect or know that you have**rheumatoid arthritis?**Symptoms may include:\n\n*   Tender, warm, swollen joints\n*   Joint stiffness that is usually worse in the mornings and after inactivity\n*   Fatigue\n*   Fever\n*   Loss of appetite\n*   Brain fog or loss of mental clarity\n*   Depression\n\n## Triggers for Rheumatoid Arthritis\n\nWhat can trigger or fuel rheumatoid arthritis?\n\n*   Gluten intolerance or food sensitivities\n*   Viral infections like Epstein Barr virus (EBV)\n*   Chemical toxins, especially cigarette smoke\n*   Stress/cortisol\n*   Small intestinal bacterial overgrowth\n*   Poor dental health\n*   Hormone fluctuations\n\n## How Can Dr. Autoimmune Help?\n\nMany of our clients have been told they will “have to live with it”, or “to just deal with the side effects” of pharmaceuticals. But if you are fed up with your current situation and medical management, there is another way!\n\nFunctional medicine is an approach that looks at the entire body (structural, metabolic and neurologic health). We can understand a patient’s complete health situation and discover underlying triggers that may be the actual culprit behind your rheumatoid arthritis.\n\nAll autoimmune diseases start in the gut. We design custom plans of dietary intervention, supplements and lifestyle recommendations to help heal the gut and support the immune system. In supporting these fundamental functions of the digestive tract we can reduce inflammation and see dramatic changes in symptoms.\n\n## Start Your Health Consultation\n\nTake the first step toward better health—personalized care, real answers, and lasting wellness start here.\n\n[Book a Free Discovery Call](/free-discovery-call/)\n\n![Rheumatoid-Arthritis-1024x683](/images/migrated/rheumatoid-arthritis/Rheumatoid-Arthritis-1024x683.jpg)\n\n## Finding the Root Cause\n\nWe know that autoimmunity requires 3 things to develop:\n\n1.   Genetic predisposition\n2.   Leaky gut (a.k.a intestinal permeability)\n3.   An environmental trigger\n\n## It All Starts in the Gut!\n\nOur small intestine consists of 25 feet of tubing, the inside surface area being equivalent to that of a doubles tennis court!\n\nProteins called “tight junctions” prevent a flood of material into the gut. Low vitamin D levels coupled with inflammation in the gut starts to widen the space between cells, allowing materials (bacteria and food) to start seeping through. This triggers inflammation and as antibodies are formed against your own tissue.\n\n[![original-1](/images/migrated/rheumatoid-arthritis/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

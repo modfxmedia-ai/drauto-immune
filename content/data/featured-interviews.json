@@ -1,0 +1,84 @@
+{
+  "key": "featured-interviews",
+  "path": "/featured-interviews/",
+  "liveUrl": "https://drautoimmune.com/featured-interviews/",
+  "isPost": false,
+  "title": "Dr. Autoimmune in the Media: Expert Interviews and Podcasts",
+  "metaDescription": "Watch our latest health talks and media interviews. We share expert tips on how to heal your body naturally. Visit this page to see our recent guest features.",
+  "canonical": "https://drautoimmune.com/featured-interviews/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "Dr. Autoimmune in the Media: Expert Interviews and Podcasts",
+    "description": "Watch our latest health talks and media interviews. We share expert tips on how to heal your body naturally. Visit this page to see our recent guest features.",
+    "url": "https://drautoimmune.com/featured-interviews/",
+    "site_name": "Dr. Autoimmune",
+    "updated_time": "2026-05-20T22:17:33+00:00",
+    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1-2.webp",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1-2.webp",
+    "image:width": "400",
+    "image:height": "400",
+    "image:alt": " Featured Interviews",
+    "image:type": "image/webp"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Dr. Autoimmune in the Media: Expert Interviews and Podcasts",
+    "description": "Watch our latest health talks and media interviews. We share expert tips on how to heal your body naturally. Visit this page to see our recent guest features.",
+    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1-2.webp",
+    "label1": "Time to read",
+    "data1": "1 minute"
+  },
+  "jsonLd": [
+    {
+      "source": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Featured Interviews - Dr. Autoimmune",
+        "url": "https://drautoimmune.com/featured-interviews/",
+        "description": "Watch and listen to featured interviews, podcasts, and media appearances by Dr. Autoimmune discussing functional medicine and holistic health.",
+        "publisher": {
+          "@type": "MedicalClinic",
+          "name": "Dr. Autoimmune",
+          "url": "https://drautoimmune.com/"
+        }
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/featured-interviews/original-1-2.webp",
+      "alt": "original-1-2",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1-2.webp",
+      "originalFilename": "original-1-2.webp"
+    },
+    {
+      "src": "/images/migrated/featured-interviews/original.webp",
+      "alt": "original",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original.webp",
+      "originalFilename": "original.webp"
+    },
+    {
+      "src": "/images/migrated/featured-interviews/large.webp",
+      "alt": "large",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large.webp",
+      "originalFilename": "large.webp"
+    },
+    {
+      "src": "/images/migrated/featured-interviews/large-2.webp",
+      "alt": "large-2",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/large-2.webp",
+      "originalFilename": "large-2.webp"
+    },
+    {
+      "src": "/images/migrated/featured-interviews/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "# Featured Interviews\n\n## Featured Interviews with Dr. Ian Hollaman, DC, MSc, FMCP\n\n_**Conversations on autoimmunity, gut health, thyroid function, chronic inflammation, and root-cause care.**_\n\nDr. Ian is regularly invited onto podcasts and health programs across the country to share his clinical insight and experience working with complex autoimmune and chronic conditions. These interviews offer a deeper look into the patterns, drivers, and practical steps that patients and providers often overlook. Explore his most recent conversations below.\n\n_**All interviews are available to listen to directly from this page.**_\n\n## Featured Interviews\n\n![original-1-2](/images/migrated/featured-interviews/original-1-2.webp)\n\n## The Evan Brand Show\n\n## Top 8 Influencers of Leaky Gut and Autoimmunity\n\nDr. Ian joins Evan Brand to break down the top drivers of leaky gut and autoimmune activity, sharing practical insights on inflammation, immune triggers, and how gut dysfunction evolves into chronic symptoms.\n\n[Listen Now](https://podcasters.spotify.com/pod/show/evan-brand-show/episodes/Top-8-Influencers-of-Leaky-Gut-and-Autoimmunity-with-Dr--Ian-Hollaman-e2jfb1c)\n\n![original](/images/migrated/featured-interviews/original.webp)\n\n## The Autoimmune Hour with Sharon Sayler\n\n## Understanding Root Causes Behind Autoimmune Symptoms\n\nIn this conversation with Sharon Sayler, Dr. Ian explains how stress, diet, toxins, mold and blood sugar imbalances contribute to autoimmune issues — and why intestinal permeability is often overlooked.\n\n[Listen Now](https://www.spreaker.com/episode/uncovering-the-root-causes-of-your-autoimmune-issues--43857027)\n\n![large](/images/migrated/featured-interviews/large.webp)\n\n## The Perfect Stool with Lindsey Parsons\n\n## Gut Health, Autoimmunity & Intestinal Hyperpermeability\n\nDr. Ian discusses the connection between gut health, hormones, anemia, gluten sensitivity, estrogen detox, adrenal function and autoimmune expression — offering a clear look at how gut-driven patterns develop.\n\n[Listen Now](https://open.spotify.com/episode/6HUdnQ7dWOdQVP3L4eJqIl)\n\n![large-2](/images/migrated/featured-interviews/large-2.webp)\n\n## Christian Natural Health with Dr. Lauren Deville\n\n## Natural Strategies for Supporting Chronic Health Concerns\n\nDr. Ian joins Dr. Deville to explore natural approaches to supporting thyroid, gut, and immune balance through evidence-informed functional medicine and lifestyle support.\n\n[Audio 2](/podcasts/Dr_Ian_Hollaman.mp3)\n\n## Topics Dr. Ian Often Discusses\n\nAcross his interviews, Dr. Ian explores a range of topics that help listeners understand the deeper patterns behind chronic and autoimmune concerns.\n\n## KEY AREAS OF FOCUS\n\n## ASSESSMENT & ANALYSIS\n\n### Autoimmune drivers and inflammatory patterns\n\n### Thyroid function and Hashimoto's\n\n### Gut health, microbiome imbalance and intestinal hyperpermeability\n\n### Chronic inflammation and immune dysregulation\n\n### Functional blood chemistry analysis\n\n### Hormone and adrenal imbalances\n\n## OUR METHODOLOGY\n\n### STRATEGY & SUPPORT\n\nNutrition, lifestyle and root-cause strategies\n\n## Ready to Explore Your Next Step?\n\nIf these conversations helped you see your health in a new light, a discovery call can help you understand what moving forward might look like. It is a no-pressure chance to meet our remote care team, ask questions, and explore whether our approach feels right for you.\n\n[Book Your Free Discovery Call](/free-discovery-call/)\n\n[![original-1](/images/migrated/featured-interviews/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

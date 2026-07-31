@@ -1,0 +1,201 @@
+{
+  "key": "adhd-add",
+  "path": "/adhd-add/",
+  "liveUrl": "https://drautoimmune.com/adhd-add/",
+  "isPost": false,
+  "title": "ADHD / ADD - Dr. Autoimmune",
+  "metaDescription": "Looking for a different way to manage your ADHD or ADD symptoms? We focus on the root causes of brain fog and distraction. Get in touch today!",
+  "canonical": "https://drautoimmune.com/adhd-add/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": [
+      "en_US",
+      "en_US"
+    ],
+    "type": [
+      "article",
+      "article"
+    ],
+    "title": [
+      "ADHD / ADD - Dr. Autoimmune",
+      "Functional Medicine for ADHD and ADD | Dr. Autoimmune"
+    ],
+    "description": [
+      "ADHD is an increasingly common psychological disorder that affects one’s ability to focus, complete tasks, and function in day-to-day life. Find out natural ways to manage this condition in you or your child, including the revolutionary neurofeedback therapy that we are proud to offer. 303-882-8447 ADHD & ADD Attention deficit disorder (ADD) and attention deficit hyperactivity disorder (ADHD) can be signs of an underlying imbalance. Recent advances in research are helping us understand brains with ADHD, leading to the development of new treatment options that offer the promise of a brighter future for you or your child. ADD/ADHD spectrum disorders are often thought of as strictly brain-related. Treatments for these disorders are often focused on reducing symptoms. However, there is a strong link to what is happening in the brain to what is happening in the gut. Our functional medicine approach focuses on identifying the root causes behind brain-related issues. How Can Dr. Autoimmune Help? There is hope for happiness. It takes courage and commitment as well as powerful knowledge, support, and tools from an expert. Dr. Autoimmune and his team incorporate functional medicine, functional neurology, functional nutrition, brain mapping, neurofeedback and customized chiropractic care to help people with brain-based disorders.  Our featured service for ADHD/ADD is neurofeedback. Neurofeedback training works on the root of the problem, altering the brain patterns that may be worsening attention issues. This program can restore healthy brain wave patterns and bring lasting brain changes. It is non-invasive and does not have negative side effects, making it a very powerful tool in the battle against ADHD. Those with ADHD usually notice improvement after only a few sessions, but for the brain to fully learn how to make healthier patterns consistently, a number of brain training sessions are required. We usually recommend 20-40. With practice, the brain learns to make these healthy patterns on its own and regulate mood independently. Neurofeedback can help ADHD sufferers get their lives back and gain control.  The Gut-Brain Connection Did you know we have a second brain? The second one, called our enteric nervous system, consists of some 100 million neurons that are in the walls of our gut. There are incredibly intricate interconnections between the brain and the gut and the vagus nerve (the nerve responsible for a lot of your thinking and brain function) connected from the top of your stomach, all the way up to your brain. When your gut is unhappy, stressed, inflamed…your brain is unhappy or stressed. Inflammation in your gut sends signals to your brain, causing similar responses such as inflammation, stress, anxiety, depression and a host of other mental health issues. By restoring healthy gut function, we can make a huge impact on mental function. This gut-brain connection may be the key to restoring your mental health!   Start Your Health Consultation Take the first step toward better health—personalized care, real answers, and lasting wellness start here. Book a Free Discovery Call",
+      "Looking for a different way to manage your ADHD or ADD symptoms? We focus on the root causes of brain fog and distraction. Get in touch today!"
+    ],
+    "url": [
+      "https://drautoimmune.com/adhd-add/",
+      "https://drautoimmune.com/adhd-add/"
+    ],
+    "site_name": [
+      "Dr. Autoimmune",
+      "Dr. Autoimmune"
+    ],
+    "image": [
+      "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-14-768x512-1.jpg",
+      "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-14-768x512-1.jpg"
+    ],
+    "updated_time": "2026-04-07T18:23:25+00:00",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-14-768x512-1.jpg",
+    "image:width": "768",
+    "image:height": "512",
+    "image:alt": "ADHD / ADD",
+    "image:type": "image/jpeg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "label1": "Time to read",
+    "data1": "2 minutes",
+    "title": "Functional Medicine for ADHD and ADD | Dr. Autoimmune",
+    "description": "Looking for a different way to manage your ADHD or ADD symptoms? We focus on the root causes of brain fog and distraction. Get in touch today!",
+    "image": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-14-768x512-1.jpg"
+  },
+  "jsonLd": [
+    {
+      "source": "yoast-schema-graph",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/adhd-add/",
+            "url": "https://drautoimmune.com/adhd-add/",
+            "name": "ADHD / ADD - Dr. Autoimmune",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/adhd-add/#primaryimage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/adhd-add/#primaryimage"
+            },
+            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-14-768x512-1.jpg",
+            "datePublished": "2025-11-11T21:40:58+00:00",
+            "dateModified": "2026-04-07T18:23:25+00:00",
+            "breadcrumb": {
+              "@id": "https://drautoimmune.com/adhd-add/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://drautoimmune.com/adhd-add/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://drautoimmune.com/adhd-add/#primaryimage",
+            "url": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-14-768x512-1.jpg",
+            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-14-768x512-1.jpg",
+            "width": 768,
+            "height": 512
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://drautoimmune.com/adhd-add/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://drautoimmune.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "ADHD / ADD"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com/",
+            "name": "Dr. Autoimmune",
+            "description": "Dr. Autoimmune",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://drautoimmune.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    {
+      "source": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebPage",
+        "name": "ADHD & ADD Support - Dr. Autoimmune",
+        "url": "https://drautoimmune.com/adhd-add/",
+        "about": {
+          "@type": "MedicalCondition",
+          "name": "Attention Deficit Hyperactivity Disorder (ADHD)",
+          "description": "A chronic condition including attention difficulty, hyperactivity, and impulsiveness, often influenced by environmental and metabolic factors.",
+          "associatedAnatomy": {
+            "@type": "AnatomicalStructure",
+            "name": "Brain"
+          },
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Holistic ADHD Management",
+            "description": "Integrative health approaches to improve focus, optimize brain health, and naturally manage ADHD/ADD."
+          }
+        },
+        "publisher": {
+          "@type": "MedicalClinic",
+          "name": "Dr. Autoimmune",
+          "url": "https://drautoimmune.com/",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/adhd-add/Untitled-design-14-768x512-1.jpg",
+      "alt": "Untitled-design-14-768x512-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/Untitled-design-14-768x512-1.jpg",
+      "originalFilename": "Untitled-design-14-768x512-1.jpg"
+    },
+    {
+      "src": "/images/migrated/adhd-add/HowDoesADHDAffectRelationships_.webp",
+      "alt": "A man with a pained expression is holding his head, surrounded by chaotic lines and question marks.",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/04/HowDoesADHDAffectRelationships_.webp",
+      "originalFilename": "HowDoesADHDAffectRelationships_.webp"
+    },
+    {
+      "src": "/images/migrated/adhd-add/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "# ADHD / ADD\n\nADHD is an increasingly common psychological disorder that affects one’s ability to focus, complete tasks, and function in day-to-day life. Find out natural ways to manage this condition in you or your child, including the revolutionary neurofeedback therapy that we are proud to offer.\n\n*   [Thyroid Conditions](/thyroid-conditions/)\n*   [Hashimoto’s Thyroiditis Graves’](/hashimotos-thyroiditis-graves/)\n*   [Graves Disease](/graves-disease/)\n*   [Rheumatoid Arthritis](/rheumatoid-arthritis/)\n*   [Type 1 Diabetes](/type-1-diabetes/)\n*   [Inflammatory Bowel Disease](/inflammatory-bowel-disease/)\n*   [Celiac Disease and Gluten Intolerance](/celiac-disease-and-gluten-intolerance/)\n*   [Multiple Sclerosis](/multiple-sclerosis/)\n*   [Lupus](/lupus/)\n*   [Sjögren’s Syndrome](/sjogrens-syndrome/)\n*   [Anxiety & Depression](/anxiety-depression/)\n*   [ADHD / ADD](/adhd-add/)\n*   [Other Autoimmune Conditions](/other-autoimmune-conditions/)\n*   [Raynaud’s Phenomenon](/raynauds-phenomenon/)\n\n[303-882-8447](tel:%20303-882-8447)\n\n![Untitled-design-14-768x512-1](/images/migrated/adhd-add/Untitled-design-14-768x512-1.jpg)\n\n## ADHD & ADD\n\nAttention deficit disorder (ADD) and attention deficit hyperactivity disorder (ADHD) can be signs of an underlying imbalance. Recent advances in research are helping us understand brains with ADHD, leading to the development of new treatment options that offer the promise of a brighter future for you or your child.\n\nADD/ADHD spectrum disorders are often thought of as strictly brain-related. Treatments for these disorders are often focused on reducing symptoms.However, there is a strong link to what is happening in the brain to what is happening in the gut. Our functional medicine approach focuses on identifying the root causes behind brain-related issues.\n\n## How Can Dr. Autoimmune Help?\n\nThere is hope for happiness. It takes courage and commitment as well as powerful knowledge, support, and tools from an expert. Dr. Autoimmune and his team incorporate functional medicine,functional neurology,functional nutrition,brain mapping,neurofeedback and customized chiropractic care to help people with brain-based disorders.\n\nOur featured service for ADHD/ADD is neurofeedback.Neurofeedback training works on the root of the problem, altering the brain patterns that may be worsening attention issues. This program can restore healthy brain wave patterns and bring lasting brain changes. It is non-invasive and does not have negative side effects, making it a very powerful tool in the battle against ADHD.\n\nThose with ADHD usually notice improvement after only a few sessions, but for the brain to fully learn how to make healthier patterns consistently, a number of brain training sessions are required. We usually recommend 20-40. With practice, the brain learns to make these healthy patterns on its own and regulate mood independently. Neurofeedback can help ADHD sufferers get their lives back and gain control.\n\n## The Gut-Brain Connection\n\nDid you know we have a second brain? The second one, called our enteric nervous system, consists of some 100 million neurons that are in the walls of our gut. There are incredibly intricate interconnections between the brain and the gut and the vagus nerve (the nerve responsible for a lot of your thinking and brain function) connected from the top of your stomach, all the way up to your brain.\n\nWhen your gut is unhappy, stressed, inflamed…your brain is unhappy or stressed. Inflammation in your gut sends signals to your brain, causing similar responses such as inflammation, stress, anxiety, depression and a host of other mental health issues.\n\nBy restoring healthy gut function, we can make a huge impact on mental function. This gut-brain connection may be the key to restoring your mental health!\n\n## Start Your Health Consultation\n\nTake the first step toward better health—personalized care, real answers, and lasting wellness start here.\n\n[Book a Free Discovery Call](/free-discovery-call/)\n\n![A man with a pained expression is holding his head, surrounded by chaotic lines and question marks.](/images/migrated/adhd-add/HowDoesADHDAffectRelationships_.webp)\n\n[![original-1](/images/migrated/adhd-add/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

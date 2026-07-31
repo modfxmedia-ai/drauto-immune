@@ -1,0 +1,84 @@
+{
+  "key": "wellness-services",
+  "path": "/wellness-services/",
+  "liveUrl": "https://drautoimmune.com/wellness-services/",
+  "isPost": false,
+  "title": "Holistic Wellness Services in Boulder, CO | Dr. Autoimmune",
+  "metaDescription": "Improve your daily life with help from Dr. Autoimmune. We offer a range of wellness treatments to help your body heal naturally. Book an appointment!",
+  "canonical": "https://drautoimmune.com/wellness-services/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "Holistic Wellness Services in Boulder, CO | Dr. Autoimmune",
+    "description": "Improve your daily life with help from Dr. Autoimmune. We offer a range of wellness treatments to help your body heal naturally. Book an appointment!",
+    "url": "https://drautoimmune.com/wellness-services/",
+    "site_name": "Dr. Autoimmune",
+    "updated_time": "2026-05-20T22:22:55+00:00",
+    "image": "https://drautoimmune.com/wp-content/uploads/2025/12/BLC-Functional-Medicine-Wheel-1-1030x1030-1.webp",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2025/12/BLC-Functional-Medicine-Wheel-1-1030x1030-1.webp",
+    "image:width": "1030",
+    "image:height": "1030",
+    "image:alt": "Wellness Services ",
+    "image:type": "image/webp"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Holistic Wellness Services in Boulder, CO | Dr. Autoimmune",
+    "description": "Improve your daily life with help from Dr. Autoimmune. We offer a range of wellness treatments to help your body heal naturally. Book an appointment!",
+    "image": "https://drautoimmune.com/wp-content/uploads/2025/12/BLC-Functional-Medicine-Wheel-1-1030x1030-1.webp",
+    "label1": "Time to read",
+    "data1": "2 minutes"
+  },
+  "jsonLd": [
+    {
+      "source": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Wellness Services",
+        "description": "Holistic wellness services and therapies designed to optimize overall health, immune function, and well-being.",
+        "url": "https://drautoimmune.com/wellness-services/",
+        "provider": {
+          "@type": "MedicalClinic",
+          "name": "Dr. Autoimmune",
+          "url": "https://drautoimmune.com/",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.0006409,
+              "longitude": -105.2575697
+            }
+          }
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Boulder"
+        }
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/wellness-services/BLC-Functional-Medicine-Wheel-1-1030x1030-1.webp",
+      "alt": "",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/12/BLC-Functional-Medicine-Wheel-1-1030x1030-1.webp",
+      "originalFilename": "BLC-Functional-Medicine-Wheel-1-1030x1030-1.webp"
+    },
+    {
+      "src": "/images/migrated/wellness-services/original-1.webp",
+      "alt": "",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "# Wellness Services\n\n## Your Personalized Functional Medicine Support\n\n_**Comprehensive wellness services that help you understand your body, support long-term improvement, and feel your best through 100 percent remote care.**_\n\nOur wellness services are designed to give you clear guidance, ongoing support, and practical strategies that help you build lasting health. Whether you are managing chronic symptoms or simply want a more proactive approach to your wellbeing, each service provides a structured pathway toward meaningful change.\n\n[Book a Free Discovery Call](/free-discovery-call/)\n\n## Led by Dr. Ian Hollaman, DC, MSc, FMCP\n\nYour evaluation is guided by a proven clinical framework developed by Dr. Ian, combining a thorough review of your health history, symptoms, lab results, and patterns to better understand what may be driving your current health. This process helps ensure your care plan is personalized, focused, and aligned with your body’s needs.\n\n### Nutrition and Lifestyle Support\n\nYou will work closely with our Metabolic Coordinators to build a realistic, sustainable plan around food choices, daily habits, stress support, sleep, and long term lifestyle changes that support your goals.\n\n### Ongoing Care and Guidance\n\nYour plan includes continued support from our care team, with regular check-ins, progress tracking, lab review, and adjustments as needed so you feel guided and supported every step of the way.\n\n### Advanced Testing Options\n\nWhen helpful, we may recommend additional testing such as stool analysis, hormone panels, or targeted metabolic assessments to gain deeper insight into your health.\n\n### Therapeutic Supplement Guidance\n\nWe provide clear, personalized supplement recommendations aligned with your lab findings and goals so you can focus on what your body may need without unnecessary guesswork.\n\n### Remote Support\n\nAll services are delivered through telehealth, making it easy to stay consistent, connected, and fully supported from anywhere in the United States\n\n## How Ongoing Care Works\n\nOnce your personalized care plan is created, your care continues through a structured, fully remote experience designed to support you every step of the way. All follow-up metabolic visits, nutrition sessions, lab reviews, and progress check-ins are conducted through secure telehealth, making it easy to stay consistent no matter where you live.\n\nYou will receive ongoing guidance, thoughtful adjustments to your plan, and clear, consistent support from our care team. Our goal is to help you stay connected, confident, and moving forward with a plan that fits your life.\n\n![](/images/migrated/wellness-services/BLC-Functional-Medicine-Wheel-1-1030x1030-1.webp)\n\n## Why Our Wellness Care Works\n\n### Clarity and education\n\nYou will always understand the why behind your symptoms and the why behind your plan.\n\n### Personalization\n\nEvery recommendation is specific to your physiology, your concerns, and your lifestyle.\n\n### Consistency and support\n\nRegular visits help you implement changes, adjust when needed, and feel supported throughout the process.\n\n### Whole-body approach\n\nWe look at how your systems interact so nothing is treated in isolation.\n\n### Telehealth convenience\n\nReceive expert support from home with flexible scheduling that fits your life.\n\nIf you feel ready for support that is personal, structured, and rooted in true functional medicine, our team is here to guide you.\n\n[Book a Free Discovery Call](/free-discovery-call/)\n\n[![](/images/migrated/wellness-services/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

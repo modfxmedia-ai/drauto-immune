@@ -1,0 +1,320 @@
+{
+  "key": "hello-my-valued-subscriber",
+  "path": "/hello-my-valued-subscriber/",
+  "liveUrl": "https://drautoimmune.com/hello-my-valued-subscriber/",
+  "isPost": true,
+  "title": "Hello, my valued subscriber!  - Dr. Autoimmune",
+  "metaDescription": "We offer a free webinar on healing hypothyroid. Join Dr. Autoimmune today. We'll be live on our Zoom & TikTok platforms. We looking forward to having you!",
+  "canonical": "https://drautoimmune.com/hello-my-valued-subscriber/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": [
+      "en_US",
+      "en_US"
+    ],
+    "type": [
+      "article",
+      "article"
+    ],
+    "title": [
+      "Hello, my valued subscriber!  - Dr. Autoimmune",
+      "Join Our Free Webinar on Healing Hypothyroid"
+    ],
+    "description": [
+      "It’s a pleasure to connect with you once again. You already know me as Dr. Ian Hollaman, or Dr. Autoimmune, and you’re aware of my dedication to functional medicine and my pioneering work on hypothyroidism and autoimmunity. Now, I’m thrilled to extend a personal invitation to you for my FREE Webinar on “Healing Hypothyroid.” Hyperthyroidism is a condition where the thyroid gland becomes overactive, producing an excess of thyroid hormones. This can lead to various symptoms like rapid heartbeat, weight loss, anxiety, and more. Autoimmunity plays a significant role in some cases of hyperthyroidism, particularly in a condition called Graves’ disease, which I have extensive expertise in. In Graves’ disease, the immune system mistakenly targets the thyroid gland, leading to increased hormone production. I’m a leader in the field of functional medicine, with a strong focus on thyroid health and autoimmunity. With years of experience and a passion for uncovering the root causes of health conditions, I’ve become a trusted source of knowledge and guidance. More and more people are turning to functional medicine as an alternative approach to traditional healthcare, and I’m at the forefront of this movement. My webinar will provide valuable insights and practical strategies for those seeking natural, holistic approaches to address hyperthyroidism. Now, here’s your chance to delve deeper into this subject. Join my FREE Webinar: Platform: LIVE on Zoom or TikTok Live 🗓️ Date: Wednesday, November 8th 🕡 Time: 6:30pm MST | 8:30pm EST This webinar is perfect for: Expect to learn: Don’t miss this opportunity to empower yourself with knowledge and explore the potential of functional medicine in healing hyperthyroidism. Mark your calendar and register today! Sign Me Up https://us02web.zoom.us/webinar/register/WN_tJQUuyhWTuG14wx0g_zczg",
+      "We offer a free webinar on healing hypothyroid. Join Dr. Autoimmune today. We'll be live on our Zoom & TikTok platforms. We looking forward to having you!"
+    ],
+    "url": [
+      "https://drautoimmune.com/hello-my-valued-subscriber/",
+      "https://drautoimmune.com/hello-my-valued-subscriber/"
+    ],
+    "site_name": [
+      "Dr. Autoimmune",
+      "Dr. Autoimmune"
+    ],
+    "image": [
+      "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+      "https://drautoimmune.com/wp-content/uploads/2026/02/image.png"
+    ],
+    "image:width": [
+      "1200",
+      "1200"
+    ],
+    "image:height": [
+      "630",
+      "630"
+    ],
+    "image:type": [
+      "image/png",
+      "image/png"
+    ],
+    "updated_time": "2026-05-20T22:35:33+00:00",
+    "image:secure_url": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+    "image:alt": "free live webinar on healing hypothyroid"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "label1": "Written by",
+    "data1": "developer",
+    "label2": "Time to read",
+    "data2": "1 minute",
+    "title": "Join Our Free Webinar on Healing Hypothyroid",
+    "description": "We offer a free webinar on healing hypothyroid. Join Dr. Autoimmune today. We'll be live on our Zoom & TikTok platforms. We looking forward to having you!",
+    "image": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png"
+  },
+  "jsonLd": [
+    {
+      "source": "yoast-schema-graph",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#article",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/hello-my-valued-subscriber/"
+            },
+            "author": {
+              "name": "developer",
+              "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c"
+            },
+            "headline": "Hello, my valued subscriber! ",
+            "datePublished": "2026-02-12T13:51:41+00:00",
+            "dateModified": "2026-05-20T22:35:33+00:00",
+            "mainEntityOfPage": {
+              "@id": "https://drautoimmune.com/hello-my-valued-subscriber/"
+            },
+            "wordCount": 337,
+            "commentCount": 0,
+            "image": {
+              "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#primaryimage"
+            },
+            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "articleSection": [
+              "Functional Medicine"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "CommentAction",
+                "name": "Comment",
+                "target": [
+                  "https://drautoimmune.com/hello-my-valued-subscriber/#respond"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/hello-my-valued-subscriber/",
+            "url": "https://drautoimmune.com/hello-my-valued-subscriber/",
+            "name": "Hello, my valued subscriber!  - Dr. Autoimmune",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#primaryimage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#primaryimage"
+            },
+            "thumbnailUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "datePublished": "2026-02-12T13:51:41+00:00",
+            "dateModified": "2026-05-20T22:35:33+00:00",
+            "author": {
+              "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c"
+            },
+            "breadcrumb": {
+              "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://drautoimmune.com/hello-my-valued-subscriber/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#primaryimage",
+            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "contentUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "width": 1200,
+            "height": 630,
+            "caption": "free live webinar on healing hypothyroid"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://drautoimmune.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Hello, my valued subscriber! "
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com/",
+            "name": "Dr. Autoimmune",
+            "description": "Dr. Autoimmune",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://drautoimmune.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drautoimmune.com/#/schema/person/1d507fe513284cb591968fca43de749c",
+            "name": "developer",
+            "sameAs": [
+              "http://drautoimmune.com"
+            ],
+            "url": "https://drautoimmune.com/author/developer/"
+          }
+        ]
+      }
+    },
+    {
+      "source": "rank-math-schema",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "Person",
+              "Organization"
+            ],
+            "@id": "https://drautoimmune.com/#person",
+            "name": "Dr. Autoimmune"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com",
+            "name": "Dr. Autoimmune",
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "url": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+            "width": "1200",
+            "height": "630",
+            "caption": "free live webinar on healing hypothyroid",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#webpage",
+            "url": "https://drautoimmune.com/hello-my-valued-subscriber/",
+            "name": "Join Our Free Webinar on Healing Hypothyroid",
+            "datePublished": "2026-02-12T13:51:41+00:00",
+            "dateModified": "2026-05-20T22:35:33+00:00",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://drautoimmune.com/author/developer/",
+            "name": "developer",
+            "url": "https://drautoimmune.com/author/developer/",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/7eceadbfff0bcd04a129e895bfc0bc0120de2678295978e7ab443ac3927e6951?s=96&amp;d=mm&amp;r=g",
+              "caption": "developer",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "http://drautoimmune.com"
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Join Our Free Webinar on Healing Hypothyroid",
+            "datePublished": "2026-02-12T13:51:41+00:00",
+            "dateModified": "2026-05-20T22:35:33+00:00",
+            "articleSection": "Functional Medicine",
+            "author": {
+              "@id": "https://drautoimmune.com/author/developer/",
+              "name": "developer"
+            },
+            "publisher": {
+              "@id": "https://drautoimmune.com/#person"
+            },
+            "description": "We offer a free webinar on healing hypothyroid. Join Dr. Autoimmune today. We&#039;ll be live on our Zoom &amp; TikTok platforms. We looking forward to having you!",
+            "name": "Join Our Free Webinar on Healing Hypothyroid",
+            "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#richSnippet",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#webpage"
+            },
+            "image": {
+              "@id": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://drautoimmune.com/hello-my-valued-subscriber/#webpage"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/hello-my-valued-subscriber/image.png",
+      "alt": "free live webinar on healing hypothyroid",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+      "originalFilename": "image.png"
+    },
+    {
+      "src": "/images/migrated/hello-my-valued-subscriber/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "# Hello, my valued subscriber!\n\n![free live webinar on healing hypothyroid](/images/migrated/hello-my-valued-subscriber/image.png)\n\nIt’s a pleasure to connect with you once again. You already know me as Dr. Ian Hollaman, or Dr. Autoimmune, and you’re aware of my dedication to functional medicine and my pioneering work on hypothyroidism and autoimmunity. Now, I’m thrilled to extend a personal invitation to you for my FREE Webinar on “Healing Hypothyroid.”\n\nHyperthyroidism is a condition where the thyroid gland becomes overactive, producing an excess of thyroid hormones. This can lead to various symptoms like rapid heartbeat, weight loss, anxiety, and more.\n\nAutoimmunity plays a significant role in some cases of hyperthyroidism, particularly in a condition called Graves’ disease, which I have extensive expertise in. In Graves’ disease, the immune system mistakenly targets the thyroid gland, leading to increased hormone production.\n\nI’m a leader in the field of functional medicine, with a strong focus on thyroid health and autoimmunity. With years of experience and a passion for uncovering the root causes of health conditions, I’ve become a trusted source of knowledge and guidance.\n\nMore and more people are turning to functional medicine as an alternative approach to traditional healthcare, and I’m at the forefront of this movement. My webinar will provide valuable insights and practical strategies for those seeking natural, holistic approaches to address hyperthyroidism.\n\nNow, here’s your chance to delve deeper into this subject. Join my FREE Webinar:\n\nPlatform: LIVE on Zoom or TikTok Live\n\n![Image 8: 🗓️](https://s.w.org/images/core/emoji/17.0.2/svg/1f5d3.svg) Date: Wednesday, November 8th\n\n![Image 9: 🕡](https://s.w.org/images/core/emoji/17.0.2/svg/1f561.svg) Time: 6:30pm MST | 8:30pm EST\n\n### **This webinar is perfect for:**\n\n*   Individuals suffering from hyperthyroidism\n*   Those interested in functional medicine approaches\n*   Anyone curious about the connection between autoimmunity and thyroid health\n\n### **Expect to learn:**\n\n*   Insights into the root causes of hyperthyroidism\n*   Functional medicine strategies for healing\n*   Practical tips and resources for managing your condition\n\nDon’t miss this opportunity to empower yourself with knowledge and explore the potential of functional medicine in healing hyperthyroidism. Mark your calendar and register today!\n\nSign Me Up\n\n[https://us02web.zoom.us/webinar/register/WN_tJQUuyhWTuG14wx0g_zczg](https://us02web.zoom.us/webinar/register/WN_tJQUuyhWTuG14wx0g_zczg)\n\n[Prev Previous Unmasking the Link Between COVID-19 and Gut Issues](/unmasking-the-link-between-covid-19-and-gut-issues/)\n\n[Next Unveiling the 7 Mechanisms of Leaky Gut Next](/unveiling-the-7-mechanisms-of-leaky-gut/)\n\n## Recent Blogs\n\n### [The Hidden Link Between Gut Health and Autoimmune Disease](/the-hidden-link-between-gut-health-and-autoimmune-disease/)\n\nIf you have been living with autoimmune symptoms or unexplained health issues, chances are you\n\n[Read More »](/the-hidden-link-between-gut-health-and-autoimmune-disease/)\n\n July 27, 2026  No Comments \n\n### [If My ANA Is Positive Do I Have an Autoimmune Disease?](/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/)\n\nIf you have ever opened your lab results and seen the words positive ANA, you\n\n[Read More »](/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/)\n\n July 20, 2026  No Comments \n\n### [I Eat Clean Why Do I Still Feel Sick?](/i-eat-clean-why-do-i-still-feel-sick/)\n\nIf you are here, there is a very good chance you are doing everything right\n\n[Read More »](/i-eat-clean-why-do-i-still-feel-sick/)\n\n July 13, 2026  No Comments \n\n### [Why Do I Still Have Symptoms When My TSH Is Normal?](/why-do-i-still-have-symptoms-when-my-tsh-is-normal/)\n\nIf you are reading this, chances are you have already heard the same frustrating sentence\n\n[Read More »](/why-do-i-still-have-symptoms-when-my-tsh-is-normal/)\n\n July 6, 2026  No Comments \n\n### [Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You](/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/)\n\nLearn why POTS symptoms may persist and how root cause functional medicine can help uncover deeper patterns.\n\n[Read More »](/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/)\n\n June 29, 2026  No Comments \n\n### [Autoimmune Skin Clues That Point to Gut Health Trouble](/autoimmune-skin-clues-gut-health-trouble/)\n\nYour Skin May Be Warning You About Your Gut Chronic rashes, mystery breakouts, or itchy\n\n[Read More »](/autoimmune-skin-clues-gut-health-trouble/)\n\n June 28, 2026  No Comments \n\n[![original-1](/images/migrated/hello-my-valued-subscriber/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness.",
+  "featuredImage": {
+    "src": "/images/migrated/hello-my-valued-subscriber/image.png",
+    "alt": "free live webinar on healing hypothyroid",
+    "originalUrl": "https://drautoimmune.com/wp-content/uploads/2026/02/image.png",
+    "originalFilename": "image.png"
+  },
+  "datePublished": "2026-02-12T13:51:41+00:00",
+  "dateModified": "2026-05-20T22:35:33+00:00",
+  "readingTime": "1 minute"
+}

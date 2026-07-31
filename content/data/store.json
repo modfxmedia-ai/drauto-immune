@@ -1,0 +1,121 @@
+{
+  "key": "store",
+  "path": "/store/",
+  "liveUrl": "https://drautoimmune.com/store/",
+  "isPost": false,
+  "title": "Store - Dr. Autoimmune",
+  "metaDescription": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Store page to learn about our wellness services.",
+  "canonical": "https://drautoimmune.com/store/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "openGraph": {
+    "locale": [
+      "en_US",
+      "en_US"
+    ],
+    "type": [
+      "article",
+      "article"
+    ],
+    "title": [
+      "Store - Dr. Autoimmune",
+      "Store | Boulder Autoimmune Specialist"
+    ],
+    "url": [
+      "https://drautoimmune.com/store/",
+      "https://drautoimmune.com/store/"
+    ],
+    "site_name": [
+      "Dr. Autoimmune",
+      "Dr. Autoimmune"
+    ],
+    "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Store page to learn about our wellness services."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Store | Boulder Autoimmune Specialist",
+    "description": "Looking for an autoimmune specialist near Boulder, CO? Turn to Dr. Autoimmune. Visit our Store page to learn about our wellness services.",
+    "label1": "Time to read",
+    "data1": "Less than a minute"
+  },
+  "jsonLd": [
+    {
+      "source": "yoast-schema-graph",
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://drautoimmune.com/store/",
+            "url": "https://drautoimmune.com/store/",
+            "name": "Store - Dr. Autoimmune",
+            "isPartOf": {
+              "@id": "https://drautoimmune.com/#website"
+            },
+            "datePublished": "2025-11-11T21:26:19+00:00",
+            "breadcrumb": {
+              "@id": "https://drautoimmune.com/store/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://drautoimmune.com/store/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://drautoimmune.com/store/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://drautoimmune.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Store"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drautoimmune.com/#website",
+            "url": "https://drautoimmune.com/",
+            "name": "Dr. Autoimmune",
+            "description": "Dr. Autoimmune",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://drautoimmune.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    }
+  ],
+  "videos": [],
+  "images": [
+    {
+      "src": "/images/migrated/store/original-1.webp",
+      "alt": "original-1",
+      "originalUrl": "https://drautoimmune.com/wp-content/uploads/2025/11/original-1.webp",
+      "originalFilename": "original-1.webp"
+    }
+  ],
+  "bodyMarkdown": "# Store\n\n[Prev Previous Contact Us](/contact-us/)\n\n[Next Conditions We Support Next](/conditions-we-support/)\n\n## Recent Blogs\n\n### [The Hidden Link Between Gut Health and Autoimmune Disease](/the-hidden-link-between-gut-health-and-autoimmune-disease/)\n\nIf you have been living with autoimmune symptoms or unexplained health issues, chances are you\n\n[Read More »](/the-hidden-link-between-gut-health-and-autoimmune-disease/)\n\n July 27, 2026  No Comments \n\n### [If My ANA Is Positive Do I Have an Autoimmune Disease?](/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/)\n\nIf you have ever opened your lab results and seen the words positive ANA, you\n\n[Read More »](/if-my-ana-is-positive-do-i-have-an-autoimmune-disease/)\n\n July 20, 2026  No Comments \n\n### [I Eat Clean Why Do I Still Feel Sick?](/i-eat-clean-why-do-i-still-feel-sick/)\n\nIf you are here, there is a very good chance you are doing everything right\n\n[Read More »](/i-eat-clean-why-do-i-still-feel-sick/)\n\n July 13, 2026  No Comments \n\n### [Why Do I Still Have Symptoms When My TSH Is Normal?](/why-do-i-still-have-symptoms-when-my-tsh-is-normal/)\n\nIf you are reading this, chances are you have already heard the same frustrating sentence\n\n[Read More »](/why-do-i-still-have-symptoms-when-my-tsh-is-normal/)\n\n July 6, 2026  No Comments \n\n### [Why Your POTS Symptoms Still Don’t Make Sense And What Your Body May Be Trying To Tell You](/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/)\n\nLearn why POTS symptoms may persist and how root cause functional medicine can help uncover deeper patterns.\n\n[Read More »](/why-your-pots-symptoms-still-dont-make-sense-and-what-your-body-may-be-trying-to-tell-you/)\n\n June 29, 2026  No Comments \n\n### [Autoimmune Skin Clues That Point to Gut Health Trouble](/autoimmune-skin-clues-gut-health-trouble/)\n\nYour Skin May Be Warning You About Your Gut Chronic rashes, mystery breakouts, or itchy\n\n[Read More »](/autoimmune-skin-clues-gut-health-trouble/)\n\n June 28, 2026  No Comments \n\n[![original-1](/images/migrated/store/original-1.webp)](/)\n\nAt **Dr. Autoimmune**, we provide personalized, root-cause care to uncover the source of your symptoms and support long-term wellness."
+}

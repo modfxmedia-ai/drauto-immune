@@ -1,26 +1,223 @@
 @import "tailwindcss";
 
+/* ==========================================================================
+   Dr. Autoimmune — Design Tokens
+   Brand palette: primary green, light sage, light gray, near-black, white.
+   Hover/active shades below are computed tints/shades of the base palette —
+   no colors borrowed from any reference site.
+   ========================================================================== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand colors */
+  --primary: #3f806a;
+  --primary-hover: #37715d;
+  --primary-active: #306151;
+  --primary-tint: #eaf1ee; /* very light green wash, for subtle fills */
+
+  --sage: #dfe8dd;
+  --sage-hover: #d2dad0;
+
+  --gray: #e9e9e9;
+  --gray-hover: #d6d6d6;
+
+  --ink: #1a1a1a;
+  --ink-soft: #4d4d4d; /* secondary/muted text, derived from --ink */
+
+  --white: #ffffff;
+
+  /* Warm accent used sparingly on dark surfaces for editorial emphasis
+     (e.g. Hero headline italic) — deliberately narrow use, always paired
+     with the primary sage green so the palette stays cohesive. */
+  --cream: #ead9b0;
+
+  --background: var(--white);
+  --foreground: var(--ink);
+
+  --container-max: 72rem;
+  --container-gutter: 1.5rem;
+
+  /* Radii */
+  --radius-pill: 999px;
+  --radius-card: 1.5rem;
+  --radius-card-sm: 1rem;
+
+  /* Shadows */
+  --shadow-card: 0 1px 2px rgba(26, 26, 26, 0.04), 0 8px 24px rgba(26, 26, 26, 0.06);
+  --shadow-card-hover: 0 4px 10px rgba(26, 26, 26, 0.06), 0 16px 32px rgba(26, 26, 26, 0.1);
+  --shadow-button-hover: 0 6px 16px rgba(63, 128, 106, 0.28);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-active: var(--primary-active);
+  --color-primary-tint: var(--primary-tint);
+
+  --color-sage: var(--sage);
+  --color-sage-hover: var(--sage-hover);
+
+  --color-gray: var(--gray);
+  --color-gray-hover: var(--gray-hover);
+
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+
+  --color-white: var(--white);
+  --color-cream: var(--cream);
+
+  /* Body/UI face (Epilogue) becomes the default `font-sans` */
+  --font-sans: var(--font-body);
+  /* Label/badge/meta face (DM Mono) becomes the default `font-mono` */
+  --font-mono: var(--font-label-mono);
+  /* Headline accent face — used only for emphasis words, see <Accent>.
+     Named distinctly from next/font's --font-display-serif variable so the
+     theme token and the runtime CSS variable aren't the same identifier. */
+  --font-accent-serif: var(--font-display-serif);
+
+  --radius-pill: var(--radius-pill);
+  --radius-card: var(--radius-card);
+  --radius-card-sm: var(--radius-card-sm);
+
+  --shadow-card: var(--shadow-card);
+  --shadow-card-hover: var(--shadow-card-hover);
+  --shadow-button-hover: var(--shadow-button-hover);
+
+  /* Generous, whitespace-forward spacing scale (adds to Tailwind's default
+     numeric scale — e.g. `py-section-2xl`, `gap-section-lg` become available
+     alongside `p-4`, `p-8`, etc.).
+     NOTE: these are intentionally namespaced with a `section-` prefix rather
+     than bare `sm/md/lg/xl/2xl/3xl` — Tailwind v4 resolves ALL spacing-family
+     utilities (p-*, gap-*, w-*, max-w-*, size-*, inset-*, etc.) from this same
+     `--spacing-*` theme namespace, so bare names collide with and silently
+     override Tailwind's built-in named `max-w-*`/`w-*`/`size-*` scale
+     (e.g. a bare `--spacing-3xl` would hijack `max-w-3xl` from 48rem to 8rem). */
+  --spacing-3xs: 0.25rem;
+  --spacing-2xs: 0.5rem;
+  --spacing-section-xs: 0.75rem;
+  --spacing-section-sm: 1rem;
+  --spacing-section-md: 1.5rem;
+  --spacing-section-lg: 2.5rem;
+  --spacing-section-xl: 4rem;
+  --spacing-section-2xl: 6rem;
+  --spacing-section-3xl: 8rem;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ==========================================================================
+   Typography base
+   Wrapped in Tailwind's `base` cascade layer so utility classes (e.g.
+   `text-white`, `text-primary` on a heading) always win the cascade —
+   unlayered CSS would otherwise beat layered utilities regardless of
+   selector specificity, silently breaking color overrides on h1–h6.
+   ========================================================================== */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-body);
+    color: var(--ink);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 1.7rem + 3vw, 4rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: clamp(1.5rem, 1.25rem + 1vw, 1.875rem);
+  }
+
+  p {
+    line-height: 1.7;
+  }
+}
+
+/* ==========================================================================
+   Component-level presentational classes — layered so plain Tailwind
+   utilities in a className (e.g. `text-white`) can still override color
+   properties set here when combined on the same element.
+   ========================================================================== */
+@layer components {
+  /* Emphasis serif accent — see components/ui/Accent.tsx for the React API. */
+  .accent-serif {
+    font-family: var(--font-display-serif);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  /* Premium surface treatments — glass, gradient mesh, texture.
+     All colors reference brand tokens only (primary/sage/ink/white). */
+  .glass {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .glass-dark {
+    background: rgba(26, 26, 26, 0.35);
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .glass-primary {
+    background: linear-gradient(155deg, rgba(63, 128, 106, 0.16), rgba(63, 128, 106, 0.04));
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+    border: 1px solid rgba(63, 128, 106, 0.18);
+  }
+
+  .bg-grid-pattern {
+    background-image:
+      linear-gradient(rgba(26, 26, 26, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26, 26, 26, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .text-gradient-primary {
+    background: linear-gradient(120deg, var(--primary) 0%, var(--primary-active) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .animate-float-slow {
+    animation: float-slow 8s ease-in-out infinite;
+  }
+
+  .animate-float-slower {
+    animation: float-slow 11s ease-in-out infinite;
+    animation-delay: 1.2s;
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, -18px) scale(1.03);
+  }
 }

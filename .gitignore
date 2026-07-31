@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# content migration debug cache (raw HTML/MD snapshots, not part of the app)
+/content/cache/
+images/home-bg-video.mp4
