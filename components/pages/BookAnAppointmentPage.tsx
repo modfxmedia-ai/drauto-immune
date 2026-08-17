@@ -87,7 +87,7 @@ export default function BookAnAppointmentPage() {
             </p>
             <div className="mt-6">
               <GhlBookingWidget
-                src="https://link.drautoimmune.com/widget/booking/DJUzkmowaVGO7qadlr8E"
+                src="https://link.drautoimmune.com/widget/bookings/call-with-dr-ian"
                 title="Dr. Autoimmune Free Discovery Call — booking calendar"
               />
             </div>

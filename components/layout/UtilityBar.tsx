@@ -62,7 +62,7 @@ export default function UtilityBar() {
           onClick={() => setNewsletterOpen(true)}
         >
           <span className="flex items-center gap-1.5">
-            Subscribe To Our Newsletter
+            Live Webinar Schedule
             <Icon
               name="arrow-right"
               className="h-3.5 w-3.5 -translate-x-1 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"

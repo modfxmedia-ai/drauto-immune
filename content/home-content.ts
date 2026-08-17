@@ -21,7 +21,7 @@ export const HERO = {
   headline: "We Are Autoimmune Wellness Specialists",
   mission:
     "Our mission is to empower patients with chronic and complex autoimmune conditions by identifying the root cause and providing natural solutions that promote optimal health.",
-  primaryCta: { label: "Book a Free Discovery Call", href: "/free-discovery-call/" },
+  primaryCta: { label: "Book your discovery call", href: "/free-discovery-call/" },
   secondaryCta: { label: "Explore Our Services", href: "/wellness-services/" },
   /** Proof/stat strip — real facts pulled from the site (address, credentials, tagline). */
   stats: [
@@ -438,7 +438,7 @@ export const CONSULTATION = {
       description: "Access expert guidance from anywhere with our 100% online functional medicine consultations.",
     },
   ],
-  cta: { label: "Book a Free Discovery Call", href: "/free-discovery-call/" },
+  cta: { label: "Book your discovery call", href: "/free-discovery-call/" },
 };
 
 export const HOURS = {

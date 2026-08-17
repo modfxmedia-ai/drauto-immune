@@ -80,7 +80,7 @@ function NewsletterForm() {
         type="submit"
         className="inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream px-6 py-3 text-sm font-medium text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
       >
-        {status === "ok" ? "Subscribed ✓" : "Subscribe"}
+        {status === "ok" ? "Subscribed ✓" : "Live Webinar Schedule"}
       </button>
     </form>
   );
@@ -225,7 +225,7 @@ export default function Footer() {
                 href={DISCOVERY_CALL_HREF}
                 className="group inline-flex items-center gap-2 rounded-pill bg-cream px-5 py-2.5 text-sm font-semibold text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
               >
-                Book Free Discovery Call
+                Book your discovery call
                 <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
               </Link>
               <div className="flex items-center gap-2">

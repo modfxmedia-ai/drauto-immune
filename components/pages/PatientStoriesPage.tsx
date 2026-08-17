@@ -209,7 +209,7 @@ export default function PatientStoriesPage() {
             </p>
             <div className="mt-8">
               <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg">
-                Book Your Free Discovery Call
+                Book your discovery call
               </Button>
             </div>
           </Reveal>

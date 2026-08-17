@@ -203,7 +203,7 @@ export default function SiteMapPage() {
                 managing visits through our patient portal.
               </p>
               <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-6">
-                Book Free Discovery Call
+                Book your discovery call
               </Button>
             </Reveal>
             <div className="grid grid-cols-1 gap-x-10 sm:grid-cols-2">
@@ -343,7 +343,7 @@ export default function SiteMapPage() {
                   </li>
                 </ul>
                 <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-8">
-                  Book Free Discovery Call
+                  Book your discovery call
                 </Button>
               </div>
               <div className="rounded-lg bg-sage p-6">

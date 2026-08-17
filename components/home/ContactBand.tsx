@@ -180,7 +180,7 @@ function InfoPanel({ reduce }: { reduce: boolean }) {
 
       <div className="mt-auto flex flex-wrap items-center gap-4 pt-2">
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md">
-          Book Free Discovery Call
+          Book your discovery call
         </Button>
         <a
           href={SITE_CONTACT.phoneHref}

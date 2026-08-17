@@ -97,7 +97,7 @@ export default function WellnessServicesPage() {
               more comprehensive approach, our services are designed to meet you where you are.
             </p>
             <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg">
-              Book a Free Discovery Call
+              Book your discovery call
             </Button>
           </Reveal>
         </Container>
@@ -195,7 +195,7 @@ export default function WellnessServicesPage() {
             </p>
             <div className="mt-8">
               <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg">
-                Book a Free Discovery Call
+                Book your discovery call
               </Button>
             </div>
           </Reveal>

@@ -90,7 +90,7 @@ function NavDropdown({
 
   return (
     <li className="group relative shrink-0" onMouseEnter={onOpen} onMouseLeave={onClose}>
-      <div className="relative flex items-center gap-0.5 rounded-full py-1.5 pl-3.5 pr-1.5">
+      <div className="relative flex items-center gap-0.5 rounded-full py-1.5 pl-3 pr-1">
         {hovered && <HoverPill />}
         <Link
           href={item.href}
@@ -208,7 +208,7 @@ function NavDropdown({
                     onClick={onClose}
                     className="group/cta relative mt-6 inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream px-4 py-2.5 text-sm font-semibold text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
                   >
-                    Book Free Call
+                    Book your discovery call
                     <Icon name="arrow-right" className="h-3.5 w-3.5 transition-transform duration-300 group-hover/cta:translate-x-1" />
                   </Link>
                 </motion.div>
@@ -347,7 +347,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
           className="mt-6 flex flex-col gap-4"
         >
           <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="w-full" onClick={onClose}>
-            Book Free Discovery Call
+            Book your discovery call
           </Button>
           <div className="flex flex-col gap-2 border-t border-gray pt-4 text-sm text-ink-soft">
             <a href={SITE_CONTACT.phoneHref} className="flex items-center gap-2 hover:text-primary">
@@ -480,7 +480,7 @@ export default function Header() {
               right-hand CTA group, instead of spreading space across every
               individual item (which was pushing the CTA too far toward the
               edge on wide screens). */}
-          <div className="flex min-w-0 items-center gap-6">
+          <div className="flex min-w-0 items-center gap-5">
             <Link href="/" className="flex shrink-0 items-center" onClick={() => setMobileOpen(false)}>
               <Logo condensed={scrolled} />
             </Link>
@@ -509,7 +509,7 @@ export default function Header() {
                       className="relative shrink-0"
                       onMouseEnter={() => setHoveredLabel(link.label)}
                     >
-                      <div className="relative rounded-full px-3.5 py-1.5">
+                      <div className="relative rounded-full px-3 py-1.5">
                         {hoveredLabel === link.label && <HoverPill />}
                         <Link
                           href={link.href}
@@ -538,14 +538,38 @@ export default function Header() {
               Patient Stories/Blog/More) + the CTA button fit within that
               budget with a real ~25px of breathing room to spare (down
               from 7 items — Shop + Contact Us were folded into a single
-              "More" dropdown, and the CTA label shortened from "Book Free
-              Discovery Call" to "Book Free Call" — both were needed,
-              trimming the nav alone wasn't enough). Confirmed zero overlap
-              via getBoundingClientRect() checks from 1180px to 1920px. */}
+              "More" dropdown, and the CTA label shortened — both were
+              needed, trimming the nav alone wasn't enough). Regression note:
+              when the sitewide CTA copy was later updated to the longer
+              "Book your discovery call", this compact slot needed its own
+              shorter label again ( "Book Your Call", saves ~76px vs. the
+              full text) — measured via getBoundingClientRect() the full
+              text caused a constant ~52px nav/CTA overlap at every width
+              from 1180px to 1920px (the row is hard-capped at 1152px, so
+              the deficit doesn't grow with viewport, but it doesn't shrink
+              either). Confirmed zero overlap with the shortened label via
+              the same check across 1180px–1920px. Keep the full
+              "Book your discovery call" text everywhere else (mobile menu,
+              footer, hero, etc.) — only this compact desktop pill needs the
+              shorter variant. Regression note #2: adding a 7th top-level
+              "Home" item (dropdown → "Home 2") reintroduced the overlap —
+              specifically at the un-scrolled/full-size logo state (the
+              logo shrinks on scroll, freeing up room, which is why it
+              could look fine once scrolled past the top). Fixed by
+              trimming nav item horizontal padding (dropdown trigger
+              pl-3.5/pr-1.5 → pl-3/pr-1, plain-item px-3.5 → px-3) and the
+              logo↔nav gap (gap-6 → gap-5), reclaiming ~28px on the nav
+              itself. Verified via getBoundingClientRect() at the tightest
+              breakpoint (1180px, scrollY 0): ~17px clear gap remains
+              between the nav and the CTA button. This margin is thin by
+              design (the row is hard-capped at 1072px usable width) — if
+              another top-level nav item or a longer CTA label is ever
+              added, re-measure at 1180px with scrollY 0 (not scrolled;
+              the condensed logo hides the problem). */}
           <div className="flex shrink-0 items-center gap-3">
             <div className="hidden min-[1180px]:block">
               <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md">
-                Book Free Call
+                Book Your Call
               </Button>
             </div>
 

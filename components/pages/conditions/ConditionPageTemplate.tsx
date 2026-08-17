@@ -72,7 +72,7 @@ function MidCta({ image }: { image?: ConditionImage }) {
           Take the first step toward better health—personalized care, real answers, and lasting wellness start here.
         </p>
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6">
-          Book a Free Discovery Call
+          Book your discovery call
         </Button>
       </div>
       {image && (

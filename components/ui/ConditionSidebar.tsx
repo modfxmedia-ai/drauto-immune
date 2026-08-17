@@ -36,7 +36,7 @@ export default function ConditionSidebar() {
           Book a free discovery call to see if our root-cause approach is right for you.
         </p>
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="sm" className="mt-4 w-full justify-center">
-          Book Free Call
+          Book your discovery call
         </Button>
       </div>
 

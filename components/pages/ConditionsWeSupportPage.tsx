@@ -122,7 +122,7 @@ export default function ConditionsWeSupportPage() {
               find the key services and areas we most often support.
             </p>
             <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg">
-              Book a Free Discovery Call
+              Book your discovery call
             </Button>
           </Reveal>
 
@@ -253,7 +253,7 @@ export default function ConditionsWeSupportPage() {
               If you&rsquo;re wondering whether this kind of support could help you, we would love to talk.
             </p>
             <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6">
-              Book a Free Discovery Call
+              Book your discovery call
             </Button>
           </Reveal>
 

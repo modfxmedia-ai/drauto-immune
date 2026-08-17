@@ -27,6 +27,11 @@ export interface NavItem {
  */
 export const NAV_LINKS: readonly NavItem[] = [
   {
+    label: "Home",
+    href: "/",
+    children: [{ label: "Home 2", href: "/home-2/" }],
+  },
+  {
     label: "About Us",
     href: "/about-us/",
     children: [{ label: "Featured Interviews", href: "/featured-interviews/" }],
