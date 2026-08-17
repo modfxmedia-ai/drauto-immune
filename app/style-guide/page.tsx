@@ -81,7 +81,7 @@ export default function StyleGuidePage() {
           <div>
             <h2>Buttons</h2>
             <div className="mt-8 flex flex-wrap items-center gap-4 border-t border-gray pt-8">
-              <Button variant="primary">Book your discovery call</Button>
+              <Button variant="primary" className="uppercase tracking-wide">Book your discovery call</Button>
               <Button variant="secondary">Learn More</Button>
               <Button variant="ghost">Cancel</Button>
               <Button variant="primary" size="sm">

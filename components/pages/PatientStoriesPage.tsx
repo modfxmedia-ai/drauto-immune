@@ -208,7 +208,7 @@ export default function PatientStoriesPage() {
               A free discovery call is a no-pressure way to see whether our approach feels right for you.
             </p>
             <div className="mt-8">
-              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg">
+              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">
                 Book your discovery call
               </Button>
             </div>

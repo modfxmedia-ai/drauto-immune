@@ -88,7 +88,7 @@ export default function Testimonials() {
           <p className="max-w-md text-base italic text-ink-soft">
             {TESTIMONIALS.cta.label}
           </p>
-          <Button href={TESTIMONIALS.cta.href} variant="primary" size="md">
+          <Button href={TESTIMONIALS.cta.href} variant="primary" size="md" className="uppercase tracking-wide">
             Book your discovery call
           </Button>
         </Reveal>

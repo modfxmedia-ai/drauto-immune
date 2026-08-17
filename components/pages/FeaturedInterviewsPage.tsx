@@ -153,7 +153,7 @@ export default function FeaturedInterviewsPage() {
               care team, ask questions, and explore whether our approach feels right for you.
             </p>
             <div className="mt-8">
-              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg">
+              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">
                 Book your discovery call
               </Button>
             </div>

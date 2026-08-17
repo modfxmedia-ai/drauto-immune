@@ -119,7 +119,7 @@ function MagneticCta() {
       style={{ x: springX, y: springY }}
       className="inline-block"
     >
-      <Button href={HERO.primaryCta.href} variant="primary" size="lg">
+      <Button href={HERO.primaryCta.href} variant="primary" size="lg" className="uppercase tracking-wide">
         {HERO.primaryCta.label}
         <Icon name="arrow-right" className="h-4 w-4" />
       </Button>

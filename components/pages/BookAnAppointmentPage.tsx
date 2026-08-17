@@ -203,7 +203,7 @@ export default function BookAnAppointmentPage() {
               Are you ready to get the answers you deserve to all your health questions? Turn to Dr. Autoimmune for
               solutions tailored specifically to you and your health needs.
             </p>
-            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="relative mt-6">
+            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="relative mt-6 uppercase tracking-wide">
               Book Your Discovery Call
             </Button>
           </Reveal>

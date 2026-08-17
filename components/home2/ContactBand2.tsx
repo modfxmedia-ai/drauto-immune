@@ -32,7 +32,7 @@ export default function ContactBand2() {
         </ul>
 
         <div className="mt-12 flex justify-center">
-          <Button href={CONSULTATION.cta.href} variant="primary" size="lg">
+          <Button href={CONSULTATION.cta.href} variant="primary" size="lg" className="uppercase tracking-wide">
             {CONSULTATION.cta.label}
           </Button>
         </div>

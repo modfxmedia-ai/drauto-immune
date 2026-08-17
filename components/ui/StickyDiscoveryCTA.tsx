@@ -40,7 +40,7 @@ export default function StickyDiscoveryCTA() {
               <span className="hidden sm:inline">Ready to talk?</span>
               <span className="sm:hidden">Free discovery call</span>
             </p>
-            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="sm">
+            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="sm" className="uppercase tracking-wide">
               Book your discovery call
             </Button>
           </div>

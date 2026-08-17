@@ -35,7 +35,7 @@ export default function ConditionSidebar() {
         <p className="mt-2 text-sm leading-relaxed text-white/70">
           Book a free discovery call to see if our root-cause approach is right for you.
         </p>
-        <Button href={DISCOVERY_CALL_HREF} variant="primary" size="sm" className="mt-4 w-full justify-center">
+        <Button href={DISCOVERY_CALL_HREF} variant="primary" size="sm" className="mt-4 w-full justify-center uppercase tracking-wide">
           Book your discovery call
         </Button>
       </div>

@@ -206,7 +206,7 @@ function NavDropdown({
                   <Link
                     href={DISCOVERY_CALL_HREF}
                     onClick={onClose}
-                    className="group/cta relative mt-6 inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream px-4 py-2.5 text-sm font-semibold text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
+                    className="group/cta relative mt-6 inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream px-4 py-2.5 text-sm font-semibold uppercase tracking-wide text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
                   >
                     Book your discovery call
                     <Icon name="arrow-right" className="h-3.5 w-3.5 transition-transform duration-300 group-hover/cta:translate-x-1" />
@@ -346,7 +346,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
           variants={{ hidden: { y: 16 }, visible: { y: 0, transition: { duration: 0.4, ease: EASE } } }}
           className="mt-6 flex flex-col gap-4"
         >
-          <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="w-full" onClick={onClose}>
+          <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="w-full uppercase tracking-wide" onClick={onClose}>
             Book your discovery call
           </Button>
           <div className="flex flex-col gap-2 border-t border-gray pt-4 text-sm text-ink-soft">
@@ -568,7 +568,7 @@ export default function Header() {
               the condensed logo hides the problem). */}
           <div className="flex shrink-0 items-center gap-3">
             <div className="hidden min-[1180px]:block">
-              <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md">
+              <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="uppercase tracking-wide">
                 Book Your Call
               </Button>
             </div>

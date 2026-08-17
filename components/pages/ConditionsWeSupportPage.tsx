@@ -121,7 +121,7 @@ export default function ConditionsWeSupportPage() {
               gain clarity, build a plan that makes sense, and move toward meaningful progress. Below, you&rsquo;ll
               find the key services and areas we most often support.
             </p>
-            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg">
+            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="uppercase tracking-wide">
               Book your discovery call
             </Button>
           </Reveal>
@@ -252,7 +252,7 @@ export default function ConditionsWeSupportPage() {
             <p className="mt-2 text-base text-ink-soft">
               If you&rsquo;re wondering whether this kind of support could help you, we would love to talk.
             </p>
-            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6">
+            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6 uppercase tracking-wide">
               Book your discovery call
             </Button>
           </Reveal>

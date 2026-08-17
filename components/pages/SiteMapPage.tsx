@@ -202,7 +202,7 @@ export default function SiteMapPage() {
                 Every way to begin care with us — from a free introductory call to booking your first evaluation and
                 managing visits through our patient portal.
               </p>
-              <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-6">
+              <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-6 uppercase tracking-wide">
                 Book your discovery call
               </Button>
             </Reveal>
@@ -342,7 +342,7 @@ export default function SiteMapPage() {
                     {`${CLINIC_LOCATION} · Remote & Telehealth Nationwide`}
                   </li>
                 </ul>
-                <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-8">
+                <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-8 uppercase tracking-wide">
                   Book your discovery call
                 </Button>
               </div>

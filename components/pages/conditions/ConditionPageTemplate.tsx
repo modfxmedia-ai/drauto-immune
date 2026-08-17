@@ -71,7 +71,7 @@ function MidCta({ image }: { image?: ConditionImage }) {
         <p className="mt-3 text-base text-white/75">
           Take the first step toward better health—personalized care, real answers, and lasting wellness start here.
         </p>
-        <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6">
+        <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6 uppercase tracking-wide">
           Book your discovery call
         </Button>
       </div>

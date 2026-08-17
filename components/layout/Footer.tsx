@@ -223,7 +223,7 @@ export default function Footer() {
             <div className="flex flex-wrap items-center gap-4 pt-2">
               <Link
                 href={DISCOVERY_CALL_HREF}
-                className="group inline-flex items-center gap-2 rounded-pill bg-cream px-5 py-2.5 text-sm font-semibold text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
+                className="group inline-flex items-center gap-2 rounded-pill bg-cream px-5 py-2.5 text-sm font-semibold uppercase tracking-wide text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
               >
                 Book your discovery call
                 <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>

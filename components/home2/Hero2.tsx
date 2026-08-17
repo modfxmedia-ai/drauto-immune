@@ -105,7 +105,7 @@ export default function Hero2() {
           <p className={`mt-6 max-w-xl ${MISSION_TEXT}`}>{HERO.mission}</p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <Button href={HERO.primaryCta.href} variant="primary" size="lg">
+            <Button href={HERO.primaryCta.href} variant="primary" size="lg" className="uppercase tracking-wide">
               {HERO.primaryCta.label}
             </Button>
             <Button href={HERO.secondaryCta.href} variant="secondary" size="lg">

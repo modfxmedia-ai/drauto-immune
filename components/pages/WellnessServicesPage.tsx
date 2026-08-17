@@ -96,7 +96,7 @@ export default function WellnessServicesPage() {
               Whether you are just beginning to investigate your symptoms or already have a diagnosis and want a
               more comprehensive approach, our services are designed to meet you where you are.
             </p>
-            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg">
+            <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="uppercase tracking-wide">
               Book your discovery call
             </Button>
           </Reveal>
@@ -194,7 +194,7 @@ export default function WellnessServicesPage() {
               situation — no pressure, just a conversation about what moving forward could look like.
             </p>
             <div className="mt-8">
-              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg">
+              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">
                 Book your discovery call
               </Button>
             </div>

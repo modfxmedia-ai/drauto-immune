@@ -93,7 +93,7 @@ export default function ServicesPage() {
               point for your care.
             </p>
             <div className="mt-8">
-              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg">
+              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">
                 Book your discovery call
               </Button>
             </div>

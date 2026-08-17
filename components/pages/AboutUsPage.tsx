@@ -217,7 +217,7 @@ export default function AboutUsPage() {
               comprehensive team from the comfort of home.
             </p>
             <div className="mt-8">
-              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg">
+              <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">
                 Book your discovery call
               </Button>
             </div>
