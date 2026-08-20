@@ -24,6 +24,11 @@ export interface NavItem {
  * internal routes. "Services" and "Conditions" link to their overview page
  * on click (the live site's own triggers were `href="#"` anchor-only) while
  * still opening a dropdown of the same sub-pages listed on the live menu.
+ * Top-level order otherwise matches the live site exactly: About Us,
+ * Services, Conditions, Patient Stories, Blog, Shop, Contact Us — Shop/
+ * Contact Us are separate top-level items (not folded into a "More" menu).
+ * A "Home" item (internal-only, not on the live site) was added back with
+ * a dropdown linking to the `/home-2/` design-variant page for comparison.
  */
 export const NAV_LINKS: readonly NavItem[] = [
   {
@@ -69,15 +74,10 @@ export const NAV_LINKS: readonly NavItem[] = [
   },
   { label: "Patient Stories", href: "/patient-stories/" },
   { label: "Blog", href: "/blog/" },
-  {
-    label: "More",
-    href: "/contact-us/",
-    children: [
-      { label: "Shop", href: "https://shop.drautoimmune.com/", external: true },
-      { label: "Contact Us", href: "/contact-us/" },
-    ],
-  },
+  { label: "Shop", href: "https://shop.drautoimmune.com/", external: true },
+  { label: "Contact Us", href: "/contact-us/" },
 ] as const;
+
 
 export const SITE_CONTACT = {
   phone: "+1 (303) 882-8447",
@@ -86,4 +86,4 @@ export const SITE_CONTACT = {
   emailHref: "mailto:npc@drautoimmune.com",
 } as const;
 
-export const DISCOVERY_CALL_HREF = "/free-discovery-call/";
+export const DISCOVERY_CALL_HREF = "/discovery-call/";

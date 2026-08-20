@@ -41,7 +41,7 @@ export default function StickyDiscoveryCTA() {
               <span className="sm:hidden">Free discovery call</span>
             </p>
             <Button href={DISCOVERY_CALL_HREF} variant="primary" size="sm" className="uppercase tracking-wide">
-              Book your discovery call
+              Book your Discovery Call
             </Button>
           </div>
         </motion.div>

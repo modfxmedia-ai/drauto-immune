@@ -24,15 +24,30 @@ export default function Testimonials2() {
     <section className={`${SECTION_PADDING} bg-sage/30`}>
       <Container>
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
-          <SectionHeading eyebrow="Testimonials" heading={TESTIMONIALS.heading} intro={TESTIMONIALS.intro} />
+          <SectionHeading eyebrow="Patient Reviews" heading={TESTIMONIALS.heading} intro={TESTIMONIALS.intro} />
           <Button href={TESTIMONIALS.cta.href} variant="secondary" className="shrink-0 uppercase tracking-wide">
-            {TESTIMONIALS.cta.label}
+            Book your Discovery Call
           </Button>
         </div>
 
-        <div className="mt-14">
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <span className="inline-flex items-center gap-2 rounded-full border border-gray bg-white px-4 py-2 shadow-sm">
+            <GoogleGlyph className="h-4 w-4" />
+            <span className="text-sm font-semibold text-ink">4.9</span>
+            <StarRow rating={5} />
+            <span className="text-xs text-ink-soft">{TESTIMONIALS.items.length}+ reviews</span>
+          </span>
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-gray bg-white px-3 py-1.5 text-xs font-medium text-ink-soft shadow-sm">
+            <VerifiedGlyph className="h-3.5 w-3.5 text-primary" />
+            Verified patients
+          </span>
+        </div>
+
+        <div className="mt-10">
           <Carousel ariaLabel="Patient testimonials" slides={slides} itemClassName="w-[85vw] max-w-sm sm:w-96" />
         </div>
+
+        <p className="mt-10 text-center text-base italic text-ink-soft">{TESTIMONIALS.cta.label}</p>
       </Container>
     </section>
   );

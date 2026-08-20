@@ -1,3 +1,4 @@
+import Icon from "@/components/ui/Icon";
 import Container from "@/components/ui/Container";
 import { SPECIALTIES } from "@/content/home-content";
 import Card from "./Card";
@@ -21,6 +22,10 @@ export default function Specialties2() {
             <Card key={item.title} href={item.href} image={{ src: item.image, alt: item.title }}>
               <h3 className="text-lg font-semibold text-ink">{item.title}</h3>
               <p className="text-sm leading-relaxed text-ink-soft">{item.description}</p>
+              <span className="mt-auto flex items-center gap-2 pt-2 text-sm font-semibold text-primary">
+                Learn more
+                <Icon name="arrow-right" className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </span>
             </Card>
           ))}
         </div>

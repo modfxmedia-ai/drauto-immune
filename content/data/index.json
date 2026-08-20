@@ -70,8 +70,8 @@
     "title": "Dr. Autoimmune in the Media: Expert Interviews and Podcasts"
   },
   {
-    "key": "free-discovery-call",
-    "path": "/free-discovery-call/",
+    "key": "discovery-call",
+    "path": "/discovery-call/",
     "title": "Book Your Free Discovery Call Today | Dr. Autoimmune"
   },
   {
@@ -103,6 +103,11 @@
     "key": "other-autoimmune-conditions",
     "path": "/other-autoimmune-conditions/",
     "title": "Support for Other Autoimmune Conditions | Dr. Autoimmune"
+  },
+  {
+    "key": "live-webinar-schedule",
+    "path": "/live-webinar-schedule/",
+    "title": "Live Webinar Schedule | Dr. Autoimmune"
   },
   {
     "key": "patient-portal",

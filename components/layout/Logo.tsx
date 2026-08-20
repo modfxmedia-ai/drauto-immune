@@ -23,7 +23,7 @@ export default function Logo({ condensed = false }: { condensed?: boolean }) {
         width={440}
         height={79}
         preload={true}
-        className="h-9 w-auto sm:h-10"
+        className="h-7 w-auto"
       />
     </motion.div>
   );

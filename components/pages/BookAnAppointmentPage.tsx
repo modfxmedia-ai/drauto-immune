@@ -64,7 +64,7 @@ const TESTIMONIALS: { quote: string; name: string }[] = [
  * static Next.js site, and the live site's own footer already treats
  * "Book An Appointment" as an alias for the Free Discovery Call — so the
  * real booking action here is the same functional GHL calendar widget used
- * on `/free-discovery-call/`, keeping the conversion path fully working.
+ * on `/discovery-call/`, keeping the conversion path fully working.
  */
 export default function BookAnAppointmentPage() {
   return (
@@ -87,7 +87,7 @@ export default function BookAnAppointmentPage() {
             </p>
             <div className="mt-6">
               <GhlBookingWidget
-                src="https://link.drautoimmune.com/widget/bookings/call-with-dr-ian"
+                src="https://link.drautoimmune.com/widget/booking/tJKXoDdUiNVIbNXTR5yA"
                 title="Dr. Autoimmune Free Discovery Call — booking calendar"
               />
             </div>
@@ -204,7 +204,7 @@ export default function BookAnAppointmentPage() {
               solutions tailored specifically to you and your health needs.
             </p>
             <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="relative mt-6 uppercase tracking-wide">
-              Book Your Discovery Call
+              Book your Discovery Call
             </Button>
           </Reveal>
 

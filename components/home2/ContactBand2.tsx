@@ -3,7 +3,13 @@ import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 import { CONSULTATION } from "@/content/home-content";
 import SectionHeading from "./SectionHeading";
-import { SECTION_PADDING } from "./theme";
+import { SECTION_PADDING, TEXT } from "./theme";
+
+const QUICK_FACTS = [
+  { icon: "clock" as const, label: "Response in < 1 business day" },
+  { icon: "globe" as const, label: "100% Remote · Nationwide" },
+  { icon: "check-circle" as const, label: "No obligation" },
+];
 
 /**
  * Closing consultation band — same content as the original homepage's
@@ -15,7 +21,27 @@ export default function ContactBand2() {
   return (
     <section className={`${SECTION_PADDING} bg-sage/30`}>
       <Container>
-        <SectionHeading eyebrow="Get Started" heading={CONSULTATION.heading} intro={CONSULTATION.intro} align="center" />
+        <div className="mx-auto max-w-2xl text-center">
+          <p className={TEXT.caption}>Get In Touch</p>
+          <h3 className={`mt-3 ${TEXT.h2}`}>Real people, real care</h3>
+          <p className="mt-4 text-base leading-relaxed text-ink-soft">
+            Book a discovery call, drop us a note, or just say hi — our care team responds within one business day.
+          </p>
+          <ul className="mt-6 flex flex-wrap items-center justify-center gap-2">
+            {QUICK_FACTS.map((p) => (
+              <li key={p.label}>
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-gray bg-white px-3 py-1.5 text-xs font-medium text-ink-soft shadow-sm">
+                  <Icon name={p.icon} className="h-3.5 w-3.5 text-primary" />
+                  {p.label}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="mt-14">
+          <SectionHeading eyebrow="Get Started" heading={CONSULTATION.heading} intro={CONSULTATION.intro} align="center" />
+        </div>
 
         <ul className="mx-auto mt-14 grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
           {CONSULTATION.items.map((item) => (

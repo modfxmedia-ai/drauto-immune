@@ -89,7 +89,7 @@ export default function Testimonials() {
             {TESTIMONIALS.cta.label}
           </p>
           <Button href={TESTIMONIALS.cta.href} variant="primary" size="md" className="uppercase tracking-wide">
-            Book your discovery call
+            Book your Discovery Call
           </Button>
         </Reveal>
       </Container>

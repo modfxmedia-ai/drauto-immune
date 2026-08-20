@@ -21,7 +21,7 @@ export const HERO = {
   headline: "We Are Autoimmune Wellness Specialists",
   mission:
     "Our mission is to empower patients with chronic and complex autoimmune conditions by identifying the root cause and providing natural solutions that promote optimal health.",
-  primaryCta: { label: "Book your discovery call", href: "/free-discovery-call/" },
+  primaryCta: { label: "Book your Discovery Call", href: "/discovery-call/" },
   secondaryCta: { label: "Explore Our Services", href: "/wellness-services/" },
   /** Proof/stat strip — real facts pulled from the site (address, credentials, tagline). */
   stats: [
@@ -273,7 +273,7 @@ export const TESTIMONIALS = {
   heading: "Real Results from Real Patients",
   intro:
     "If you're ready for real hope from real Dr. Autoimmune patients, these stories show the health transformation possible through a root cause approach.",
-  cta: { label: "Ready to be the next success story?", href: "/free-discovery-call/" },
+  cta: { label: "Ready to be the next success story?", href: "/discovery-call/" },
   /**
    * Google-review-style testimonials. `rating` is a 1-5 integer,
    * `timeAgo` mirrors the "N months ago" copy Google places under each
@@ -375,7 +375,7 @@ export const PROCESS = {
   heading: "How Our Care Process Works",
   intro:
     "A simple, guided path that helps you feel understood, supported, and finally provides clarity for the next steps on your health journey.",
-  cta: { label: "Take Your First Step", href: "/free-discovery-call/" },
+  cta: { label: "Book your Discovery Call", href: "/discovery-call/" },
   steps: [
     {
       title: "Discovery Call",
@@ -438,7 +438,7 @@ export const CONSULTATION = {
       description: "Access expert guidance from anywhere with our 100% online functional medicine consultations.",
     },
   ],
-  cta: { label: "Book your discovery call", href: "/free-discovery-call/" },
+  cta: { label: "Book your Discovery Call", href: "/discovery-call/" },
 };
 
 export const HOURS = {

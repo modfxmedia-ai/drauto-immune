@@ -67,14 +67,11 @@
   --color-white: var(--white);
   --color-cream: var(--cream);
 
-  /* Body/UI face (Epilogue) becomes the default `font-sans` */
+  /* Single site-wide face (Epilogue) — used for `font-sans` AND `font-mono`
+     so label/badge text (uppercase + tracking already differentiates it)
+     stays visually consistent with headings/body, matching the live site. */
   --font-sans: var(--font-body);
-  /* Label/badge/meta face (DM Mono) becomes the default `font-mono` */
-  --font-mono: var(--font-label-mono);
-  /* Headline accent face — used only for emphasis words, see <Accent>.
-     Named distinctly from next/font's --font-display-serif variable so the
-     theme token and the runtime CSS variable aren't the same identifier. */
-  --font-accent-serif: var(--font-display-serif);
+  --font-mono: var(--font-body);
 
   --radius-pill: var(--radius-pill);
   --radius-card: var(--radius-card);
@@ -157,12 +154,11 @@ body {
    properties set here when combined on the same element.
    ========================================================================== */
 @layer components {
-  /* Emphasis serif accent — see components/ui/Accent.tsx for the React API. */
+  /* Emphasis accent — see components/ui/Accent.tsx for the React API.
+     No separate serif/italic face (matches the live site's single sans
+     typeface) — emphasis comes from color + weight + underline only. */
   .accent-serif {
-    font-family: var(--font-display-serif);
-    font-style: italic;
-    font-weight: 400;
-    letter-spacing: -0.01em;
+    font-weight: 600;
   }
 
   /* Premium surface treatments — glass, gradient mesh, texture.

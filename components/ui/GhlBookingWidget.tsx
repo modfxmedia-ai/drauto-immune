@@ -25,6 +25,7 @@ export default function GhlBookingWidget({ src, title, minHeight = 720 }: GhlBoo
         src={src}
         title={title}
         scrolling="no"
+        allow="payment"
         style={{ width: "100%", border: "none", overflow: "hidden", minHeight }}
         className="rounded-2xl"
       />

@@ -112,6 +112,17 @@ export default function Hero2() {
               {HERO.secondaryCta.label}
             </Button>
           </div>
+
+          <div className="mt-10 flex w-full flex-wrap justify-center gap-x-8 gap-y-5 border-t border-white/15 pt-6">
+            {HERO.stats.map((stat) => (
+              <div key={stat.label} className="flex flex-col items-center gap-0.5">
+                <span className="accent-serif text-xl text-white sm:text-2xl">{stat.value}</span>
+                <span className="font-mono text-xs font-medium uppercase tracking-[0.08em] text-white/55">
+                  {stat.label}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
       </Container>
     </section>

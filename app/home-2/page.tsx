@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PotsAssessmentPopup from "@/components/home/PotsAssessmentPopup";
 import Hero2 from "@/components/home2/Hero2";
 import Pillars2 from "@/components/home2/Pillars2";
 import ServicesHighlight2 from "@/components/home2/ServicesHighlight2";
@@ -28,6 +29,8 @@ export const metadata: Metadata = {
 export default function Home2Page() {
   return (
     <>
+      <PotsAssessmentPopup />
+
       <Hero2 />
       <Pillars2 />
       <ServicesHighlight2 />

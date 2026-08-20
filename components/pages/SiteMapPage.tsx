@@ -32,7 +32,7 @@ const MAIN_PAGES: DirectoryLink[] = [
 const SERVICES_A: DirectoryLink[] = [
   { label: "Services Overview", href: "/services/", description: "Everything we offer, in one place." },
   { label: "Book New Patient Evaluation", href: "/book-new-patient-evaluation/", description: "Start your intake as a new patient." },
-  { label: "Free Discovery Call", href: "/free-discovery-call/", description: "A no-cost first conversation with our team." },
+  { label: "Free Discovery Call", href: "/discovery-call/", description: "A no-cost first conversation with our team." },
   { label: "Book An Appointment", href: "/book-an-appointment/", description: "Schedule a visit with our clinicians." },
 ];
 const SERVICES_B: DirectoryLink[] = [
@@ -90,6 +90,12 @@ const CONDITION_CATEGORIES: { label: string; icon: IconName; links: DirectoryLin
 
 /** Resources & further reading, plus the one external storefront link. */
 const RESOURCE_LINKS: (DirectoryLink & { tag: string })[] = [
+  {
+    tag: "Webinar",
+    label: "Live Webinar Schedule",
+    href: "/live-webinar-schedule/",
+    description: "Upcoming live sessions with registration links for each date.",
+  },
   { tag: "Article", label: "Blog", href: "/blog/", description: "Ongoing research-backed articles & updates." },
   { tag: "Stories", label: "Patient Stories", href: "/patient-stories/", description: "First-hand patient experiences." },
   { tag: "Interviews", label: "Featured Interviews", href: "/featured-interviews/", description: "Podcasts and press appearances." },
@@ -203,7 +209,7 @@ export default function SiteMapPage() {
                 managing visits through our patient portal.
               </p>
               <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-6 uppercase tracking-wide">
-                Book your discovery call
+                Book your Discovery Call
               </Button>
             </Reveal>
             <div className="grid grid-cols-1 gap-x-10 sm:grid-cols-2">
@@ -343,7 +349,7 @@ export default function SiteMapPage() {
                   </li>
                 </ul>
                 <Button href={DISCOVERY_CALL_HREF} variant="primary" size="md" className="mt-8 uppercase tracking-wide">
-                  Book your discovery call
+                  Book your Discovery Call
                 </Button>
               </div>
               <div className="rounded-lg bg-sage p-6">

@@ -121,7 +121,7 @@ function MidCta() {
           Book a free discovery call and talk through your symptoms with our team — no cost, no obligation.
         </p>
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6 uppercase tracking-wide">
-          Book your discovery call
+          Book your Discovery Call
         </Button>
       </div>
     </Reveal>

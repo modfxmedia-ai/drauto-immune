@@ -18,7 +18,7 @@ export default function Process2() {
       <div aria-hidden className="pointer-events-none absolute -right-24 bottom-0 h-72 w-72 rounded-full bg-sage/40 blur-3xl" />
 
       <Container className="relative">
-        <SectionHeading eyebrow="Our Process" heading={PROCESS.heading} intro={PROCESS.intro} align="center" />
+        <SectionHeading eyebrow="Care Process" heading={PROCESS.heading} intro={PROCESS.intro} align="center" />
 
         <ol className="relative mt-16 grid grid-cols-1 gap-14 md:mt-20 md:grid-cols-3 md:gap-8">
           <div

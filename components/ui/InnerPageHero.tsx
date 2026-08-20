@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import Accent from "./Accent";
 import Container from "./Container";
@@ -19,6 +20,13 @@ interface InnerPageHeroProps {
   accent?: string;
   /** Optional single-line supporting copy under the headline. */
   subhead?: string;
+  /**
+   * Optional decorative photo (e.g. a condition page's intro image) shown
+   * as a duotone background instead of the flat gradient — consolidates
+   * what used to be a separate photo banner directly under the hero into
+   * one hero band, matching the live site's single-hero layout.
+   */
+  image?: { src: string; alt: string };
 }
 
 /** Renders `title` with the `accent` substring (if present) styled via `Accent`. */
@@ -48,15 +56,25 @@ function Headline({ title, accent }: { title: string; accent?: string }) {
  * up on load with Framer Motion; respects `prefers-reduced-motion` by
  * rendering in its final, settled state immediately instead of animating.
  */
-export default function InnerPageHero({ eyebrow, title, accent, subhead }: InnerPageHeroProps) {
+export default function InnerPageHero({ eyebrow, title, accent, subhead, image }: InnerPageHeroProps) {
   const reduce = useReducedMotion();
 
   return (
     <section className="relative overflow-hidden py-section-xl md:py-section-2xl">
-      {/* Base gradient */}
+      {image && (
+        <div aria-hidden="true" className="absolute inset-0">
+          <Image src={image.src} alt="" fill sizes="100vw" className="object-cover" priority />
+        </div>
+      )}
+
+      {/* Base gradient — doubles as a duotone scrim over `image` (multiply
+          blend) so a supplied photo reads as an on-brand tinted backdrop
+          instead of a separate banner stacked below the hero. */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-[linear-gradient(135deg,var(--ink)_0%,color-mix(in_srgb,var(--ink)_42%,var(--primary))_58%,var(--primary-active)_100%)]"
+        className={`absolute inset-0 bg-[linear-gradient(135deg,var(--ink)_0%,color-mix(in_srgb,var(--ink)_42%,var(--primary))_58%,var(--primary-active)_100%)] ${
+          image ? "mix-blend-multiply" : ""
+        }`}
       />
 
       {/* Checkered grid pattern overlay — a clean, modern alternative to a

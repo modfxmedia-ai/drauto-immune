@@ -22,7 +22,11 @@ export default function Faq2() {
   return (
     <section className={`${SECTION_PADDING} bg-white`}>
       <Container>
-        <SectionHeading eyebrow="FAQ" heading={FAQ.heading} />
+        <SectionHeading
+          eyebrow="Common Questions"
+          heading={FAQ.heading}
+          intro="Straightforward answers about our root-cause, functional medicine approach."
+        />
 
         <div className="mt-14 grid grid-cols-1 items-start gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
           <div className="divide-y divide-gray rounded-2xl border border-gray bg-white px-6 sm:px-8">

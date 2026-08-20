@@ -44,6 +44,20 @@ export default function ApproachSection() {
             <ApproachContent />
           </Reveal>
         </div>
+
+        <Reveal delay={0.15}>
+          <ul className="mt-14 grid grid-cols-1 gap-6 border-t border-gray pt-12 md:grid-cols-3">
+            {APPROACH.items.map((item) => (
+              <li
+                key={item.title}
+                className="rounded-card border border-gray bg-white p-6 shadow-card transition-all duration-300 hover:-translate-y-0.5 hover:shadow-card-hover"
+              >
+                <h3 className="text-lg text-ink">{item.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-soft">{item.description}</p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
       </Container>
     </Section>
   );

@@ -1,19 +1,13 @@
-"use client";
-
-import { useState } from "react";
 import Button from "@/components/ui/Button";
 import Icon from "@/components/ui/Icon";
-import NewsletterModal from "./NewsletterModal";
 import { SITE_CONTACT } from "./nav-links";
 
 /**
- * Top utility strip — contact info + newsletter CTA. Hidden on small
- * screens to keep the mobile header compact (matches the migrated site's
- * own "hidden on mobile" utility row).
+ * Top utility strip — contact info + live webinar schedule CTA. Hidden on
+ * small screens to keep the mobile header compact (matches the migrated
+ * site's own "hidden on mobile" utility row).
  */
 export default function UtilityBar() {
-  const [newsletterOpen, setNewsletterOpen] = useState(false);
-
   return (
     <div className="hidden bg-gradient-to-r from-primary to-[#2c5b4a] text-white md:block">
       <div className="mx-auto flex w-full max-w-[var(--container-max)] items-center justify-between gap-6 px-6 py-2 md:px-10">
@@ -56,10 +50,10 @@ export default function UtilityBar() {
         </div>
 
         <Button
+          href="/live-webinar-schedule/"
           variant="primary"
           size="sm"
           className="group shadow-[0_2px_10px_rgba(0,0,0,0.18)]"
-          onClick={() => setNewsletterOpen(true)}
         >
           <span className="flex items-center gap-1.5">
             Live Webinar Schedule
@@ -70,8 +64,6 @@ export default function UtilityBar() {
           </span>
         </Button>
       </div>
-
-      <NewsletterModal open={newsletterOpen} onClose={() => setNewsletterOpen(false)} />
     </div>
   );
 }

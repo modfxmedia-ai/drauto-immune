@@ -22,12 +22,12 @@ export default function BlogInsights2() {
     <section className={`${SECTION_PADDING} bg-white`}>
       <Container>
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
-          <SectionHeading eyebrow="From the Blog" heading={BLOG_INSIGHTS.heading} intro={BLOG_INSIGHTS.intro} />
+          <SectionHeading eyebrow="Latest News" heading={BLOG_INSIGHTS.heading} intro={BLOG_INSIGHTS.intro} />
           <Link
             href="/blog/"
             className="group inline-flex shrink-0 items-center gap-1.5 text-sm font-semibold text-primary transition-colors hover:text-primary-hover"
           >
-            View all articles
+            View All Articles
             <Icon name="arrow-right" className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
           </Link>
         </div>

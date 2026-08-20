@@ -16,15 +16,15 @@ const REASONS: { label: string; icon: IconName }[] = [
 ];
 
 /**
- * `/free-discovery-call/` — clones the live page's real content: a single
+ * `/discovery-call/` — clones the live page's real content: a single
  * embedded GoHighLevel booking widget (the exact iframe used live,
- * `link.drautoimmune.com/widget/bookings/call-with-dr-ian`), restyled
+ * `link.drautoimmune.com/widget/booking/tJKXoDdUiNVIbNXTR5yA`), restyled
  * only at the container level to match the brand palette. This is the
  * site-wide primary conversion page (`DISCOVERY_CALL_HREF`), so the layout
  * stays deliberately simple and fast — no decorative content competing
  * with the calendar itself.
  */
-export default function FreeDiscoveryCallPage() {
+export default function DiscoveryCallPage() {
   return (
     <>
       <InnerPageHero
@@ -50,7 +50,7 @@ export default function FreeDiscoveryCallPage() {
 
               <div className="mt-6">
                 <GhlBookingWidget
-                  src="https://link.drautoimmune.com/widget/bookings/call-with-dr-ian"
+                  src="https://link.drautoimmune.com/widget/booking/tJKXoDdUiNVIbNXTR5yA"
                   title="Dr. Autoimmune Free Discovery Call — booking calendar"
                 />
               </div>

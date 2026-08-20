@@ -40,8 +40,11 @@ export default function BlogInsights() {
               <Badge className="inline-flex">Latest News</Badge>
             </div>
             <h2>
-              Insights & <Accent>updates</Accent>
+              Insights for <Accent>Autoimmune Wellness</Accent>
             </h2>
+            <p className="mt-4 max-w-lg text-base leading-relaxed text-ink-soft">
+              {BLOG_INSIGHTS.intro}
+            </p>
           </Reveal>
           <Reveal delay={0.08} className="md:justify-self-end">
             <Link

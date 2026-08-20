@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import FreeDiscoveryCallPage from "@/components/pages/FreeDiscoveryCallPage";
+import DiscoveryCallPage from "@/components/pages/DiscoveryCallPage";
 import { buildMetadata } from "@/lib/content";
 
 export function generateMetadata(): Metadata {
-  return buildMetadata("free-discovery-call");
+  return buildMetadata("discovery-call");
 }
 
 export default function Page() {
-  return <FreeDiscoveryCallPage />;
+  return <DiscoveryCallPage />;
 }

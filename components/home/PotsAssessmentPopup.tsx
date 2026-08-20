@@ -8,28 +8,21 @@ import Button from "@/components/ui/Button";
 import Accent from "@/components/ui/Accent";
 
 const POTS_OPT_IN_HREF = "https://pots.drautoimmune.com/opt-in";
-const SESSION_KEY = "pots-assessment-popup-shown";
 const SHOW_DELAY_MS = 1800;
 
 /**
  * Homepage lead-magnet popup for the "POTS Root Cause Assessment" free
  * guide — a from-scratch redesign of the original flyer graphic (brand
  * header + headline + CTA + photo), rebuilt with the site's own
- * typography/color system rather than embedding the flat image. Shows
- * once per browser session, a beat after the homepage finishes loading,
- * so it doesn't fight the hero section for attention on first paint.
+ * typography/color system rather than embedding the flat image. Reappears
+ * on every page load (no dismissal persistence), a beat after mount so it
+ * doesn't fight the hero section for attention on first paint.
  */
 export default function PotsAssessmentPopup() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    if (sessionStorage.getItem(SESSION_KEY)) return;
-
-    const timer = window.setTimeout(() => {
-      setOpen(true);
-      sessionStorage.setItem(SESSION_KEY, "1");
-    }, SHOW_DELAY_MS);
-
+    const timer = window.setTimeout(() => setOpen(true), SHOW_DELAY_MS);
     return () => window.clearTimeout(timer);
   }, []);
 

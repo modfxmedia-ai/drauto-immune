@@ -1,5 +1,7 @@
+import Link from "next/link";
 import Icon, { type IconName } from "@/components/ui/Icon";
 import Container from "@/components/ui/Container";
+import { SITE_CONTACT } from "@/components/layout/nav-links";
 import { APPROACH } from "@/content/home-content";
 import Card from "./Card";
 import SectionHeading from "./SectionHeading";
@@ -21,6 +23,13 @@ export default function Pillars2() {
           heading={APPROACH.heading}
           intro={APPROACH.intro}
         />
+
+        <p className={`mx-auto mt-4 max-w-2xl text-center ${TEXT.body}`}>
+          Every plan starts with listening — a comprehensive look at your history,
+          labs, and lifestyle — so care fits your biology, not a template. We
+          translate advanced testing into a clear roadmap and stay alongside you
+          as your body responds.
+        </p>
 
         <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
           {APPROACH.items.map((item, i) => (
@@ -45,6 +54,25 @@ export default function Pillars2() {
             </li>
           ))}
         </ul>
+
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-5">
+          <Link
+            href="/about-us/"
+            className="inline-flex items-center gap-2 rounded-pill bg-primary px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-primary-hover"
+          >
+            Learn more about us
+            <Icon name="arrow-right" className="h-4 w-4" />
+          </Link>
+          <a
+            href={SITE_CONTACT.phoneHref}
+            className="inline-flex items-center gap-2 text-sm font-medium text-ink transition-colors hover:text-primary"
+          >
+            <span className="flex h-9 w-9 items-center justify-center rounded-full border border-gray text-primary">
+              <Icon name="phone-call" className="h-4 w-4" />
+            </span>
+            {SITE_CONTACT.phone}
+          </a>
+        </div>
       </Container>
     </section>
   );

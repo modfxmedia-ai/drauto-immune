@@ -154,7 +154,7 @@ export default function FeaturedInterviewsPage() {
             </p>
             <div className="mt-8">
               <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">
-                Book your discovery call
+                Book your Discovery Call
               </Button>
             </div>
           </Reveal>

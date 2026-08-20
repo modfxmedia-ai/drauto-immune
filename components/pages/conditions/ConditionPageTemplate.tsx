@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion, useReducedMotion } from "motion/react";
 import Container from "@/components/ui/Container";
 import Section from "@/components/ui/Section";
 import InnerPageHero from "@/components/ui/InnerPageHero";
@@ -16,8 +15,6 @@ import SectionAmbient from "@/components/home/SectionAmbient";
 import { DISCOVERY_CALL_HREF } from "@/components/layout/nav-links";
 import { getConditionData, getRelatedConditions, type ConditionImage } from "@/content/conditions-data";
 
-const EASE = [0.22, 1, 0.36, 1] as const;
-
 const ROOT_CAUSE_ITEMS = [
   "Genetic predisposition",
   "Leaky gut (a.k.a intestinal permeability)",
@@ -26,28 +23,6 @@ const ROOT_CAUSE_ITEMS = [
 
 /** Shared card chrome for every stacked content block in the main column. */
 const CARD_CLASSES = "rounded-card border border-gray bg-white shadow-card";
-
-function HeroImage({ image }: { image: ConditionImage }) {
-  const reduce = useReducedMotion();
-  return (
-    <motion.div
-      initial={reduce ? undefined : { opacity: 0, scale: 1.06 }}
-      whileInView={{ opacity: 1, scale: 1 }}
-      viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.8, ease: EASE }}
-      className="relative aspect-[16/10] w-full overflow-hidden bg-sage sm:aspect-[21/9]"
-    >
-      <Image
-        src={image.src}
-        alt={image.alt}
-        fill
-        sizes="(min-width: 1024px) 60vw, 100vw"
-        className="object-cover"
-        priority
-      />
-    </motion.div>
-  );
-}
 
 function MidCta({ image }: { image?: ConditionImage }) {
   return (
@@ -72,7 +47,7 @@ function MidCta({ image }: { image?: ConditionImage }) {
           Take the first step toward better health—personalized care, real answers, and lasting wellness start here.
         </p>
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6 uppercase tracking-wide">
-          Book your discovery call
+          Book your Discovery Call
         </Button>
       </div>
       {image && (
@@ -153,7 +128,7 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
   return (
     <>
-      <InnerPageHero eyebrow="Conditions We Support" title={name} accent={name} subhead={heroDescription} />
+      <InnerPageHero eyebrow="Conditions We Support" title={name} accent={name} subhead={heroDescription} image={introImage} />
 
       <Section bg="white" className="relative">
         <SectionAmbient tone="sage" variant="dots" />
@@ -162,20 +137,15 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
             <ConditionSidebar />
 
             <div className="min-w-0 flex-1 space-y-6">
-              <div className={`${CARD_CLASSES} overflow-hidden`}>
-                <HeroImage image={introImage} />
-                <div className="p-6 sm:p-10">
-                  <Reveal>
-                    <h2 className="text-2xl font-semibold text-ink sm:text-3xl">{whatIsHeading}</h2>
-                    <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
-                      {whatIsParagraphs.map((p) => (
-                        <p key={p.slice(0, 40)}>{p}</p>
-                      ))}
-                    </div>
-                    {whatIsBullets && <StaggerList items={whatIsBullets} />}
-                  </Reveal>
+              <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
+                <h2 className="text-2xl font-semibold text-ink sm:text-3xl">{whatIsHeading}</h2>
+                <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
+                  {whatIsParagraphs.map((p) => (
+                    <p key={p.slice(0, 40)}>{p}</p>
+                  ))}
                 </div>
-              </div>
+                {whatIsBullets && <StaggerList items={whatIsBullets} />}
+              </Reveal>
 
               {leadInBullets && (
                 <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
