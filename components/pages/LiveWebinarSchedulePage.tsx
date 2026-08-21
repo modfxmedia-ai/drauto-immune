@@ -40,7 +40,7 @@ export default function LiveWebinarSchedulePage() {
         title="Join Our Live Webinar Schedule"
         accent="Live Webinar Schedule"
         subhead="Live educational sessions with Dr. Ian on root-cause approaches to autoimmune and thyroid health — reserve your seat below."
-        image={{ src: "/images/live-webinar-schedule/laptop-video-call.jpg", alt: "Person joining a video call webinar on a laptop" }}
+        image={{ src: "/images/live-webinar-schedule/laptop-video-call.jpg", alt: "Person joining a video call webinar on a laptop", dim: 0.7 }}
       />
 
       <Section bg="white" className="relative">

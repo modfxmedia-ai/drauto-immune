@@ -31,6 +31,8 @@ interface InnerPageHeroProps {
     alt: string;
     /** CSS `object-position` override — use for portraits where the subject isn't centered in the source frame. */
     position?: string;
+    /** Pre-darken scrim strength (0–1) over the photo, before the duotone tint. Defaults to 0.45; raise for busy/bright photos that need more contrast behind the headline. */
+    dim?: number;
   };
   /** Renders the site wordmark as a centered white watermark in the background instead of a photo. Ignored if `image` is set. */
   logo?: boolean;
@@ -80,7 +82,7 @@ export default function InnerPageHero({ eyebrow, title, accent, subhead, image, 
             priority
           />
           {/* Pre-darkens the photo (independent of the tint below) so text stays legible regardless of how bright the source photo is. */}
-          <div className="absolute inset-0 bg-black/45" />
+          <div className="absolute inset-0 bg-black" style={{ opacity: image.dim ?? 0.45 }} />
         </div>
       )}
 
