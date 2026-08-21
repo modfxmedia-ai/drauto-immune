@@ -90,7 +90,7 @@ function PostHero({
           className="mx-auto max-w-3xl text-center"
         >
           <p className="font-mono text-xs font-medium uppercase tracking-[0.12em] text-white/70 sm:text-sm">Blog</p>
-          <h1 className="mt-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl">{title}</h1>
+          <h1 className="mt-4 text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">{title}</h1>
           {(date || readingTime) && (
             <div className="mt-5 flex items-center justify-center gap-3 text-sm text-white/75">
               {date && <span>{date}</span>}
@@ -116,9 +116,9 @@ function MidCta() {
         className="pointer-events-none absolute -right-10 -bottom-16 h-56 w-56 rounded-full bg-white/10 blur-3xl"
       />
       <div className="relative mx-auto max-w-xl">
-        <h2 className="text-2xl font-semibold text-cream sm:text-3xl">Ready to Find Your Root Cause?</h2>
+        <h2 className="text-2xl font-extrabold text-sage sm:text-3xl">Ready to Find Your Root Cause?</h2>
         <p className="mt-3 text-base text-white/75">
-          Book a free discovery call and talk through your symptoms with our team — no cost, no obligation.
+          Book a discovery call and talk through your symptoms with our team — no obligation.
         </p>
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="lg" className="mt-6 uppercase tracking-wide">
           Book your Discovery Call

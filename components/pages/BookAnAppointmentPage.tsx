@@ -62,7 +62,7 @@ const TESTIMONIALS: { quote: string; name: string }[] = [
  * package CTA, testimonials) verbatim. The live page's own primary action
  * is a native WordPress/Elementor form with no portable backend on this
  * static Next.js site, and the live site's own footer already treats
- * "Book An Appointment" as an alias for the Free Discovery Call — so the
+ * "Book An Appointment" as an alias for the Discovery Call — so the
  * real booking action here is the same functional GHL calendar widget used
  * on `/discovery-call/`, keeping the conversion path fully working.
  */
@@ -74,6 +74,7 @@ export default function BookAnAppointmentPage() {
         title="The Dr. Autoimmune Solution"
         accent="Solution"
         subhead="Nationwide functional medicine care — from the privacy of your own home."
+        image={{ src: "/images/services/new-patient-evaluation.jpg", alt: "Doctor listening to a patient's heartbeat with a stethoscope" }}
       />
 
       {/* Booking widget */}
@@ -81,14 +82,14 @@ export default function BookAnAppointmentPage() {
         <SectionAmbient tone="sage" variant="dots" />
         <Container className="relative">
           <Reveal className={`mx-auto max-w-3xl ${CARD_CLASSES} overflow-hidden p-6 sm:p-10`}>
-            <h2 className="text-xl font-semibold text-ink sm:text-2xl">Book Your Free Discovery Call</h2>
+            <h2 className="text-xl font-extrabold text-ink sm:text-2xl">Book Your Discovery Call</h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">
               Take the first step toward healing — wherever you may be.
             </p>
             <div className="mt-6">
               <GhlBookingWidget
                 src="https://link.drautoimmune.com/widget/booking/tJKXoDdUiNVIbNXTR5yA"
-                title="Dr. Autoimmune Free Discovery Call — booking calendar"
+                title="Dr. Autoimmune Discovery Call — booking calendar"
               />
             </div>
           </Reveal>
@@ -100,7 +101,7 @@ export default function BookAnAppointmentPage() {
         <Container>
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">Nationwide Care</Badge>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">
               What to Expect During Your Initial 90-Minute Zoom Consultation
             </h2>
             <p className="mt-4 text-base leading-relaxed text-ink-soft">
@@ -119,7 +120,7 @@ export default function BookAnAppointmentPage() {
                     <AnimatedCheckmark className="h-6 w-6" delay={i * 0.1} />
                   </span>
                   <div className={`flex-1 ${CARD_CLASSES} p-5 sm:p-6`}>
-                    <h3 className="text-lg font-medium text-ink">{step.title}</h3>
+                    <h3 className="text-lg font-extrabold text-ink">{step.title}</h3>
                     <p className="mt-2 text-sm leading-relaxed text-ink-soft">{step.description}</p>
                   </div>
                 </li>
@@ -134,7 +135,7 @@ export default function BookAnAppointmentPage() {
         <Container>
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
             <Reveal>
-              <h2 className="text-2xl font-semibold text-ink sm:text-3xl">The Finest Autoimmune Care</h2>
+              <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">The Finest Autoimmune Care</h2>
               <p className="mt-4 text-base leading-relaxed text-ink-soft">
                 No matter where you live, remote care is now available. We also have telehealth options available. We
                 are here to offer help to anyone, including those who are unable to come into the office.
@@ -157,7 +158,7 @@ export default function BookAnAppointmentPage() {
                 <span className="flex h-11 w-11 items-center justify-center rounded-full bg-primary text-white">
                   <Icon name={feature.icon} className="h-5 w-5" />
                 </span>
-                <h3 className="mt-4 text-lg font-medium text-ink">{feature.title}</h3>
+                <h3 className="mt-4 text-lg font-extrabold text-ink">{feature.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-soft">{feature.description}</p>
               </Reveal>
             ))}
@@ -171,7 +172,7 @@ export default function BookAnAppointmentPage() {
         <Container className="relative">
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">83+ Markers</Badge>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">
               We Measure Over 83 Unique Blood Markers to Find Conditions Missed by Most Standard Blood Panels
             </h2>
             <p className="mt-4 text-base leading-relaxed text-ink-soft">
@@ -196,7 +197,7 @@ export default function BookAnAppointmentPage() {
               aria-hidden="true"
               className="pointer-events-none absolute -right-10 -bottom-16 h-56 w-56 rounded-full bg-white/10 blur-3xl"
             />
-            <h2 className="relative text-2xl font-semibold text-cream sm:text-3xl">
+            <h2 className="relative text-2xl font-extrabold text-sage sm:text-3xl">
               Claim Your $399 New Patient Package NOW!
             </h2>
             <p className="relative mx-auto mt-3 max-w-xl text-base text-white/75">

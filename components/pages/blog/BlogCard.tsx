@@ -64,7 +64,7 @@ export default function BlogCard({
       </div>
       <div className="flex flex-1 flex-col gap-3 p-6">
         {date && <Badge tone="neutral">{date}</Badge>}
-        <h3 className="text-lg font-medium leading-snug text-ink transition-colors group-hover:text-primary">
+        <h3 className="text-lg font-extrabold leading-snug text-ink transition-colors group-hover:text-primary">
           {post.title}
         </h3>
         {post.excerpt && <p className="line-clamp-3 text-sm leading-relaxed text-ink-soft">{post.excerpt}</p>}

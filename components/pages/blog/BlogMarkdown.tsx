@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const components: Components = {
   h2: ({ children }) => (
-    <h2 className="mt-10 text-2xl font-semibold text-ink first:mt-0 sm:text-3xl">{children}</h2>
+    <h2 className="mt-10 text-2xl font-extrabold text-ink first:mt-0 sm:text-3xl">{children}</h2>
   ),
-  h3: ({ children }) => <h3 className="mt-8 text-xl font-semibold text-ink">{children}</h3>,
-  h4: ({ children }) => <h4 className="mt-6 text-lg font-semibold text-ink">{children}</h4>,
+  h3: ({ children }) => <h3 className="mt-8 text-xl font-extrabold text-ink">{children}</h3>,
+  h4: ({ children }) => <h4 className="mt-6 text-lg font-extrabold text-ink">{children}</h4>,
   p: ({ node, children }) => {
     // A paragraph whose only child is a single image gets promoted out of
     // the `<p>` wrapper so the image renderer can use a block-level `span`

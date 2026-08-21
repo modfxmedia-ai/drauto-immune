@@ -148,6 +148,7 @@ export default function BookNewPatientEvaluationPage() {
         title="Get Answers that Finally Make Sense"
         accent="Make Sense"
         subhead="A guided health review with a member of Dr. Ian Hollaman's clinical team, designed to uncover the patterns behind your symptoms."
+        image={{ src: "/images/approach/main.webp", alt: "Doctor reviewing a patient's evaluation notes" }}
       />
 
       {/* Intro + video */}
@@ -199,7 +200,7 @@ export default function BookNewPatientEvaluationPage() {
           <div className="mx-auto mt-8 grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-2">
             {INTRO_TESTIMONIALS.map((t, i) => (
               <Reveal key={t.name} delay={Math.min(i * 0.1, 0.2)} className={`${CARD_CLASSES} p-6`}>
-                <h3 className="text-base font-semibold text-ink">{t.name}</h3>
+                <h3 className="text-base font-extrabold text-ink">{t.name}</h3>
                 <p className="mt-2 text-sm italic leading-relaxed text-ink-soft">&ldquo;{t.quote}&rdquo;</p>
               </Reveal>
             ))}
@@ -212,7 +213,7 @@ export default function BookNewPatientEvaluationPage() {
         <Container>
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
             <Reveal>
-              <h2 className="text-2xl font-semibold text-ink sm:text-3xl">
+              <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">
                 When No One Else Has Given You Answers — We Will
               </h2>
               <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
@@ -263,7 +264,7 @@ export default function BookNewPatientEvaluationPage() {
         <Container className="relative">
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">100% Telehealth</Badge>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">
               Comprehensive, Compassionate, and 100% Telehealth
             </h2>
             <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
@@ -292,7 +293,7 @@ export default function BookNewPatientEvaluationPage() {
                     <AnimatedCheckmark className="h-6 w-6" delay={i * 0.1} />
                   </span>
                   <div className={`flex-1 ${CARD_CLASSES} p-5 sm:p-6`}>
-                    <h3 className="text-lg font-medium text-ink">{step.title}</h3>
+                    <h3 className="text-lg font-extrabold text-ink">{step.title}</h3>
                     <p className="mt-2 text-sm leading-relaxed text-ink-soft">{step.description}</p>
                   </div>
                 </li>
@@ -319,7 +320,7 @@ export default function BookNewPatientEvaluationPage() {
         <Container>
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">Patient Stories</Badge>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Real Patients. Real Progress. Real Hope.</h2>
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Real Patients. Real Progress. Real Hope.</h2>
             <p className="mt-4 text-base leading-relaxed text-ink-soft">
               Every patient story is unique, yet most share a familiar beginning. They have searched for answers and
               have felt overlooked or unheard. Through our fully telehealth model, patients connect with Dr. Ian
@@ -356,7 +357,7 @@ export default function BookNewPatientEvaluationPage() {
         <Container>
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">Common Questions</Badge>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Still Have Questions? Here&rsquo;s What to Expect</h2>
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Still Have Questions? Here&rsquo;s What to Expect</h2>
           </Reveal>
           <div className="mx-auto mt-10 max-w-3xl">
             <FaqAccordion items={FAQ_ITEMS} />
@@ -371,7 +372,7 @@ export default function BookNewPatientEvaluationPage() {
           <Reveal
             className={`mx-auto max-w-2xl ${CARD_CLASSES} overflow-hidden bg-[linear-gradient(135deg,var(--ink)_0%,color-mix(in_srgb,var(--ink)_42%,var(--primary))_58%,var(--primary-active)_100%)] p-8 text-center sm:p-12`}
           >
-            <h2 className="text-2xl font-semibold text-cream sm:text-3xl">Take the Next Step Toward Answers</h2>
+            <h2 className="text-2xl font-extrabold text-sage sm:text-3xl">Take the Next Step Toward Answers</h2>
             <p className="mt-3 text-base text-white/75">
               Book your New Patient Evaluation and start your path to clarity today.
             </p>

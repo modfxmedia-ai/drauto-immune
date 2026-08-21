@@ -46,13 +46,14 @@ export default function PatientPortalPage() {
         title="Your Health Records, Always Within Reach"
         accent="Always Within Reach"
         subhead="Securely message your care team, review lab results, and manage your visits — all in one place."
+        image={{ src: "/images/approach/main.webp", alt: "Doctor reviewing a patient's chart" }}
       />
 
       <Section bg="white" className="relative">
         <SectionAmbient tone="sage" variant="dots" />
         <Container className="relative">
           <Reveal className={`mx-auto max-w-2xl ${CARD_CLASSES} p-8 text-center sm:p-12`}>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Access Your Patient Portal</h2>
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Access Your Patient Portal</h2>
             <p className="mt-4 text-base leading-relaxed text-ink-soft">
               Our secure patient portal keeps your care in one place — message your team, review your results, and
               stay on top of your appointments, wherever you are.
@@ -68,7 +69,7 @@ export default function PatientPortalPage() {
                 <span className="flex h-11 w-11 items-center justify-center rounded-full bg-primary text-white">
                   <Icon name={feature.icon} className="h-5 w-5" />
                 </span>
-                <h3 className="mt-4 text-lg font-medium text-ink">{feature.title}</h3>
+                <h3 className="mt-4 text-lg font-extrabold text-ink">{feature.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-soft">{feature.description}</p>
               </Reveal>
             ))}

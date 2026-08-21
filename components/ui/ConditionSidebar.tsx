@@ -31,9 +31,9 @@ export default function ConditionSidebar() {
         <span className="inline-flex items-center gap-1.5 font-mono text-xs font-medium uppercase tracking-[0.08em] text-white/60">
           <Icon name="phone-call" className="h-3.5 w-3.5" /> Get Started
         </span>
-        <h3 className="mt-3 text-lg font-semibold text-white">Ready to feel better?</h3>
+        <h3 className="mt-3 text-lg font-extrabold text-white">Ready to feel better?</h3>
         <p className="mt-2 text-sm leading-relaxed text-white/70">
-          Book a free discovery call to see if our root-cause approach is right for you.
+          Book a discovery call to see if our root-cause approach is right for you.
         </p>
         <Button href={DISCOVERY_CALL_HREF} variant="primary" size="sm" className="mt-4 w-full justify-center uppercase tracking-wide">
           Book your Discovery Call

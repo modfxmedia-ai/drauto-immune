@@ -85,7 +85,7 @@ export default function Hero2() {
       <HeroBackgroundVideo />
 
       <Container className="relative z-10">
-        <div className="mx-auto flex max-w-3xl flex-col items-center rounded-[2rem] border border-white/15 bg-ink/55 px-6 py-12 text-center shadow-[0_30px_80px_-20px_rgba(0,0,0,0.55)] backdrop-blur-md sm:px-14 sm:py-16">
+        <div className="mx-auto flex max-w-5xl flex-col items-center rounded-[2rem] border border-white/15 bg-ink/55 px-6 py-12 text-center shadow-[0_30px_80px_-20px_rgba(0,0,0,0.55)] backdrop-blur-md sm:px-14 sm:py-16">
           {HERO.tags.length > 0 && (
             <ul className="mb-6 flex flex-wrap justify-center gap-2">
               {HERO.tags.map((tag) => (

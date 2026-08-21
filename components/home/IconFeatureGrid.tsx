@@ -62,7 +62,7 @@ export default function IconFeatureGrid({
                 <span className="relative flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110">
                   <Icon name={getFeatureIcon(item.title)} className="h-5 w-5" />
                 </span>
-                <h3 className={i === 0 ? "relative text-xl font-medium text-ink" : "relative text-lg font-medium text-ink"}>
+                <h3 className={i === 0 ? "relative text-xl font-extrabold text-ink" : "relative text-lg font-extrabold text-ink"}>
                   {item.title}
                 </h3>
                 <p className="relative text-sm leading-relaxed text-ink-soft">{item.description}</p>

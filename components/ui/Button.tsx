@@ -52,6 +52,7 @@ interface LinkButtonProps extends SharedProps {
   target?: string;
   rel?: string;
   onClick?: () => void;
+  "aria-label"?: string;
 }
 
 /**
@@ -65,7 +66,7 @@ export default function Button(props: ButtonProps | LinkButtonProps) {
   if ("href" in props && props.href) {
     const { href, target, rel, onClick } = props;
     return (
-      <Link href={href} target={target} rel={rel} onClick={onClick} className={cls}>
+      <Link href={href} target={target} rel={rel} onClick={onClick} aria-label={props["aria-label"]} className={cls}>
         {children}
       </Link>
     );

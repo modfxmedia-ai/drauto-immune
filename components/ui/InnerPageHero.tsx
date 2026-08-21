@@ -13,9 +13,9 @@ interface InnerPageHeroProps {
   title: string;
   /**
    * A contiguous substring of `title` to render in the italic serif
-   * "accent" style with a hand-drawn underline (matches the homepage
-   * Hero's "Autoimmune Wellness" treatment). Must match `title` exactly;
-   * omit to render the whole title in the plain white style.
+   * "accent" style (matches the homepage Hero's "Autoimmune Wellness"
+   * treatment). Must match `title` exactly; omit to render the whole
+   * title in the plain white style.
    */
   accent?: string;
   /** Optional single-line supporting copy under the headline. */
@@ -26,7 +26,14 @@ interface InnerPageHeroProps {
    * what used to be a separate photo banner directly under the hero into
    * one hero band, matching the live site's single-hero layout.
    */
-  image?: { src: string; alt: string };
+  image?: {
+    src: string;
+    alt: string;
+    /** CSS `object-position` override — use for portraits where the subject isn't centered in the source frame. */
+    position?: string;
+  };
+  /** Renders the site wordmark as a centered white watermark in the background instead of a photo. Ignored if `image` is set. */
+  logo?: boolean;
 }
 
 /** Renders `title` with the `accent` substring (if present) styled via `Accent`. */
@@ -39,7 +46,7 @@ function Headline({ title, accent }: { title: string; accent?: string }) {
   return (
     <>
       {before}
-      <Accent tone="cream" as="span">
+      <Accent tone="sage" as="span">
         {accent}
       </Accent>
       {after}
@@ -50,32 +57,61 @@ function Headline({ title, accent }: { title: string; accent?: string }) {
 /**
  * Shared full-width inner-page hero band — dark charcoal/sage gradient
  * with a subtle checkered grid pattern overlay, large centered headline
- * (optionally with an italic serif `accent` phrase + hand-drawn underline,
- * matching the homepage Hero's "Autoimmune Wellness" treatment) and a
- * mono-caps caption below it, + optional one-line subhead. Fades/slides
- * up on load with Framer Motion; respects `prefers-reduced-motion` by
- * rendering in its final, settled state immediately instead of animating.
+ * (optionally with an italic serif `accent` phrase, matching the homepage
+ * Hero's "Autoimmune Wellness" treatment) and a mono-caps caption below
+ * it, + optional one-line subhead. Fades/slides up on load with Framer
+ * Motion; respects `prefers-reduced-motion` by rendering in its final,
+ * settled state immediately instead of animating.
  */
-export default function InnerPageHero({ eyebrow, title, accent, subhead, image }: InnerPageHeroProps) {
+export default function InnerPageHero({ eyebrow, title, accent, subhead, image, logo }: InnerPageHeroProps) {
   const reduce = useReducedMotion();
 
   return (
     <section className="relative overflow-hidden py-section-xl md:py-section-2xl">
       {image && (
         <div aria-hidden="true" className="absolute inset-0">
-          <Image src={image.src} alt="" fill sizes="100vw" className="object-cover" priority />
+          <Image
+            src={image.src}
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover"
+            style={{ objectPosition: image.position ?? "center" }}
+            priority
+          />
+          {/* Pre-darkens the photo (independent of the tint below) so text stays legible regardless of how bright the source photo is. */}
+          <div className="absolute inset-0 bg-black/45" />
         </div>
       )}
 
-      {/* Base gradient — doubles as a duotone scrim over `image` (multiply
-          blend) so a supplied photo reads as an on-brand tinted backdrop
-          instead of a separate banner stacked below the hero. */}
+      {/* Base gradient — doubles as a duotone tint over `image` (`color`
+          blend keeps the photo's own luminosity so bright/high-key photos
+          stay visible, unlike `multiply` which washes bright areas out to
+          a flat gradient) so a supplied photo reads as an on-brand tinted
+          backdrop instead of a separate banner stacked below the hero. */}
       <div
         aria-hidden="true"
         className={`absolute inset-0 bg-[linear-gradient(135deg,var(--ink)_0%,color-mix(in_srgb,var(--ink)_42%,var(--primary))_58%,var(--primary-active)_100%)] ${
-          image ? "mix-blend-multiply" : ""
+          image ? "mix-blend-color" : ""
         }`}
       />
+
+      {/* Rendered above the opaque base gradient (not below it) so the
+          watermark isn't fully painted over — the gradient has no blend
+          mode of its own in logo mode, so it would otherwise hide anything
+          stacked beneath it. */}
+      {!image && logo && (
+        <div aria-hidden="true" className="absolute inset-0 flex items-center justify-center opacity-25">
+          <Image
+            src="/images/logo/logo-png.webp"
+            alt=""
+            width={441}
+            height={79}
+            priority
+            className="h-auto w-2/3 max-w-md brightness-0 invert"
+          />
+        </div>
+      )}
 
       {/* Checkered grid pattern overlay — a clean, modern alternative to a
           photo background. Blended with `mix-blend-overlay` (instead of a
@@ -111,7 +147,7 @@ export default function InnerPageHero({ eyebrow, title, accent, subhead, image }
           transition={{ duration: 0.7, ease: EASE }}
           className="mx-auto max-w-3xl text-center"
         >
-          <h1 className="text-4xl font-semibold text-white sm:text-5xl md:text-6xl">
+          <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
             <Headline title={title} accent={accent} />
           </h1>
           {eyebrow && (

@@ -167,20 +167,20 @@ function NavDropdown({
                     transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                   />
                   <div className="relative">
-                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/15 text-cream">
+                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/15 text-sage">
                       <Icon name="compass" className="h-5 w-5" />
                     </span>
                     <p className="mt-4 text-lg font-medium leading-snug text-white">
                       Not sure where to start?
                     </p>
                     <p className="mt-2 text-sm leading-relaxed text-white/85">
-                      Book a free discovery call and we&apos;ll help map your care path.
+                      Book a discovery call and we&apos;ll help map your care path.
                     </p>
                   </div>
                   <Link
                     href={DISCOVERY_CALL_HREF}
                     onClick={onClose}
-                    className="group/cta relative mt-6 inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream px-4 py-2.5 text-sm font-semibold uppercase tracking-wide text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
+                    className="group/cta relative mt-6 inline-flex items-center justify-center gap-1.5 rounded-pill bg-sage px-4 py-2.5 text-sm font-semibold uppercase tracking-wide text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
                   >
                     Book your Discovery Call
                     <Icon name="arrow-right" className="h-3.5 w-3.5 transition-transform duration-300 group-hover/cta:translate-x-1" />

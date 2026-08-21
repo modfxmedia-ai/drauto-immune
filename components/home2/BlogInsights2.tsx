@@ -70,7 +70,7 @@ function FeaturedCard({ post }: { post: Post }) {
         <span className="inline-flex w-fit items-center rounded-full bg-white/15 px-3 py-1 font-mono text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-white backdrop-blur-md">
           {post.category}
         </span>
-        <h3 className="text-2xl font-semibold leading-tight text-white sm:text-3xl">{post.title}</h3>
+        <h3 className="text-2xl font-extrabold leading-tight text-white sm:text-3xl">{post.title}</h3>
         <p className="max-w-xl text-sm leading-relaxed text-white/85">{post.excerpt}</p>
         <div className="mt-2 flex items-center gap-3">
           <span className="text-sm font-medium text-white">Read article</span>
@@ -114,7 +114,7 @@ function SecondaryCard({ post }: { post: Post }) {
               {post.readTime}
             </span>
           </div>
-          <h3 className="text-base font-semibold leading-snug text-ink sm:text-lg">{post.title}</h3>
+          <h3 className="text-base font-extrabold leading-snug text-ink sm:text-lg">{post.title}</h3>
           <p className="line-clamp-2 text-sm leading-relaxed text-ink-soft">{post.excerpt}</p>
         </div>
         <span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary">

@@ -27,6 +27,7 @@ export default function ContactUsPage() {
         title="We're Here to Help"
         accent="Here to Help"
         subhead="Send us a message using this form and our team will get back to you within 1 business day."
+        image={{ src: "/images/contact-us/office-desk-antibody.png", alt: "Desk with a notebook, pen, and plant beside an antibody illustration" }}
       />
 
       <Section bg="white" className="relative overflow-hidden">
@@ -67,7 +68,7 @@ export default function ContactUsPage() {
                     <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-white text-primary shadow-card">
                       <Icon name="users" className="h-5 w-5" />
                     </span>
-                    <h3 className="text-xl font-semibold text-ink">Get in Touch</h3>
+                    <h3 className="text-xl font-extrabold text-ink">Get in Touch</h3>
                   </div>
                   <ul className="relative mt-6 space-y-4">
                     <li>
@@ -113,7 +114,7 @@ export default function ContactUsPage() {
                     <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-sage text-primary">
                       <Icon name="clock" className="h-5 w-5" />
                     </span>
-                    <h3 className="text-xl font-semibold text-ink">{HOURS.heading}</h3>
+                    <h3 className="text-xl font-extrabold text-ink">{HOURS.heading}</h3>
                   </div>
                   <p className="mt-2 text-sm text-ink-soft">Care is fully remote — book a time that fits your schedule.</p>
                   <dl className="mt-5 divide-y divide-gray">

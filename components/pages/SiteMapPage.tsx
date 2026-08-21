@@ -32,7 +32,7 @@ const MAIN_PAGES: DirectoryLink[] = [
 const SERVICES_A: DirectoryLink[] = [
   { label: "Services Overview", href: "/services/", description: "Everything we offer, in one place." },
   { label: "Book New Patient Evaluation", href: "/book-new-patient-evaluation/", description: "Start your intake as a new patient." },
-  { label: "Free Discovery Call", href: "/discovery-call/", description: "A no-cost first conversation with our team." },
+  { label: "Discovery Call", href: "/discovery-call/", description: "A first conversation with our team." },
   { label: "Book An Appointment", href: "/book-an-appointment/", description: "Schedule a visit with our clinicians." },
 ];
 const SERVICES_B: DirectoryLink[] = [
@@ -152,6 +152,7 @@ export default function SiteMapPage() {
         title="Every Page, Clearly Organized"
         accent="Clearly Organized"
         subhead="A complete index of our services, the conditions we treat, and every resource on drautoimmune.com."
+        image={{ src: "/images/migrated/blog/getty-images-aeVclBoyScE-unsplash.jpg", alt: "Doctor consulting with a patient in an exam room" }}
       />
 
       {/* Quick-jump strip */}
@@ -253,7 +254,7 @@ export default function SiteMapPage() {
                   <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary text-white">
                     <Icon name={category.icon} className="h-[18px] w-[18px]" />
                   </span>
-                  <h3 className="text-lg font-semibold text-ink">{category.label}</h3>
+                  <h3 className="text-lg font-extrabold text-ink">{category.label}</h3>
                 </div>
                 <ul className="mt-2 rounded-card border border-primary/15 bg-white/70 px-6">
                   {category.links.map((link) => (
@@ -357,7 +358,7 @@ export default function SiteMapPage() {
                   <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-white text-primary">
                     <Icon name="clock" className="h-[18px] w-[18px]" />
                   </span>
-                  <h3 className="text-base font-semibold text-ink">{HOURS.heading}</h3>
+                  <h3 className="text-base font-extrabold text-ink">{HOURS.heading}</h3>
                 </div>
                 <dl className="mt-4 divide-y divide-primary/10">
                   {HOURS.rows.map((row) => (

@@ -2,7 +2,7 @@ import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 import { TESTIMONIALS } from "@/content/home-content";
 import Card from "./Card";
-import Carousel from "./Carousel";
+import Carousel from "@/components/ui/Carousel";
 import SectionHeading from "./SectionHeading";
 import { SECTION_PADDING } from "./theme";
 

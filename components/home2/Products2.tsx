@@ -3,7 +3,7 @@ import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 import { PRODUCTS, PRODUCTS_CATALOG } from "@/content/home-content";
 import Card from "./Card";
-import Carousel from "./Carousel";
+import Carousel from "@/components/ui/Carousel";
 import SectionHeading from "./SectionHeading";
 import { SECTION_PADDING } from "./theme";
 
@@ -29,7 +29,7 @@ export default function Products2() {
       className="h-full"
     >
       <p className="text-xs font-medium uppercase tracking-[0.1em] text-ink-soft">Dr. Autoimmune</p>
-      <h3 className="text-lg font-semibold text-ink">{product.name}</h3>
+      <h3 className="text-lg font-extrabold text-ink">{product.name}</h3>
       <p className="text-sm leading-relaxed text-ink-soft">{product.description}</p>
       <span className="mt-auto flex items-center gap-2 pt-2 text-sm font-semibold text-primary">
         View Product

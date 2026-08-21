@@ -59,6 +59,7 @@ export default function ServicesPage() {
         title="Personalized Functional Medicine Services"
         accent="Functional Medicine"
         subhead="Every pathway into care — from your first evaluation to ongoing wellness support."
+        image={{ src: "/images/services/new-patient-evaluation.jpg", alt: "Doctor listening to a patient's heartbeat with a stethoscope" }}
       />
 
       <Section bg="white" className="relative overflow-hidden">
@@ -89,7 +90,7 @@ export default function ServicesPage() {
           <Reveal className="mx-auto max-w-2xl text-center">
             <h2 className="text-white">Not Sure Where to Start?</h2>
             <p className="mt-6 text-lg leading-relaxed text-white/85">
-              A free discovery call is the easiest way to talk through your history and find the right starting
+              A discovery call is the easiest way to talk through your history and find the right starting
               point for your care.
             </p>
             <div className="mt-8">
@@ -138,7 +139,7 @@ function ServiceCard({
           </motion.span>
         </div>
         <div className="flex flex-1 flex-col p-7">
-          <h3 className="text-xl font-semibold text-ink">{item.title}</h3>
+          <h3 className="text-xl font-extrabold text-ink">{item.title}</h3>
           <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-soft">{item.description}</p>
           <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
             Learn More

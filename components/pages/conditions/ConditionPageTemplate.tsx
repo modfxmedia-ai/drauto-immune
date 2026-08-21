@@ -42,7 +42,7 @@ function MidCta({ image }: { image?: ConditionImage }) {
       />
 
       <div className={`relative ${image ? "sm:flex-1" : "mx-auto max-w-xl"}`}>
-        <h2 className="text-2xl font-semibold text-cream sm:text-3xl">Start Your Health Consultation</h2>
+        <h2 className="text-2xl font-extrabold text-sage sm:text-3xl">Start Your Health Consultation</h2>
         <p className="mt-3 text-base text-white/75">
           Take the first step toward better health—personalized care, real answers, and lasting wellness start here.
         </p>
@@ -98,7 +98,7 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
   const helpCard = (
     <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-      <h2 className="text-2xl font-semibold text-ink sm:text-3xl">{helpHeading}</h2>
+      <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">{helpHeading}</h2>
       <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
         {helpParagraphs.map((p) => (
           <p key={p.slice(0, 40)}>{p}</p>
@@ -109,7 +109,7 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
   const rootCauseCard = showRootCause && (
     <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-      <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Finding the Root Cause</h2>
+      <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Finding the Root Cause</h2>
       <p className="mt-3 text-base text-ink-soft">We know that autoimmunity requires 3 things to develop:</p>
       <StaggerList ordered columns={1} items={ROOT_CAUSE_ITEMS} />
     </Reveal>
@@ -117,7 +117,7 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
   const gutCard = (
     <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-      <h2 className="text-2xl font-semibold text-ink sm:text-3xl">{gutHeading}</h2>
+      <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">{gutHeading}</h2>
       <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
         {gutParagraphs.map((p) => (
           <p key={p.slice(0, 40)}>{p}</p>
@@ -138,7 +138,7 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
             <div className="min-w-0 flex-1 space-y-6">
               <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-                <h2 className="text-2xl font-semibold text-ink sm:text-3xl">{whatIsHeading}</h2>
+                <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">{whatIsHeading}</h2>
                 <div className="mt-4 space-y-4 text-base leading-relaxed text-ink-soft">
                   {whatIsParagraphs.map((p) => (
                     <p key={p.slice(0, 40)}>{p}</p>
@@ -149,14 +149,14 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
               {leadInBullets && (
                 <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-                  <h3 className="text-xl font-semibold text-ink">{leadInBullets.heading}</h3>
+                  <h3 className="text-xl font-extrabold text-ink">{leadInBullets.heading}</h3>
                   <StaggerList items={leadInBullets.items} />
                 </Reveal>
               )}
 
               {symptoms && (
                 <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-                  <h2 className="text-2xl font-semibold text-ink sm:text-3xl">{symptoms.heading}</h2>
+                  <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">{symptoms.heading}</h2>
                   {symptoms.lead && <p className="mt-3 text-base text-ink-soft">{symptoms.lead}</p>}
                   <StaggerList items={symptoms.items} />
                 </Reveal>
@@ -164,7 +164,7 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
 
               {triggers && (
                 <Reveal className={`${CARD_CLASSES} p-6 sm:p-10`}>
-                  <h2 className="text-2xl font-semibold text-ink sm:text-3xl">{triggers.heading}</h2>
+                  <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">{triggers.heading}</h2>
                   {triggers.lead && <p className="mt-3 text-base text-ink-soft">{triggers.lead}</p>}
                   <StaggerList items={triggers.items} />
                 </Reveal>
@@ -197,7 +197,7 @@ export default function ConditionPageTemplate({ slug }: { slug: string }) {
             <div className="mt-16 border-t border-gray pt-16">
               <Reveal className="mx-auto max-w-2xl text-center">
                 <Badge className="mb-4 inline-flex">Explore More</Badge>
-                <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Related Conditions</h2>
+                <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Related Conditions</h2>
                 <p className="mt-3 text-base text-ink-soft">
                   Explore other conditions we regularly treat with the same root-cause approach.
                 </p>

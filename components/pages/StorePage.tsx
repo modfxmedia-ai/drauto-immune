@@ -22,6 +22,7 @@ export default function StorePage() {
         title="Explore Our Wellness Products"
         accent="Wellness Products"
         subhead={PRODUCTS.intro}
+        image={{ src: "/images/services/wellness-services.jpg", alt: "Couple enjoying improved wellness outdoors" }}
       />
 
       <Section bg="white" className="relative overflow-hidden">
@@ -92,7 +93,7 @@ function ProductCard({
         </div>
         <div className="flex flex-1 flex-col p-6">
           <p className="font-mono text-xs font-medium uppercase tracking-[0.08em] text-primary">{product.tagline}</p>
-          <h3 className="mt-2 text-lg font-semibold text-ink">{product.name}</h3>
+          <h3 className="mt-2 text-lg font-extrabold text-ink">{product.name}</h3>
           <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-soft">{product.description}</p>
           <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
             Shop Now

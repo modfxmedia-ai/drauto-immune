@@ -58,6 +58,7 @@ export default function AboutUsPage() {
         title="A Different Kind of Functional Medicine"
         accent="Functional Medicine"
         subhead="Born from lived experience. Built for people searching for answers."
+        image={{ src: "/images/about-us/provide-healthy-eating-information.jpg", alt: "Healthy meal prep with fresh produce and a wellness journal" }}
       />
 
       {/* Intro */}
@@ -189,7 +190,7 @@ export default function AboutUsPage() {
 
           {/* What makes our approach effective — icon draw-in stagger grid */}
           <div className="mx-auto mt-16 max-w-2xl text-center">
-            <h3 className="text-2xl font-semibold text-ink">What Makes Our Approach Effective</h3>
+            <h3 className="text-2xl font-extrabold text-ink">What Makes Our Approach Effective</h3>
           </div>
           <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {APPROACH_PILLARS.map((pillar, i) => (
@@ -313,7 +314,7 @@ function PillarCard({ pillar, index }: { pillar: (typeof APPROACH_PILLARS)[numbe
       >
         <Icon name={pillar.icon} className="h-6 w-6" />
       </motion.div>
-      <h3 className="relative mt-4 text-lg font-semibold text-ink">{pillar.title}</h3>
+      <h3 className="relative mt-4 text-lg font-extrabold text-ink">{pillar.title}</h3>
       <p className="relative mt-2 text-sm leading-relaxed text-ink-soft">{pillar.description}</p>
       <span
         aria-hidden="true"

@@ -20,7 +20,7 @@ export default function Specialties2() {
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {SPECIALTIES.items.map((item) => (
             <Card key={item.title} href={item.href} image={{ src: item.image, alt: item.title }}>
-              <h3 className="text-lg font-semibold text-ink">{item.title}</h3>
+              <h3 className="text-lg font-extrabold text-ink">{item.title}</h3>
               <p className="text-sm leading-relaxed text-ink-soft">{item.description}</p>
               <span className="mt-auto flex items-center gap-2 pt-2 text-sm font-semibold text-primary">
                 Learn more

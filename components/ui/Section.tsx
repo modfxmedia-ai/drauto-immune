@@ -6,9 +6,9 @@ const BG_CLASSES: Record<Bg, string> = {
   white: "bg-white",
   sage: "bg-sage",
   gray: "bg-gray",
-  // Soft warm ivory wash — very light cream tint. Gives sections a
-  // "warm document" feel distinct from the cooler sage.
-  "cream-wash": "bg-[color-mix(in_srgb,var(--cream)_18%,var(--white))]",
+  // Soft warm wash — a very light primary-green tint. Gives sections a
+  // quiet, document-like feel distinct from the cooler full sage.
+  "cream-wash": "bg-primary-tint",
   // Sage with a subtle mesh — layered radial gradients on top of the sage
   // fill. Adds visual depth without competing with content.
   "sage-mesh":

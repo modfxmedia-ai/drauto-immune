@@ -24,11 +24,6 @@
 
   --white: #ffffff;
 
-  /* Warm accent used sparingly on dark surfaces for editorial emphasis
-     (e.g. Hero headline italic) — deliberately narrow use, always paired
-     with the primary sage green so the palette stays cohesive. */
-  --cream: #ead9b0;
-
   --background: var(--white);
   --foreground: var(--ink);
 
@@ -65,9 +60,8 @@
   --color-ink-soft: var(--ink-soft);
 
   --color-white: var(--white);
-  --color-cream: var(--cream);
 
-  /* Single site-wide face (Epilogue) — used for `font-sans` AND `font-mono`
+  /* Single site-wide face (Open Sans) — used for `font-sans` AND `font-mono`
      so label/badge text (uppercase + tracking already differentiates it)
      stays visually consistent with headings/body, matching the live site. */
   --font-sans: var(--font-body);
@@ -124,19 +118,17 @@ body {
     color: var(--ink);
     line-height: 1.15;
     letter-spacing: -0.01em;
-    font-weight: 600;
+    font-weight: 800;
   }
 
   h1 {
     font-size: clamp(2.5rem, 1.7rem + 3vw, 4rem);
     line-height: 1.05;
     letter-spacing: -0.02em;
-    font-weight: 500;
   }
 
   h2 {
     font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
-    font-weight: 500;
   }
 
   h3 {
@@ -158,7 +150,7 @@ body {
      No separate serif/italic face (matches the live site's single sans
      typeface) — emphasis comes from color + weight + underline only. */
   .accent-serif {
-    font-weight: 600;
+    font-weight: 800;
   }
 
   /* Premium surface treatments — glass, gradient mesh, texture.

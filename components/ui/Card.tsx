@@ -61,7 +61,7 @@ export default function Card({
 
       <div className="flex flex-1 flex-col gap-3 p-6">
         {badge && !image && <Badge>{badge}</Badge>}
-        <h3 className="text-lg font-medium leading-snug text-ink">{title}</h3>
+        <h3 className="text-lg font-extrabold leading-snug text-ink">{title}</h3>
         {description && (
           <p className="text-sm leading-relaxed text-ink-soft">{description}</p>
         )}

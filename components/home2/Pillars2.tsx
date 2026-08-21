@@ -22,9 +22,10 @@ export default function Pillars2() {
           eyebrow="Our Approach"
           heading={APPROACH.heading}
           intro={APPROACH.intro}
+          maxWidth="max-w-3xl"
         />
 
-        <p className={`mx-auto mt-4 max-w-2xl text-center ${TEXT.body}`}>
+        <p className={`mt-4 max-w-3xl ${TEXT.body}`}>
           Every plan starts with listening — a comprehensive look at your history,
           labs, and lifestyle — so care fits your biology, not a template. We
           translate advanced testing into a clear roadmap and stay alongside you

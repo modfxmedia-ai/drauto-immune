@@ -10,6 +10,9 @@ interface SectionHeadingProps {
   intro?: ReactNode;
   align?: "left" | "center";
   className?: string;
+  /** Override the block's width cap (default `max-w-2xl`) for sections
+   * whose intro copy should fill more of a wide container. */
+  maxWidth?: string;
 }
 
 /**
@@ -25,6 +28,7 @@ export default function SectionHeading({
   intro,
   align = "left",
   className = "",
+  maxWidth = "max-w-2xl",
 }: SectionHeadingProps) {
   const alignClass = align === "center" ? "text-center mx-auto" : "text-left";
 
@@ -41,7 +45,7 @@ export default function SectionHeading({
   }
 
   return (
-    <div className={`max-w-2xl ${alignClass} ${className}`}>
+    <div className={`${maxWidth} ${alignClass} ${className}`}>
       <span
         aria-hidden="true"
         className={`mb-3 block h-1 w-10 rounded-full bg-primary ${align === "center" ? "mx-auto" : ""}`}

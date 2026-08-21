@@ -23,10 +23,10 @@ const EASE = [0.22, 1, 0.36, 1] as const;
  */
 const CARD_TINTS = [
   { tint: "from-sage/60 to-white", accent: "bg-primary/10" },
-  { tint: "from-[color-mix(in_srgb,var(--cream)_45%,var(--white))] to-white", accent: "bg-[color-mix(in_srgb,var(--cream)_60%,var(--white))]" },
+  { tint: "from-[color-mix(in_srgb,var(--gray)_45%,var(--white))] to-white", accent: "bg-[color-mix(in_srgb,var(--gray)_60%,var(--white))]" },
   { tint: "from-primary/10 to-white", accent: "bg-primary/15" },
   { tint: "from-sage/50 to-white", accent: "bg-primary/10" },
-  { tint: "from-[color-mix(in_srgb,var(--cream)_35%,var(--white))] to-white", accent: "bg-primary/10" },
+  { tint: "from-[color-mix(in_srgb,var(--gray)_35%,var(--white))] to-white", accent: "bg-primary/10" },
 ] as const;
 
 const SHOP_URL = "https://shop.drautoimmune.com/";
@@ -84,7 +84,7 @@ export default function WellnessProducts() {
       <motion.div
         aria-hidden="true"
         className="pointer-events-none absolute -right-24 bottom-20 h-80 w-80 rounded-full blur-3xl"
-        style={{ background: "rgba(234,217,176,0.35)" }}
+        style={{ background: "rgba(223,232,221,0.35)" }}
         animate={reduce ? undefined : { y: [0, -22, 0] }}
         transition={{ duration: 20, repeat: Infinity, ease: "easeInOut", delay: 2 }}
       />
@@ -92,7 +92,7 @@ export default function WellnessProducts() {
       <Container className="relative">
         <Reveal className="mx-auto max-w-3xl text-center">
           <Badge className="mb-6 inline-flex">Store</Badge>
-          <h2 className="text-4xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-6xl">
+          <h2 className="text-4xl font-extrabold leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-6xl">
             {PRODUCTS.heading.split(" ").map((word, i, arr) => (
               <span key={`${word}-${i}`} className="inline-block">
                 {word}
@@ -288,7 +288,7 @@ function ProductCard({
         {/* Content */}
         <div className="flex flex-1 flex-col gap-3 bg-white p-6">
           <div>
-            <h3 className="text-xl font-semibold leading-tight text-ink">
+            <h3 className="text-xl font-extrabold leading-tight text-ink">
               {product.name}
             </h3>
             <p className="mt-1 font-mono text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-primary">

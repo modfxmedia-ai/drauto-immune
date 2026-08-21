@@ -19,7 +19,7 @@ import Reveal from "./Reveal";
  * asymmetric layout: LEFT = live Google Maps iframe embed of the clinic
  * location with a floating "You'll find us here" pin card overlay,
  * RIGHT = editorial contact card with phone / email / location / hours
- * / social + a "Book Free Discovery Call" primary CTA. All contact
+ * / social + a "Book Discovery Call" primary CTA. All contact
  * facts are the exact values published on the live drautoimmune.com
  * site (phone, email, location, socials) — extracted from the local
  * scraped cache since the live site itself is CAPTCHA-protected.
@@ -104,7 +104,7 @@ function InfoPanel({ reduce }: { reduce: boolean }) {
         <p className="font-mono text-[0.7rem] font-medium uppercase tracking-[0.14em] text-primary">
           Contact Details
         </p>
-        <h3 className="mt-3 text-2xl font-medium leading-tight text-ink sm:text-3xl">
+        <h3 className="mt-3 text-2xl font-extrabold leading-tight text-ink sm:text-3xl">
           Ready to take the next step?
         </h3>
       </div>

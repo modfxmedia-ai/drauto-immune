@@ -10,7 +10,7 @@ import SectionAmbient from "@/components/home/SectionAmbient";
 const CARD_CLASSES = "rounded-card border border-gray bg-white shadow-card";
 
 const REASONS: { label: string; icon: IconName }[] = [
-  { label: "30 minutes, no obligation", icon: "clock" },
+  { label: "20 minutes, no obligation", icon: "clock" },
   { label: "100% telehealth, nationwide", icon: "globe" },
   { label: "Meet our care team first", icon: "users" },
 ];
@@ -28,10 +28,11 @@ export default function DiscoveryCallPage() {
   return (
     <>
       <InnerPageHero
-        eyebrow="Free Discovery Call"
+        eyebrow="Discovery Call"
         title="Let's Talk About Your Health"
         accent="Your Health"
-        subhead="A free, no-obligation call with our care team to see if functional medicine is the right next step for you."
+        subhead="A no-obligation call with our care team to see if functional medicine is the right next step for you."
+        image={{ src: "/images/discovery-call/doctor-consultation-desk.png", alt: "Doctor writing notes at a desk next to an open laptop" }}
       />
 
       <Section bg="white" className="relative">
@@ -40,8 +41,8 @@ export default function DiscoveryCallPage() {
           <div className="mx-auto max-w-3xl">
             <Reveal className={`${CARD_CLASSES} overflow-hidden p-6 sm:p-10`}>
               <div className="flex flex-wrap items-center justify-between gap-3">
-                <h1 className="text-xl font-semibold text-ink sm:text-2xl">Dr. Autoimmune Free Discovery Call</h1>
-                <Badge>30 min</Badge>
+                <h1 className="text-xl font-extrabold text-ink sm:text-2xl">Dr. Autoimmune Discovery Call</h1>
+                <Badge>20 min</Badge>
               </div>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                 <strong className="text-ink">USA patients only.</strong> Share your story and symptoms, discover our
@@ -51,7 +52,7 @@ export default function DiscoveryCallPage() {
               <div className="mt-6">
                 <GhlBookingWidget
                   src="https://link.drautoimmune.com/widget/booking/tJKXoDdUiNVIbNXTR5yA"
-                  title="Dr. Autoimmune Free Discovery Call — booking calendar"
+                  title="Dr. Autoimmune Discovery Call — booking calendar"
                 />
               </div>
             </Reveal>

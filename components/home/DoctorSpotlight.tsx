@@ -147,7 +147,7 @@ function PortraitCard({ reduce }: { reduce: boolean }) {
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
           <div className="absolute inset-x-5 bottom-5 flex items-end justify-between">
             <div>
-              <p className="font-mono text-[0.6rem] font-medium uppercase tracking-[0.14em] text-cream">
+              <p className="font-mono text-[0.6rem] font-medium uppercase tracking-[0.14em] text-sage">
                 Founder · Lead Practitioner
               </p>
               <p className="mt-1 text-lg font-medium leading-tight text-white sm:text-xl">

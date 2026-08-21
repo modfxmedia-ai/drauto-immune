@@ -25,8 +25,7 @@ export default function ProcessSteps() {
   return (
     <Section bg="cream-wash" className="relative overflow-hidden">
       <Container className="relative">
-        {/* Heading block — centered, with breathing room so the italic
-            accent's SVG underline never collides with the intro below. */}
+        {/* Heading block — centered, with breathing room before the intro below. */}
         <Reveal className="mx-auto max-w-2xl text-center">
           <Badge className="mb-4 inline-flex">Care Process</Badge>
           <h2>
@@ -87,7 +86,7 @@ function ProcessCard({
       {/* Numbered badge sits on the connecting rail; ring blends with the
           sage section background so the badge feels detached from the rail. */}
       <motion.span
-        className="relative z-10 flex h-16 w-16 items-center justify-center rounded-full bg-white text-primary shadow-card ring-[6px] ring-[color-mix(in_srgb,var(--cream)_18%,var(--white))]"
+        className="relative z-10 flex h-16 w-16 items-center justify-center rounded-full bg-white text-primary shadow-card ring-[6px] ring-[color-mix(in_srgb,var(--sage)_18%,var(--white))]"
         initial={reduce ? undefined : { scale: 0.6 }}
         whileInView={reduce ? undefined : { scale: 1 }}
         viewport={{ once: true }}
@@ -117,7 +116,7 @@ function ProcessCard({
         </div>
 
         <div className="flex flex-1 flex-col gap-3 p-6">
-          <h3 className="text-lg font-medium leading-tight text-ink sm:text-xl">
+          <h3 className="text-lg font-extrabold leading-tight text-ink sm:text-xl">
             {step.title}
           </h3>
           <p className="text-sm leading-relaxed text-ink-soft">{step.description}</p>

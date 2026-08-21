@@ -24,7 +24,7 @@ export default function NewsletterModal({ open, onClose }: NewsletterModalProps)
           className="pointer-events-none absolute -right-10 -top-14 h-40 w-40 rounded-full bg-sage/20 blur-2xl"
         />
         <Badge className="bg-white/15 text-white">Stay Informed</Badge>
-        <h2 className="mt-3 text-2xl font-semibold text-white sm:text-3xl">Subscribe to Our Newsletter</h2>
+        <h2 className="mt-3 text-2xl font-extrabold text-white sm:text-3xl">Subscribe to Our Newsletter</h2>
         <p className="mx-auto mt-2 max-w-sm text-sm text-white/75">
           Root-cause health insights, new articles, and clinic updates — straight to your inbox.
         </p>

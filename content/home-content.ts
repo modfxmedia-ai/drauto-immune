@@ -92,7 +92,7 @@ export const SERVICES = {
     },
     {
       category: "Service",
-      image: "/images/migrated/conditions-we-support/large-7.webp",
+      image: "/images/services/conditions-we-support.png",
       title: "Conditions We Support",
       description:
         "A wide range of autoimmune and chronic conditions, especially those that haven't improved with standard medical care.",

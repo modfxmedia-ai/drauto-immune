@@ -125,7 +125,7 @@ function SpecialtyRow({
 
         <div className="min-w-0 flex-1">
           <h3
-            className={`text-xl font-medium leading-tight transition-colors duration-300 sm:text-2xl ${
+            className={`text-xl font-extrabold leading-tight transition-colors duration-300 sm:text-2xl ${
               isActive ? "text-ink" : "text-ink-soft group-hover:text-ink"
             }`}
           >
@@ -203,7 +203,7 @@ function SpecialtyPanel({
             {/* Bottom gradient scrim for legibility */}
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/25 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 flex flex-col gap-2 p-6 sm:p-7">
-              <p className="font-mono text-[0.65rem] font-medium uppercase tracking-[0.14em] text-cream">
+              <p className="font-mono text-[0.65rem] font-medium uppercase tracking-[0.14em] text-sage">
                 {String(activeIndex + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
               </p>
               <p className="text-2xl font-medium leading-tight text-white sm:text-3xl">
@@ -211,7 +211,7 @@ function SpecialtyPanel({
               </p>
               <Link
                 href={active.href}
-                className="mt-3 inline-flex w-fit items-center gap-1.5 font-mono text-xs font-medium uppercase tracking-[0.14em] text-white transition-colors hover:text-cream"
+                className="mt-3 inline-flex w-fit items-center gap-1.5 font-mono text-xs font-medium uppercase tracking-[0.14em] text-white transition-colors hover:text-sage"
               >
                 Learn more
                 <ArrowUpRight className="h-3.5 w-3.5" />

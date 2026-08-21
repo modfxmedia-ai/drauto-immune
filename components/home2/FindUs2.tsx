@@ -24,7 +24,7 @@ export default function FindUs2() {
 
           <div className="flex flex-col justify-center rounded-2xl border border-gray bg-sage/30 p-6 sm:p-8">
             <p className={TEXT.caption}>Contact Details</p>
-            <h3 className="mt-2 text-xl font-medium leading-tight text-ink">Ready to take the next step?</h3>
+            <h3 className="mt-2 text-xl font-extrabold leading-tight text-ink">Ready to take the next step?</h3>
 
             <p className={`mt-6 ${TEXT.caption}`}>{HOURS.heading}</p>
             <dl className="mt-4 space-y-2">

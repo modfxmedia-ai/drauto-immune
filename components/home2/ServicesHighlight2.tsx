@@ -24,12 +24,12 @@ export default function ServicesHighlight2() {
   return (
     <section className={`${SECTION_PADDING} bg-white`}>
       <Container>
-        <SectionHeading eyebrow="What We Offer" heading={SERVICES.heading} accent="Wellness Services" intro={SERVICES.intro} />
+        <SectionHeading eyebrow="What We Offer" heading={SERVICES.heading} accent="Wellness Services" intro={SERVICES.intro} maxWidth="max-w-3xl" />
 
         <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2">
           {highlights.map((card) => (
             <Card key={card.title} href={card.href} image={{ src: card.image, alt: card.title }} imageAspect="aspect-[16/10]">
-              <h3 className="text-xl font-semibold text-ink sm:text-2xl">{card.title}</h3>
+              <h3 className="text-xl font-extrabold text-ink sm:text-2xl">{card.title}</h3>
               <p className="text-base leading-relaxed text-ink-soft">{card.description}</p>
               <span className="mt-auto flex items-center gap-2 pt-2 text-sm font-semibold text-primary">
                 Learn more
@@ -45,7 +45,7 @@ export default function ServicesHighlight2() {
               <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
                 <Icon name={card.category === "Service" ? "clipboard" : "heart-pulse"} className="h-5 w-5" />
               </span>
-              <h4 className="text-base font-semibold text-ink">{card.title}</h4>
+              <h4 className="text-base font-extrabold text-ink">{card.title}</h4>
               <p className="text-sm leading-relaxed text-ink-soft">{card.description}</p>
               <span className="mt-auto flex items-center gap-1.5 pt-1 text-sm font-semibold text-primary">
                 Learn more

@@ -226,7 +226,7 @@ function ServiceCard({ card, index }: { card: ServiceCard; index: number }) {
             {card.category}
           </span>
           {/* Title sits over the image bottom-gradient for a strong hero look */}
-          <h3 className="absolute inset-x-4 bottom-4 text-lg font-medium leading-tight text-white sm:text-xl">
+          <h3 className="absolute inset-x-4 bottom-4 text-lg font-extrabold leading-tight text-white sm:text-xl">
             {card.title}
           </h3>
           {/* Rotate-on-hover icon top-right */}

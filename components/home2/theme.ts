@@ -4,7 +4,7 @@
  * built specifically for the `/home-2` clean-redesign variant.
  *
  * Rules this file exists to enforce (see the design brief):
- * - ONE type family everywhere (the site's existing Epilogue sans, already
+ * - ONE type family everywhere (the site's existing Open Sans, already
  *   the global `font-sans` — no accent-serif/italic face is imported here).
  * - A strict, small type scale (h1/h2/h3/body/caption) — every Home2
  *   component should reference these instead of ad hoc text-size utilities.
@@ -16,9 +16,9 @@
  */
 
 export const TEXT = {
-  h1: "text-4xl sm:text-5xl lg:text-[3.5rem] font-semibold leading-[1.05] tracking-tight text-ink",
-  h2: "text-3xl sm:text-4xl font-semibold leading-tight tracking-tight text-ink",
-  h3: "text-xl sm:text-2xl font-semibold leading-snug text-ink",
+  h1: "text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold leading-[1.05] tracking-tight text-ink",
+  h2: "text-3xl sm:text-4xl font-extrabold leading-tight tracking-tight text-ink",
+  h3: "text-xl sm:text-2xl font-extrabold leading-snug text-ink",
   body: "text-base leading-relaxed text-ink-soft",
   bodyLg: "text-lg leading-relaxed text-ink-soft",
   caption: "text-sm font-semibold uppercase tracking-[0.08em] text-ink-soft",

@@ -358,7 +358,7 @@ export default function Hero() {
             variants={headlineContainer}
           >
             <AnimatedWords text="We Are" />{" "}
-            <Accent tone="cream" as="span">
+            <Accent tone="sage" as="span">
               <AnimatedWords text="Autoimmune Wellness" />
             </Accent>{" "}
             <AnimatedWords text="Specialists" />

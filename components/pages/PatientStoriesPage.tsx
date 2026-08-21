@@ -102,6 +102,7 @@ export default function PatientStoriesPage() {
         title="Real Patient Stories and Testimonials"
         accent="Patient Stories"
         subhead="Honest experiences from patients across the United States who finally found answers, clarity, and meaningful improvement."
+        image={{ src: "/images/migrated/conditions-we-support/istockphoto-2007887786-612x612-1.jpg", alt: "Smiling patient reviewing her care plan" }}
       />
 
       {/* Intro */}
@@ -205,7 +206,7 @@ export default function PatientStoriesPage() {
           <Reveal className="mx-auto max-w-2xl text-center">
             <h2 className="text-white">Ready to Write Your Own Story?</h2>
             <p className="mt-6 text-lg leading-relaxed text-white/85">
-              A free discovery call is a no-pressure way to see whether our approach feels right for you.
+              A discovery call is a no-pressure way to see whether our approach feels right for you.
             </p>
             <div className="mt-8">
               <Button href={DISCOVERY_CALL_HREF} variant="secondary" size="lg" className="uppercase tracking-wide">

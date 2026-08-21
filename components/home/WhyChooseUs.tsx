@@ -181,7 +181,7 @@ function TimelineNode({
             Step {num} · of {String(total).padStart(2, "0")}
           </span>
 
-          <h3 className="text-xl font-medium leading-tight text-ink sm:text-2xl">
+          <h3 className="text-xl font-extrabold leading-tight text-ink sm:text-2xl">
             {item.title}
           </h3>
           <p className="mt-3 text-sm leading-relaxed text-ink-soft">{item.description}</p>

@@ -9,6 +9,7 @@ import DoctorSpotlight2 from "@/components/home2/DoctorSpotlight2";
 import WhyChooseUs2 from "@/components/home2/WhyChooseUs2";
 import Products2 from "@/components/home2/Products2";
 import BlogInsights2 from "@/components/home2/BlogInsights2";
+import TikTokVideos2 from "@/components/home2/TikTokVideos2";
 import Testimonials2 from "@/components/home2/Testimonials2";
 import Faq2 from "@/components/home2/Faq2";
 import ContactBand2 from "@/components/home2/ContactBand2";
@@ -40,6 +41,7 @@ export default function Home2Page() {
       <WhyChooseUs2 />
       <Products2 />
       <BlogInsights2 />
+      <TikTokVideos2 />
       <Testimonials2 />
       <Faq2 />
       <ContactBand2 />

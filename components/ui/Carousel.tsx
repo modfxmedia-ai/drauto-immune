@@ -7,7 +7,7 @@ interface CarouselProps {
   /** Pre-rendered slide elements (built by the server-component caller) —
    * a plain function `renderItem` prop can't cross the server/client
    * boundary into this `"use client"` component, so callers render their
-   * `Card`s up front and just hand this component the resulting nodes. */
+   * cards up front and just hand this component the resulting nodes. */
   slides: ReactNode[];
   ariaLabel: string;
   /** Tailwind width classes applied to each slide wrapper. */
@@ -15,11 +15,9 @@ interface CarouselProps {
 }
 
 /**
- * Shared prev/next + dot-indicator carousel used by both the Testimonials
- * and Wellness Products sections (same functionality/content as the
- * original homepage's marquee/scroll-carousel, restyled per the design
- * brief: plain light background, clear controls, no auto-scrolling
- * marquee illusion).
+ * Shared prev/next + dot-indicator carousel, reused across both the
+ * homepage and the Home2 design variant (Testimonials, Wellness Products,
+ * TikTok videos, etc.) for a consistent scroll-snap carousel interaction.
  */
 export default function Carousel({ slides, ariaLabel, itemClassName = "" }: CarouselProps) {
   const trackRef = useRef<HTMLDivElement>(null);

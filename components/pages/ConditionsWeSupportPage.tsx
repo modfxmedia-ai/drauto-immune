@@ -17,9 +17,9 @@ const CONDITION_LINKS = NAV_LINKS.find((item) => item.label === "Conditions")?.c
 
 const CARE_STEPS = [
   {
-    title: "Free Discovery Call",
+    title: "Discovery Call",
     description:
-      "A one-on-one conversation where you can share your symptoms, ask questions, and determine if our approach is the right fit for your health goals.",
+      "A personal conversation where you can share your symptoms, ask questions, and determine if our approach is the right fit for your health goals.",
   },
   {
     title: "New Patient Evaluation",
@@ -106,6 +106,7 @@ export default function ConditionsWeSupportPage() {
         title="Conditions We Support"
         accent="We Support"
         subhead="A comprehensive functional medicine approach designed to uncover root causes, elevate wellbeing, and help you feel and function at your best — all delivered through 100% remote telehealth care."
+        image={{ src: "/images/migrated/conditions-we-support/large-7.webp", alt: "Doctor reviewing notes at her desk" }}
       />
 
       {/* Intro */}
@@ -128,7 +129,7 @@ export default function ConditionsWeSupportPage() {
 
           {/* Three Part Care Process */}
           <Reveal delay={0.1} className="mx-auto mt-16 max-w-4xl">
-            <h2 className="text-center text-2xl font-semibold text-ink sm:text-3xl">The Three Part Care Process</h2>
+            <h2 className="text-center text-2xl font-extrabold text-ink sm:text-3xl">The Three Part Care Process</h2>
             <ul className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
               {CARE_STEPS.map((step, i) => (
                 <li key={step.title} className="rounded-card border border-gray bg-cream-wash p-6 shadow-card">
@@ -159,7 +160,7 @@ export default function ConditionsWeSupportPage() {
         <Container>
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">What We Support</Badge>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Areas of Focus</h2>
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Areas of Focus</h2>
           </Reveal>
           <ul className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {SERVICE_CATEGORIES.map((category, i) => (
@@ -193,7 +194,7 @@ export default function ConditionsWeSupportPage() {
         <Container className="relative">
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">Conditions</Badge>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Browse Conditions We Support</h2>
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Browse Conditions We Support</h2>
             <p className="mt-3 text-base text-ink-soft">
               Explore how our root-cause approach applies to each condition we regularly treat.
             </p>
@@ -217,7 +218,7 @@ export default function ConditionsWeSupportPage() {
       <Section bg="cream-wash">
         <Container>
           <Reveal className="mx-auto max-w-2xl text-center">
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">Why Patients Chose Our Care</h2>
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">Why Patients Chose Our Care</h2>
           </Reveal>
           <div className="mx-auto mt-8 max-w-2xl">
             <StaggerList items={WHY_US} />
@@ -231,7 +232,7 @@ export default function ConditionsWeSupportPage() {
         <Container className="relative">
           <Reveal className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex">Patient Stories</Badge>
-            <h2 className="text-2xl font-semibold text-ink sm:text-3xl">What Our Patients Are Saying</h2>
+            <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">What Our Patients Are Saying</h2>
           </Reveal>
           <ul className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-3">
             {TESTIMONIALS.map((t, i) => (

@@ -19,8 +19,8 @@ import { DISCOVERY_CALL_HREF, SITE_CONTACT } from "./nav-links";
 function ColumnHeading({ children }: { children: React.ReactNode }) {
   return (
     <div className="mb-6 flex items-center gap-2.5">
-      <span aria-hidden="true" className="h-px w-6 bg-cream/70" />
-      <p className="font-mono text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-cream">
+      <span aria-hidden="true" className="h-px w-6 bg-sage/70" />
+      <p className="font-mono text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-sage">
         {children}
       </p>
     </div>
@@ -44,7 +44,7 @@ function LinkList({
           >
             <span
               aria-hidden="true"
-              className="inline-block h-1.5 w-1.5 rounded-full bg-white/30 transition-all duration-300 group-hover:h-1.5 group-hover:w-4 group-hover:bg-cream"
+              className="inline-block h-1.5 w-1.5 rounded-full bg-white/30 transition-all duration-300 group-hover:h-1.5 group-hover:w-4 group-hover:bg-sage"
             />
             <span className="transition-transform duration-300 group-hover:translate-x-0.5">
               {link.label}
@@ -74,11 +74,11 @@ function NewsletterForm() {
         type="email"
         required
         placeholder="you@email.com"
-        className="min-w-0 flex-1 rounded-pill border border-white/25 bg-white/10 px-5 py-3 text-sm text-white placeholder:text-white/50 focus-visible:border-cream focus-visible:bg-white/15 focus-visible:outline-none"
+        className="min-w-0 flex-1 rounded-pill border border-white/25 bg-white/10 px-5 py-3 text-sm text-white placeholder:text-white/50 focus-visible:border-sage focus-visible:bg-white/15 focus-visible:outline-none"
       />
       <button
         type="submit"
-        className="inline-flex items-center justify-center gap-1.5 rounded-pill bg-cream px-6 py-3 text-sm font-medium text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
+        className="inline-flex items-center justify-center gap-1.5 rounded-pill bg-sage px-6 py-3 text-sm font-medium text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
       >
         {status === "ok" ? "Subscribed ✓" : "Subscribe"}
       </button>
@@ -140,7 +140,7 @@ export default function Footer() {
       <div
         aria-hidden="true"
         className="pointer-events-none absolute -right-32 top-32 h-96 w-96 rounded-full blur-3xl"
-        style={{ background: "rgba(234,217,176,0.07)" }}
+        style={{ background: "rgba(223,232,221,0.07)" }}
       />
 
       <Container className="relative">
@@ -153,10 +153,10 @@ export default function Footer() {
           className="-mt-10 mb-16 flex flex-col gap-4 rounded-card border border-white/20 bg-white/[0.08] p-6 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.35)] backdrop-blur-sm sm:p-8 lg:-mt-16 lg:flex-row lg:items-center lg:gap-10 lg:p-10"
         >
           <div className="flex-1 min-w-0">
-            <p className="font-mono text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-cream">
+            <p className="font-mono text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-sage">
               Stay In The Loop
             </p>
-            <h3 className="mt-3 text-2xl font-semibold leading-tight text-white sm:text-3xl">
+            <h3 className="mt-3 text-2xl font-extrabold leading-tight text-white sm:text-3xl">
               Insights, research & wellness tips — straight to your inbox.
             </h3>
             <p className="mt-2 text-sm text-white/85 sm:text-base">
@@ -189,9 +189,9 @@ export default function Footer() {
               <li>
                 <a
                   href={SITE_CONTACT.phoneHref}
-                  className="group inline-flex items-center gap-3 text-[0.95rem] font-medium text-white transition-colors hover:text-cream"
+                  className="group inline-flex items-center gap-3 text-[0.95rem] font-medium text-white transition-colors hover:text-sage"
                 >
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-cream transition-colors group-hover:bg-white/25">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-sage transition-colors group-hover:bg-white/25">
                     <PhoneGlyph className="h-4 w-4" />
                   </span>
                   {SITE_CONTACT.phone}
@@ -200,16 +200,16 @@ export default function Footer() {
               <li>
                 <a
                   href={SITE_CONTACT.emailHref}
-                  className="group inline-flex items-center gap-3 text-[0.95rem] font-medium text-white transition-colors hover:text-cream"
+                  className="group inline-flex items-center gap-3 text-[0.95rem] font-medium text-white transition-colors hover:text-sage"
                 >
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-cream transition-colors group-hover:bg-white/25">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-sage transition-colors group-hover:bg-white/25">
                     <MailGlyph className="h-4 w-4" />
                   </span>
                   {SITE_CONTACT.email}
                 </a>
               </li>
               <li className="flex items-center gap-3 text-[0.95rem] font-medium text-white">
-                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-cream">
+                <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-sage">
                   <PinGlyph className="h-4 w-4" />
                 </span>
                 <span>
@@ -223,7 +223,7 @@ export default function Footer() {
             <div className="flex flex-wrap items-center gap-4 pt-2">
               <Link
                 href={DISCOVERY_CALL_HREF}
-                className="group inline-flex items-center gap-2 rounded-pill bg-cream px-5 py-2.5 text-sm font-semibold uppercase tracking-wide text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
+                className="group inline-flex items-center gap-2 rounded-pill bg-sage px-5 py-2.5 text-sm font-semibold uppercase tracking-wide text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
               >
                 Book your Discovery Call
                 <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
@@ -236,7 +236,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={social.label}
-                    className="flex h-9 w-9 items-center justify-center rounded-full border border-white/25 text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-cream hover:bg-white/10 hover:text-cream"
+                    className="flex h-9 w-9 items-center justify-center rounded-full border border-white/25 text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-sage hover:bg-white/10 hover:text-sage"
                   >
                     <SocialIcon name={social.icon} />
                   </a>
@@ -284,7 +284,7 @@ export default function Footer() {
                 href="https://www.modfxmedia.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-cream underline decoration-cream/50 decoration-1 underline-offset-4 transition-colors hover:text-white hover:decoration-white"
+                className="text-sage underline decoration-sage/50 decoration-1 underline-offset-4 transition-colors hover:text-white hover:decoration-white"
               >
                 MODFXMedia
               </a>

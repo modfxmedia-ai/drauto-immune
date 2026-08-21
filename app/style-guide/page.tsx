@@ -32,8 +32,7 @@ export default function StyleGuidePage() {
           </h1>
           <p className="mt-4 max-w-xl text-lg text-ink-soft">
             The brand system for Dr. Autoimmune — green/sage/neutral palette,
-            Epilogue for body &amp; UI, DM Serif Display italic for headline
-            emphasis, DM Mono for labels.
+            Open Sans for body, headings, and UI everywhere.
           </p>
         </Container>
       </Section>
@@ -65,7 +64,7 @@ export default function StyleGuidePage() {
               </h2>
               <h3>Comprehensive new patient evaluation</h3>
               <p className="max-w-2xl text-lg text-ink-soft">
-                Body copy in Epilogue Light — quiet, legible, unhurried. Used
+                Body copy in Open Sans Light — quiet, legible, unhurried. Used
                 for paragraphs, descriptions, and long-form migrated content.
               </p>
               <p className="max-w-2xl text-ink-soft">

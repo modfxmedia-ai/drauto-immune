@@ -56,7 +56,7 @@ export default function Process2() {
                   >
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <h3 className="relative text-xl font-semibold text-ink">{step.title}</h3>
+                  <h3 className="relative text-xl font-extrabold text-ink">{step.title}</h3>
                   <p className="relative mt-3 text-base leading-relaxed text-ink-soft">{step.description}</p>
                 </div>
 

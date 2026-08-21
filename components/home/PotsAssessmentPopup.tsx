@@ -51,7 +51,7 @@ export default function PotsAssessmentPopup() {
             Get The Free Guide Now
           </Button>
 
-          <h3 className="mt-7 text-lg font-semibold text-ink">
+          <h3 className="mt-7 text-lg font-extrabold text-ink">
             Why Symptoms Persist and Why Conventional Care Often Stops at the Surface
           </h3>
           <p className="mt-2 text-sm leading-relaxed text-ink-soft">

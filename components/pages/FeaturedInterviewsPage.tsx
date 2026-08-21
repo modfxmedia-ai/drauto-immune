@@ -71,6 +71,7 @@ export default function FeaturedInterviewsPage() {
         title="Featured Interviews with Dr. Ian Hollaman, DC, MSc, FMCP"
         accent="Featured Interviews"
         subhead="Conversations on autoimmunity, gut health, thyroid function, chronic inflammation, and root-cause care."
+        image={{ src: "/images/team/ian-hollaman-portrait.png", alt: "Dr. Ian Hollaman portrait", position: "center 20%" }}
       />
 
       {/* Intro */}
@@ -197,7 +198,7 @@ function TimelineItem({ item, index }: { item: (typeof INTERVIEWS)[number]; inde
     <Reveal delay={index * 0.1} className="relative pl-20 md:pl-0">
       {/* Numbered marker on the rail */}
       <motion.span
-        className="absolute left-6 top-6 z-10 flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-full bg-white text-primary shadow-card ring-[6px] ring-[color-mix(in_srgb,var(--cream)_18%,var(--white))] md:left-1/2 md:top-1/2 md:-translate-y-1/2"
+        className="absolute left-6 top-6 z-10 flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-full bg-white text-primary shadow-card ring-[6px] ring-[color-mix(in_srgb,var(--sage)_18%,var(--white))] md:left-1/2 md:top-1/2 md:-translate-y-1/2"
         initial={reduce ? undefined : { scale: 0.6 }}
         whileInView={reduce ? undefined : { scale: 1 }}
         viewport={{ once: true }}
@@ -228,7 +229,7 @@ function TimelineItem({ item, index }: { item: (typeof INTERVIEWS)[number]; inde
         <div className={isEven ? "mt-6 md:order-2 md:mt-0" : "mt-6 md:order-1 md:mt-0"}>
           <div className="rounded-card border border-gray bg-white p-6 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover">
             <p className="font-mono text-xs font-medium uppercase tracking-[0.08em] text-primary">{item.show}</p>
-            <h3 className="mt-2 text-lg font-semibold text-ink">{item.title}</h3>
+            <h3 className="mt-2 text-lg font-extrabold text-ink">{item.title}</h3>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">{item.description}</p>
             <div className="mt-5">
               <Button href={item.href} target="_blank" rel="noopener noreferrer" variant="secondary" size="sm">

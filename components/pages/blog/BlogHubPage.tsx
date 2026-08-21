@@ -57,6 +57,7 @@ export default function BlogHubPage({ posts: allPosts }: { posts: BlogPostSummar
         title="Insights for Autoimmune & Gut Health"
         accent="Autoimmune & Gut Health"
         subhead="Root-cause explainers, symptom deep-dives, and practical guidance from our functional medicine team."
+        image={{ src: "/images/blog/blog-hub-banner.png", alt: "Desk with a laptop and notebook, wellness graphic overlay" }}
       />
 
       <Section bg="white" className="relative">

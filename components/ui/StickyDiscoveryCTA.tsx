@@ -38,7 +38,7 @@ export default function StickyDiscoveryCTA() {
             <p className="flex items-center gap-2 text-sm font-medium text-ink">
               <Icon name="phone-call" className="h-4 w-4 shrink-0 text-primary" />
               <span className="hidden sm:inline">Ready to talk?</span>
-              <span className="sm:hidden">Free discovery call</span>
+              <span className="sm:hidden">Discovery call</span>
             </p>
             <Button href={DISCOVERY_CALL_HREF} variant="primary" size="sm" className="uppercase tracking-wide">
               Book your Discovery Call

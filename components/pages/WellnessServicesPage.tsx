@@ -79,6 +79,7 @@ export default function WellnessServicesPage() {
         title="Your Personalized Functional Medicine Support"
         accent="Functional Medicine"
         subhead="Ongoing, root-cause care built around your body, your history, and your goals."
+        image={{ src: "/images/services/wellness-services.jpg", alt: "Couple enjoying improved wellness outdoors" }}
       />
 
       {/* Intro */}
@@ -190,7 +191,7 @@ export default function WellnessServicesPage() {
           <Reveal className="mx-auto max-w-2xl text-center">
             <h2 className="text-white">Ready to Feel Supported Every Step of the Way?</h2>
             <p className="mt-6 text-lg leading-relaxed text-white/85">
-              A free discovery call is the easiest way to see how our wellness services could fit your specific
+              A discovery call is the easiest way to see how our wellness services could fit your specific
               situation — no pressure, just a conversation about what moving forward could look like.
             </p>
             <div className="mt-8">
@@ -227,7 +228,7 @@ function IconStaggerCard({
       >
         <Icon name={item.icon} className="h-6 w-6" />
       </motion.div>
-      <h3 className="relative mt-4 text-lg font-semibold text-ink">{item.title}</h3>
+      <h3 className="relative mt-4 text-lg font-extrabold text-ink">{item.title}</h3>
       <p className="relative mt-2 text-sm leading-relaxed text-ink-soft">{item.description}</p>
       <span
         aria-hidden="true"

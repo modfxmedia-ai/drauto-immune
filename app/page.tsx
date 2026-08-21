@@ -11,6 +11,7 @@ import ProcessSteps from "@/components/home/ProcessSteps";
 import ServicesSection from "@/components/home/ServicesSection";
 import SpecialtiesSection from "@/components/home/SpecialtiesSection";
 import Testimonials from "@/components/home/Testimonials";
+import TikTokSection from "@/components/home/TikTokSection";
 import WellnessProducts from "@/components/home/WellnessProducts";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import { buildMetadata, getPageContent } from "@/lib/content";
@@ -37,6 +38,7 @@ export default function Home() {
       <WhyChooseUs />
       <WellnessProducts />
       <BlogInsights />
+      <TikTokSection />
       <Faq />
       <Testimonials />
       <ContactBand />
